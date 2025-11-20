@@ -1,0 +1,26 @@
+<dx-data-grid
+        class="dx-card content-block"
+        [dataSource]="dataSource"
+        [showBorders]="showBorders"
+        [focusedRowEnabled]="true"
+        [focusedRowIndex]="0"
+        [columnAutoWidth]="true"
+        [columnHidingEnabled]="true"
+        [keyExpr]="keyField">
+
+    <dxo-data-grid-paging [pageSize]="pageSize"></dxo-data-grid-paging>
+    <dxo-data-grid-pager [showPageSizeSelector]="true" [showInfo]="true"></dxo-data-grid-pager>
+    <dxo-data-grid-filter-row [visible]="allowFiltering"></dxo-data-grid-filter-row>
+    <dxo-data-grid-sorting [mode]="allowSorting ? 'multiple' : 'none'"></dxo-data-grid-sorting>
+
+    <dxi-data-grid-column
+            *ngFor="let col of columns"
+            [dataField]="col.dataField"
+            [caption]="col.caption"
+            [dataType]="col.dataType"
+            [width]="col.width"
+            [visible]="col.visible !== false"
+            [hidingPriority]="col.hidingPriority || 0">
+    </dxi-data-grid-column>
+
+</dx-data-grid>

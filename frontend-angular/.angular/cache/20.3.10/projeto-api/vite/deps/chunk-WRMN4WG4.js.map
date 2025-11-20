@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../node_modules/devextreme/esm/common/core/events.js"],
+  "sourcesContent": ["/**\r\n * DevExtreme (esm/common/core/events.js)\r\n * Version: 25.1.6\r\n * Build date: Mon Oct 13 2025\r\n *\r\n * Copyright (c) 2012 - 2025 Developer Express Inc. ALL RIGHTS RESERVED\r\n * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/\r\n */\r\nimport eventsEngine from \"./events/core/events_engine\";\r\nexport const on = eventsEngine.on;\r\nexport const one = eventsEngine.one;\r\nexport const off = eventsEngine.off;\r\nexport const trigger = eventsEngine.trigger;\r\nexport const Event = eventsEngine.Event;\r\n"],
+  "mappings": ";;;;;AASO,IAAM,KAAK,wBAAa;AACxB,IAAM,MAAM,wBAAa;AACzB,IAAM,MAAM,wBAAa;AACzB,IAAM,UAAU,wBAAa;AAC7B,IAAM,QAAQ,wBAAa;",
+  "names": []
+}
