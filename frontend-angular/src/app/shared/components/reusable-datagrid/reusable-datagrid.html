@@ -19,7 +19,7 @@
             [caption]="col.caption"
             [dataType]="col.dataType"
             [width]="col.width"
-            [visible]="col.visible !== false"
+            [visible]="col.visible"
             [hidingPriority]="col.hidingPriority || 0">
     </dxi-data-grid-column>
 
@@ -32,17 +32,18 @@
     <div *dxTemplate="let data of 'actionCellTemplate'">
 
         <dx-button
-                icon="edit"
-                type="default"
-                hint="Editar"
+                [icon]="editButtonIcon"
+                [type]="editButtonType"
+                [hint]="editButtonHint"
+                [style]="editButtonStyle"
                 (onClick)="onActionClick('edit', data.data)">
         </dx-button>
 
         <dx-button
-                icon="trash"
-                type="danger"
-                hint="Excluir"
-                style="margin-left: 5px;"
+                [icon]="deleteButtonIcon"
+                [type]="deleteButtonType"
+                [hint]="deleteButtonHint"
+                [style]="deleteButtonStyle"
                 (onClick)="onActionClick('delete', data.data)">
         </dx-button>
 
