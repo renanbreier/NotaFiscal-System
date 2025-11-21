@@ -9,6 +9,7 @@ import {
 } from './shared/services';
 import {provideHttpClient} from "@angular/common/http";
 import {ClienteService} from "./shared/services/cliente.service";
+import {ItemService} from "./shared/services/item.service";
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -16,6 +17,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes, withHashLocation()),
     provideHttpClient(),
     ClienteService,
+    ItemService,
     AuthGuardService,
     AuthService,
     ScreenService,
