@@ -1,24 +1,24 @@
 <div class="page-header">
     <h2>Cliente</h2>
 
-    <app-add-button (click)="openCadastroPopup()"></app-add-button>
+    <app-add-button (click)="openRegisterPopup()"></app-add-button>
 </div>
 
 <app-popup-form
         [popupVisible]="popupVisible"
         [popupTitle]="isEdit ? 'Editar Cliente' : 'Cadastrar Cliente'"
-        (closed)="closeCadastroPopup()"
+        (closed)="closePopup()"
         (saved)="saveOrUpdateCliente()">
 
     <div style="padding: 20px;">
         <dx-text-box
                 label="Código"
-                [(value)]="novoCliente.codigo">
+                [(value)]="newCliente.codigo">
         </dx-text-box>
 
         <dx-text-box
                 label="Nome"
-                [(value)]="novoCliente.nome">
+                [(value)]="newCliente.nome">
         </dx-text-box>
 
     </div>
