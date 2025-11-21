@@ -4,25 +4,25 @@ import {Observable} from "rxjs";
 import {Cliente} from "../../models/cliente";
 
 @Injectable()
-export class ApiNotaService {
+export class ClienteService {
 
-    dataSource: string = 'http://localhost:8080/api'
+    dataSource: string = 'http://localhost:8080/api/cliente'
 
     constructor(private http: HttpClient) { }
 
     getClientes(): Observable<Cliente[]> {
-        return this.http.get<Cliente[]>(this.dataSource + "/cliente")
+        return this.http.get<Cliente[]>(this.dataSource)
     }
 
     saveCliente(cliente: Cliente): Observable<Cliente> {
-        return this.http.post<Cliente>(this.dataSource + "/cliente", cliente)
+        return this.http.post<Cliente>(this.dataSource, cliente)
     }
 
     deleteCliente(id: number): Observable<any> {
-        return this.http.delete<Cliente>(this.dataSource + "/cliente/" + id)
+        return this.http.delete<Cliente>(this.dataSource + '/' + id)
     }
 
     updateCliente(cliente: Cliente): Observable<Cliente> {
-        return this.http.put<Cliente>(this.dataSource + "/cliente/" + cliente.id, cliente)
+        return this.http.put<Cliente>(this.dataSource + '/' + cliente.id, cliente)
     }
 }

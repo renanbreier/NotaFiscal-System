@@ -8,14 +8,14 @@ import {
     ScreenService,
 } from './shared/services';
 import {provideHttpClient} from "@angular/common/http";
-import {ApiNotaService} from "./shared/services/api-nota.service";
+import {ClienteService} from "./shared/services/cliente.service";
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes, withHashLocation()),
     provideHttpClient(),
-    ApiNotaService,
+    ClienteService,
     AuthGuardService,
     AuthService,
     ScreenService,

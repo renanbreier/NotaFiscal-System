@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Cliente} from "../../models/cliente";
-import {ApiNotaService} from "../../shared/services/api-nota.service";
+import {ClienteService} from "../../shared/services/cliente.service";
 import {GridAction, ReusableDatagridComponent} from "../../shared/components/reusable-datagrid/reusable-datagrid";
 import {AddButtonComponent} from "../../shared/components/add-button/add-button";
 import {PopupFormComponent} from "../../shared/components/popup-form/popup-form";
@@ -34,7 +34,7 @@ export class ClienteComponent {
     // Estado do popup cadastro/edição
     isEdit: boolean = false;
 
-    constructor(private service: ApiNotaService) { }
+    constructor(private service: ClienteService) { }
 
     ngOnInit() {
         this.loadClientes()
