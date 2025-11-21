@@ -11,19 +11,15 @@ import {DxButtonComponent} from "devextreme-angular";
 })
 export class AddButtonComponent {
 
-    // Icone do button
+    // Propriedades do botão
     @Input() buttonIcon: string = "plus";
-
-    // Texto do button
     @Input() buttonText: string = "Novo";
-
-    // Tipo do button
     @Input() buttonType: string = "normal";
 
-    // Emitir evento ao clicar
+    // Emite evento ao clicar
     @Output() buttonClicked = new EventEmitter();
 
-    // Metodo quando clicar no button
+    // Metodo quando clicar no botão
     onButtonClick() {
         this.buttonClicked.emit();
     }
