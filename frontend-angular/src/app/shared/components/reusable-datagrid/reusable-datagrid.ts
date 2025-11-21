@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, Output, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {DxDataGridComponent} from "devextreme-angular";
 import {
@@ -7,6 +7,12 @@ import {
     DxoDataGridPagerComponent,
     DxoDataGridPagingComponent, DxoDataGridSortingComponent
 } from "devextreme-angular/ui/data-grid";
+import {DxButtonModule} from "devextreme-angular/ui/button";
+
+export interface GridAction {
+    type: 'edit' | 'delete';
+    data: any;
+}
 
 @Component({
   selector: 'app-reusable-datagrid',
@@ -17,12 +23,14 @@ import {
         DxoDataGridPagerComponent,
         DxoDataGridFilterRowComponent,
         DxoDataGridSortingComponent,
-        DxiDataGridColumnComponent
+        DxiDataGridColumnComponent,
+        DxButtonModule
     ],
   templateUrl: './reusable-datagrid.html',
   styleUrl: './reusable-datagrid.scss',
 })
-export class ReusableDatagrid implements OnInit {
+
+export class ReusableDatagridComponent implements OnInit {
 
     // Dados da Grid
     @Input() dataSource: any[] = [];
@@ -39,7 +47,19 @@ export class ReusableDatagrid implements OnInit {
     @Input() allowFiltering: boolean = true;
     @Input() allowSorting: boolean = true;
 
+    // Propriedades actions
+    @Input() showActions: boolean = false;
+    @Input() actionsCaption: string = 'Ações';
+    @Input() actionsWidth: number = 120;
+
+    // Evento quando clicar no button
+    @Output() actionClicked = new EventEmitter<GridAction>();
+
     constructor() {}
 
     ngOnInit(): void {}
+
+    onActionClick(type: 'edit' | 'delete', data: any) {
+        this.actionClicked.emit({type, data});
+    }
 }

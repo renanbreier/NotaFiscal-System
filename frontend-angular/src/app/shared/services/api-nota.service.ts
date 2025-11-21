@@ -13,4 +13,16 @@ export class ApiNotaService {
     getClientes(): Observable<Cliente[]> {
         return this.http.get<Cliente[]>(this.dataSource + "/cliente")
     }
+
+    saveCliente(cliente: Cliente): Observable<Cliente> {
+        return this.http.post<Cliente>(this.dataSource + "/cliente", cliente)
+    }
+
+    deleteCliente(id: number): Observable<any> {
+        return this.http.delete<Cliente>(this.dataSource + "/cliente/" + id)
+    }
+
+    updateCliente(cliente: Cliente): Observable<Cliente> {
+        return this.http.put<Cliente>(this.dataSource + "/cliente/" + cliente.id, cliente)
+    }
 }

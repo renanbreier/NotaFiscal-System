@@ -1,9 +1,36 @@
-<h2>Cliente</h2>
+<div class="page-header">
+    <h2>Cliente</h2>
+
+    <app-add-button (click)="openCadastroPopup()"></app-add-button>
+</div>
+
+<app-popup-form
+        [popupVisible]="popupVisible"
+        [popupTitle]="isEdit ? 'Editar Cliente' : 'Cadastrar Cliente'"
+        (closed)="closeCadastroPopup()"
+        (saved)="saveOrUpdateCliente()">
+
+    <div style="padding: 20px;">
+        <dx-text-box
+                label="Código"
+                [(value)]="novoCliente.codigo">
+        </dx-text-box>
+
+        <dx-text-box
+                label="Nome"
+                [(value)]="novoCliente.nome">
+        </dx-text-box>
+
+    </div>
+
+</app-popup-form>
 
 <app-reusable-datagrid
         [dataSource]="cliente"
         [columns]="clienteColumns"
         [showBorders]="true"
         [pageSize]="20"
-        [keyField]="'id'">
+        [keyField]="'id'"
+        [showActions]="true"
+        (actionClicked)="handleGridAction($event)">
 </app-reusable-datagrid>

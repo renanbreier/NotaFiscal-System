@@ -1,0 +1,34 @@
+<dx-popup
+        [width]="popupWidth"
+        [height]="'auto'"
+        [showTitle]="true"
+        [title]="popupTitle"
+        [dragEnabled]="false"
+        [visible]="popupVisible"
+        (onHiding)="onClose()"> <div *dxTemplate="let data of 'content'" class="popup-form-content">
+
+    <ng-content></ng-content>
+
+    <div class="popup-footer dx-field-value">
+
+        <dx-button
+                *ngIf="showSaveButton"
+                [text]="saveButtonText"
+                [type]="saveButtonType"
+                [icon]="saveButtonIcon"
+                [style]="saveButtonStyle"
+                (onClick)="onSave()">
+        </dx-button>
+
+        <dx-button
+                *ngIf="showCloseButton"
+                [text]="closeButtonText"
+                [type]="closeButtonType"
+                [icon]="closeButtonIcon"
+                [style]="closeButtonStyle"
+                (onClick)="onClose()">
+        </dx-button>
+
+    </div>
+</div>
+</dx-popup>

@@ -1,5 +1,8 @@
-export interface Cliente {
-    id: number;
-    codigo: string;
-    nome: string;
+export class Cliente {
+
+    constructor() { }
+
+    id!: number;
+    codigo!: string;
+    nome!: string;
 }

@@ -23,4 +23,29 @@
             [hidingPriority]="col.hidingPriority || 0">
     </dxi-data-grid-column>
 
+    <dxi-data-grid-column
+            *ngIf="showActions"
+            [caption]="actionsCaption"
+            [width]="actionsWidth"
+            cellTemplate="actionCellTemplate"> </dxi-data-grid-column>
+
+    <div *dxTemplate="let data of 'actionCellTemplate'">
+
+        <dx-button
+                icon="edit"
+                type="default"
+                hint="Editar"
+                (onClick)="onActionClick('edit', data.data)">
+        </dx-button>
+
+        <dx-button
+                icon="trash"
+                type="danger"
+                hint="Excluir"
+                style="margin-left: 5px;"
+                (onClick)="onActionClick('delete', data.data)">
+        </dx-button>
+
+    </div>
+
 </dx-data-grid>
