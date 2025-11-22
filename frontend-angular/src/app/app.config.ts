@@ -10,6 +10,7 @@ import {
 import {provideHttpClient} from "@angular/common/http";
 import {ClienteService} from "./shared/services/cliente.service";
 import {ItemService} from "./shared/services/item.service";
+import {NotaFiscalService} from "./shared/services/notaFiscal.service";
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -18,6 +19,7 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(),
     ClienteService,
     ItemService,
+    NotaFiscalService,
     AuthGuardService,
     AuthService,
     ScreenService,

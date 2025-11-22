@@ -1,53 +1,58 @@
 import { Component } from '@angular/core';
-import {DxDataGridComponent} from 'devextreme-angular';
-import {
-  DxiDataGridColumnComponent,
-  DxoDataGridFilterRowComponent,
-  DxoDataGridLookupComponent, DxoDataGridPagerComponent, DxoDataGridPagingComponent
-} from 'devextreme-angular/ui/data-grid';
+import {AddButtonComponent} from "../../shared/components/add-button/add-button";
+import {NotaFiscal} from "../../models/notaFiscal";
+import {ReusableDatagridComponent} from "../../shared/components/reusable-datagrid/reusable-datagrid";
+import {NotaFiscalService} from "../../shared/services/notaFiscal.service";
 
 @Component({
   selector: 'app-nota',
-  imports: [
-    DxDataGridComponent,
-    DxiDataGridColumnComponent,
-    DxoDataGridFilterRowComponent,
-    DxoDataGridLookupComponent,
-    DxoDataGridPagerComponent,
-    DxoDataGridPagingComponent
-  ],
+    imports: [
+        AddButtonComponent,
+        ReusableDatagridComponent
+    ],
   templateUrl: './nota.html',
   styleUrl: './nota.scss',
 })
 export class NotaComponent {
-  dataSource: any;
-  priority: any[];
 
-  constructor() {
-    this.dataSource = {
-      store: {
-        version: 2,
-        type: 'odata',
-        key: 'Task_ID',
-        url: 'https://js.devexpress.com/Demos/DevAV/odata/Tasks'
-      },
-      expand: 'ResponsibleEmployee',
-      select: [
-        'Task_ID',
-        'Task_Subject',
-        'Task_Start_Date',
-        'Task_Due_Date',
-        'Task_Status',
-        'Task_Priority',
-        'Task_Completion',
-        'ResponsibleEmployee/Employee_Full_Name'
-      ]
-    };
-    this.priority = [
-      { name: 'High', value: 4 },
-      { name: 'Urgent', value: 3 },
-      { name: 'Normal', value: 2 },
-      { name: 'Low', value: 1 }
-    ];
-  }
+    // Array objeto nota
+    nota: NotaFiscal[] = [];
+
+    // Instancia do novo objeto nota
+    newNota: NotaFiscal = new NotaFiscal();
+
+    // Colunas do datagrid
+    notaColumns: any[] = [
+        { dataField: 'numeroNota', caption: 'Número', width: 90, hidingPriority: 1 },
+        { dataField: 'dataEmissao', caption: 'Data de Emissão', hidingPriority: 2 },
+        { dataField: 'cliente.nome', caption: 'Cliente', hidingPriority: 3 },
+        { caption: 'Valor total', dataType: 'number', format: 'currency', alignment: 'right', calculateCellValue: (data: any) => this.calculateNotaTotal(data), hidingPriority: 4 },
+    ]
+
+    // Controla visibilidade do popup
+    popupVisible: boolean = false;
+
+    // Estado do popup cadastro/edição
+    isEdit: boolean = false;
+
+    constructor(private service: NotaFiscalService) { }
+
+    ngOnInit() {
+        this.loadItems();
+    }
+
+    // Carrega a lista de notas na grid
+    loadItems() {
+        this.service.getNotasFiscais().subscribe((e) => {
+            this.nota = e;
+        })
+    }
+
+    // Calcula o valor total da nota fiscal
+    calculateNotaTotal(nota: NotaFiscal): number {
+        if (!nota.itens || !Array.isArray(nota.itens) || nota.itens.length === 0) {
+            return 0;
+        }
+        return nota.itens.reduce((sum, item) => sum + (+item.valorTotal || 0), 0);
+    }
 }
