@@ -67,8 +67,8 @@
                 [showBorders]="true"
                 [columnAutoWidth]="true"
                 [editing]="{ allowUpdating: true, allowDeleting: true, mode: 'cell' }"
-                (onRowUpdating)="onCellValueChanged($event)"
-                (onRowRemoved)="atualizarTotalNota()"
+                (onRowUpdated)="onCellValueChanged($event)"
+                (onRowRemoved)="updateTotalNota()"
         >
 
             <dxi-column dataField="sequencial" caption="Seq" width="70" [allowEditing]="false"></dxi-column>
@@ -77,7 +77,7 @@
 
             <dxi-column dataField="quantidade" dataType="number" caption="Qtde"></dxi-column>
 
-            <dxi-column dataField="valorUnitario" caption="Valor Unit." format="currency" [allowEditing]="false"></dxi-column>
+            <dxi-column dataField="itemNota.valorUnitario" caption="Valor Unit." format="currency" [allowEditing]="false"></dxi-column>
 
             <dxi-column dataField="valorTotal" caption="Total" format="currency" [allowEditing]="false"></dxi-column>
 
@@ -100,5 +100,6 @@
         [showBorders]="true"
         [pageSize]="20"
         [keyField]="'id'"
-        [showActions]="true">
+        [showActions]="true"
+        (actionClicked)="handleGridAction($event)">
 </app-reusable-datagrid>

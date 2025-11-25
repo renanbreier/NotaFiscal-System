@@ -58,7 +58,7 @@ export class NotaComponent {
         { dataField: 'numeroNota', caption: 'Número', width: 90, hidingPriority: 1 },
         { dataField: 'dataEmissao', caption: 'Data de Emissão', hidingPriority: 2 },
         { dataField: 'cliente.nome', caption: 'Cliente', hidingPriority: 3 },
-        { caption: 'Valor total', dataType: 'number', format: 'currency', alignment: 'right', calculateCellValue: (data: any) => this.calculateNotaTotal(data), hidingPriority: 4 },
+        { caption: 'Valor total', dataType: 'number', format: 'BRL', alignment: 'right', calculateCellValue: (data: any) => this.calculateNotaTotal(data), hidingPriority: 4 },
     ]
 
     // Controla visibilidade do popup
@@ -109,16 +109,41 @@ export class NotaComponent {
         this.popupVisible = false;
     }
 
+    // Payload para registro da nota
+    private buildPayload(): any {
+        return {
+            numeroNota: this.newNota.numeroNota,
+            dataEmissao: this.newNota.dataEmissao,
+            cliente: {
+                id: this.newNota.cliente.id
+            },
+            itens: this.newNota.itens.map(i => ({
+                sequencial: i.sequencial,
+                quantidade: i.quantidade,
+                itemNota: {
+                    id: i.itemNota.id
+                }
+            }))
+        };
+    }
+
+
     // Salva ou atualiza o objeto item dependendo do estado do popup
     saveOrUpdateNota() {
-        // Validação básica do cliente (o ID deve ser selecionado)
         if (!this.newNota.cliente?.id) {
             notify("Selecione um cliente para a nota fiscal.", 'warning', 3000);
             return;
         }
 
+        const payload = this.buildPayload(); // <<-- AQUI
+
         if (this.isEdit) {
-            this.service.updateNotaFiscal(this.newNota).subscribe({
+            if (!this.newNota.id) {
+                notify("Erro: Não há ID da nota para atualizar.", "error", 3000);
+                return;
+            }
+
+            this.service.updateNotaFiscal(this.newNota.id, payload).subscribe({
                 next: () => {
                     this.popupVisible = false;
                     this.loadNotas();
@@ -127,9 +152,9 @@ export class NotaComponent {
                 error: (e) => {
                     notify(`Erro ao atualizar Nota Fiscal: ${e.message}.`, 'error', 5000);
                 }
-            })
+            });
         } else {
-            this.service.saveNotaFiscal(this.newNota).subscribe({
+            this.service.saveNotaFiscal(payload).subscribe({
                 next: () => {
                     this.popupVisible = false;
                     this.loadNotas();
@@ -138,35 +163,63 @@ export class NotaComponent {
                 error: (e) => {
                     notify(`Erro ao salvar Nota Fiscal: ${e.message}.`, 'error', 5000);
                 }
-            })
+            });
         }
     }
 
-    // handleGridAction(event: GridAction) {
-    //     if (event.type === 'edit') {
-    //         this.iniciarEdicao(event.data);
-    //     } else if (event.type === 'delete') {
-    //         this.confirmarExclusao(event.data);
-    //     }
-    // }
+    // Identifica qual ação deve ser disparada
+    handleGridAction(event: GridAction) {
+        if (event.type === 'edit') {
+            this.startEditing(event.data);
+        } else if (event.type === 'delete') {
+            this.confirmDeletion(event.data);
+        }
+    }
 
-    // iniciarEdicao(nota: NotaFiscal) {
-    //     this.popupVisible = true;
-    //     this.isEdit = true;
-    //     // Clonamos o objeto para edição e garantimos que os itens também são clonados
-    //     this.newNota = { ...nota, itens: [...nota.itens] };
-    // }
-    //
-    // confirmarExclusao(nota: NotaFiscal) {
-    //     const message = `Deseja realmente excluir a Nota Fiscal Nº <b>${nota.numeroNota}</b>?`;
-    //     const title = "Confirmação de Exclusão";
-    //
-    //     confirm(message, title).then((dialogResult) => {
-    //         if (dialogResult) {
-    //             console.log("Excluir nota")
-    //         }
-    //     });
-    // }
+    // Abre popup no modo edição e carrega os dados
+    startEditing(nota: NotaFiscal) {
+        this.popupVisible = true;
+        this.isEdit = true;
+
+        // Clonamos o objeto nota
+        this.newNota = {
+            ...nota,
+            itens: [...nota.itens] };
+
+        // Recalcular total ao abrir o popup
+        this.updateTotalNota();
+    }
+
+    // Confirma a exclusão do objeto nota
+    confirmDeletion(nota: NotaFiscal) {
+        const message = `Deseja realmente excluir a Nota Fiscal Nº <b>${nota.numeroNota}</b>?`;
+        const title = "Confirmação de Exclusão";
+
+        confirm(message, title).then((dialogResult) => {
+            if (dialogResult) {
+                this.deleteNota(nota);
+            }
+        });
+    }
+
+    // Exclui o objeto item
+    deleteNota(nota: NotaFiscal) {
+        console.log("Excluir")
+        if (!nota.id) {
+            notify("Erro: Não há ID da nota para excluir.", "error", 3000);
+            return;
+        }
+
+        this.service.deleteNotaFiscal(nota.id).subscribe({
+            next: () => {
+                this.loadNotas();
+                notify(`Item ${nota.numeroNota} excluído com sucesso.`, 'success', 3000);
+            },
+            error: (e) => {
+                notify(`Erro ao excluir item: ${e.message}`, 'error', 5000);
+            }
+        });
+    }
 
     // Calcula o valor total da nota fiscal
     calculateNotaTotal(nota: NotaFiscal): number {
@@ -210,21 +263,26 @@ export class NotaComponent {
         };
 
         this.newNota.itens.push(novoItem);
-        this.atualizarTotalNota();
+        this.updateTotalNota();
 
         e.component.reset();
     }
 
     // Atualiza o valor total do item se houver mudança na quantidade
     onCellValueChanged(e: any) {
-        if (e.data && e.column.dataField === "quantidade") {
-            e.data.valorTotal = e.data.valorUnitario * e.data.quantidade;
-            this.atualizarTotalNota();
-        }
+        const item = e.data; // linha atualizada
+
+        if (!item) return;
+
+        // Recalcular total corretamente
+        item.valorTotal = item.itemNota.valorUnitario * item.quantidade;
+
+        // Atualizar total geral da nota
+        this.updateTotalNota();
     }
 
     // Atualiza o valor total da nota
-    atualizarTotalNota() {
+    updateTotalNota() {
         this.totalNota = this.newNota.itens.reduce((sum, item) => sum + item.valorTotal, 0);
     }
 }
