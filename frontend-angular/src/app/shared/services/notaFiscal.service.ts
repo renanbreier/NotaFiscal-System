@@ -22,7 +22,7 @@ export class NotaFiscalService {
         return this.http.delete<NotaFiscal>(this.dataSource + '/' + id)
     }
 
-    updateNotaFiscal(notaFiscal: NotaFiscal): Observable<NotaFiscal> {
-        return this.http.put<NotaFiscal>(this.dataSource + '/' + notaFiscal.id, notaFiscal)
+    updateNotaFiscal(id: number, notaFiscal: NotaFiscal): Observable<NotaFiscal> {
+        return this.http.put<NotaFiscal>(this.dataSource + '/' + id, notaFiscal)
     }
 }
