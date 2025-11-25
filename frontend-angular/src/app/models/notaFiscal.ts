@@ -5,9 +5,9 @@ export class NotaFiscal {
 
     constructor() { }
 
-    id!: number;
+    id?: number;
     numeroNota!: number;
     dataEmissao!: Date;
     cliente!: Cliente;
-    itens!: ItemNota;
+    itens!: ItemNota[];
 }
