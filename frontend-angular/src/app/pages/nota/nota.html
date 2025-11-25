@@ -1,8 +1,98 @@
 <div class="page-header">
     <h2>Nota Fiscal</h2>
 
-    <app-add-button></app-add-button>
+    <app-add-button (click)="openRegisterPopup()"></app-add-button>
 </div>
+
+<app-popup-form
+        [popupVisible]="popupVisible"
+        [popupTitle]="isEdit ? 'Editar Nota Fiscal' : 'Cadastrar Nota Fiscal'"
+        [popupWidth]="900"
+        (closed)="closePopup()"
+        (saved)="saveOrUpdateNota()">
+
+    <div class="dx-fieldset" style="padding: 20px;">
+        <div class="dx-field-group">
+            <div class="dx-field">
+                <div class="dx-field-label">Nº Nota:</div>
+                <dx-number-box
+                        [readOnly]="isEdit"
+                        [showClearButton]="true"
+                        [min]="0"
+                        [(value)]="newNota.numeroNota">
+                </dx-number-box>
+            </div>
+
+            <div class="dx-field">
+                <div class="dx-field-label">Data de Emissão:</div>
+                <dx-date-box
+                        type="date"
+                        displayFormat="dd/MM/yyyy"
+                        [showClearButton]="true"
+                        [(value)]="newNota.dataEmissao">
+                </dx-date-box>
+            </div>
+
+            <div class="dx-field">
+                <div class="dx-field-label">Cliente:</div>
+                <dx-select-box
+                        [dataSource]="clientes"
+                        [(value)]="newNota.cliente.id"
+                        displayExpr="nome"
+                        valueExpr="id"
+                        placeholder="Pesquise o Cliente"
+                        noDataText="Digite para pesquisar..."
+                        [minSearchLength]="2"
+                        [searchEnabled]="true"
+                        [showDropDownButton]="false"
+                        (onValueChanged)="onClienteChanged($event)">
+                </dx-select-box>
+            </div>
+        </div>
+
+        <div class="select-container mb-4">
+            <dx-select-box
+                    style="width: 300px;"
+                    [dataSource]="itensDisponiveis"
+                    displayExpr="descricao"
+                    valueExpr="id"
+                    [searchEnabled]="true"
+                    placeholder="Selecione um item"
+                    (onValueChanged)="onSelectItem($event)"
+            ></dx-select-box>
+        </div>
+
+        <dx-data-grid
+                [dataSource]="newNota.itens"
+                [showBorders]="true"
+                [columnAutoWidth]="true"
+                [editing]="{ allowUpdating: true, allowDeleting: true, mode: 'cell' }"
+                (onRowUpdating)="onCellValueChanged($event)"
+                (onRowRemoved)="atualizarTotalNota()"
+        >
+
+            <dxi-column dataField="sequencial" caption="Seq" width="70" [allowEditing]="false"></dxi-column>
+
+            <dxi-column dataField="itemNota.descricao" caption="Produto/Serviço" [allowEditing]="false"></dxi-column>
+
+            <dxi-column dataField="quantidade" dataType="number" caption="Qtde"></dxi-column>
+
+            <dxi-column dataField="valorUnitario" caption="Valor Unit." format="currency" [allowEditing]="false"></dxi-column>
+
+            <dxi-column dataField="valorTotal" caption="Total" format="currency" [allowEditing]="false"></dxi-column>
+
+            <dxi-column type="buttons">
+                <dxi-button name="delete"></dxi-button>
+            </dxi-column>
+
+        </dx-data-grid>
+
+        <div class="mt-3 font-bold text-lg">
+            Total da Nota: {{ totalNota | currency:'BRL':'symbol':'1.2-2' }}
+        </div>
+
+    </div>
+</app-popup-form>
 
 <app-reusable-datagrid
         [dataSource]="nota"

@@ -3,3 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.select-container {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end; /* alinha o select à direita */
+}
