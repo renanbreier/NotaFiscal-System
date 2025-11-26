@@ -1,26 +1,38 @@
 import {
+  DxScrollViewComponent,
+  DxScrollViewModule
+} from "./chunk-LLVSZ24P.js";
+import {
   DxToolbarComponent,
   DxToolbarModule
-} from "./chunk-5NF5C2XT.js";
-import "./chunk-ITABAN43.js";
+} from "./chunk-FIJ2O3KL.js";
 import {
   DxTreeViewComponent,
   DxTreeViewModule
-} from "./chunk-H7CK6FFL.js";
-import "./chunk-LV2ALNBL.js";
+} from "./chunk-PENCZ4PS.js";
+import "./chunk-EYOYQJIU.js";
 import {
   notify_default,
   toast_default
-} from "./chunk-IODPL42S.js";
+} from "./chunk-Q5GSCB76.js";
+import {
+  formatDate,
+  formatMessage,
+  formatNumber,
+  loadMessages,
+  locale,
+  parseDate,
+  parseNumber
+} from "./chunk-SXBOKF6O.js";
 import {
   DxDropDownButtonComponent,
   DxDropDownButtonModule
-} from "./chunk-WH7O5XRI.js";
-import "./chunk-2XV3J7YH.js";
+} from "./chunk-DAVMOMBQ.js";
+import "./chunk-J2TGNLX5.js";
 import {
   DxFormComponent,
   DxFormModule
-} from "./chunk-V42DAE3Z.js";
+} from "./chunk-2DZNA4IB.js";
 import {
   DxListComponent,
   DxListModule,
@@ -28,26 +40,28 @@ import {
   action_sheet_default,
   isCommonPosition,
   m_popover_default
-} from "./chunk-KXEWSOLC.js";
+} from "./chunk-G3OVAGFE.js";
 import {
   DxLoadIndicatorComponent,
   DxLoadIndicatorModule
-} from "./chunk-LKIKFEW5.js";
-import "./chunk-U4JCENMF.js";
-import "./chunk-KGMM6NMT.js";
-import {
-  DxScrollViewComponent,
-  DxScrollViewModule
-} from "./chunk-AVTM6TTJ.js";
+} from "./chunk-CPLN2F5B.js";
+import "./chunk-PDJGJTTP.js";
+import "./chunk-LJVYJPKK.js";
+import "./chunk-O7X3YRM6.js";
 import {
   DxButtonComponent,
   DxButtonModule
-} from "./chunk-HURSOLG4.js";
+} from "./chunk-OU6K2QZB.js";
 import {
   DxContextMenuComponent,
   DxContextMenuModule
-} from "./chunk-AXGS6WJP.js";
-import "./chunk-GX4GO5GO.js";
+} from "./chunk-P4U2WXSP.js";
+import "./chunk-3N3B6AC6.js";
+import {
+  DxDrawerComponent,
+  DxDrawerModule,
+  drawer_default
+} from "./chunk-Q55QXAC4.js";
 import {
   ColumnsController,
   DEFAULT_TOOLBAR_ITEMS,
@@ -150,28 +164,33 @@ import {
   validator_default,
   virtualColumnsModule,
   virtualScrollingModule
-} from "./chunk-ES6BSUJL.js";
+} from "./chunk-DRRIWLUI.js";
+import {
+  confirm,
+  custom
+} from "./chunk-IVBE3RDO.js";
+import {
+  scroll_view_default as scroll_view_default2
+} from "./chunk-USJD2HC7.js";
 import {
   toolbar_default
-} from "./chunk-TVIBT7BP.js";
+} from "./chunk-DQLZ3M5Y.js";
 import {
   tree_view_default
-} from "./chunk-TJRT4H5P.js";
+} from "./chunk-UQBZSDYX.js";
 import {
   ui_overlay_default
-} from "./chunk-UBCBIACN.js";
+} from "./chunk-IIHPHC3W.js";
 import {
   button_group_default
-} from "./chunk-5TKES2JQ.js";
+} from "./chunk-DTZYDBHS.js";
 import {
   DropDownButton,
   box_default,
   calendar_default,
   data_helper_default,
   date_box_default,
-  date_default as date_default2,
   form_default,
-  getFormat,
   getScrollTopMax,
   m_date_box_strategy_calendar_default,
   m_drop_down_editor_default,
@@ -190,27 +209,31 @@ import {
   ui_widget_default,
   validation_group_default,
   validation_summary_default
-} from "./chunk-PVKBANVU.js";
+} from "./chunk-UMWURYUW.js";
 import {
   DBLCLICK_EVENT_NAME
-} from "./chunk-7VV6QV3Z.js";
+} from "./chunk-6QOONW5M.js";
+import {
+  date_default as date_default2,
+  getFormat
+} from "./chunk-CW2APHIS.js";
 import {
   getElementWidth,
   ui_collection_widget_edit_default
-} from "./chunk-QJSN4TNH.js";
+} from "./chunk-6TATA6U7.js";
 import {
   m_draggable_default
-} from "./chunk-JJM7M3IL.js";
+} from "./chunk-CJRA5BZZ.js";
 import {
   check_box_default
-} from "./chunk-PN54BPXD.js";
+} from "./chunk-PJMCIUZZ.js";
 import {
   editor_default as editor_default2
-} from "./chunk-LHOK3AXV.js";
+} from "./chunk-WCY4PXGF.js";
 import {
   list_edit_default,
   list_edit_search_default
-} from "./chunk-NGYFL4CQ.js";
+} from "./chunk-GAHZGSBA.js";
 import {
   EdmLiteral,
   apply_changes_default,
@@ -221,18 +244,18 @@ import {
   m_endpoint_selector_default,
   m_local_store_default,
   m_store_default
-} from "./chunk-FF43QURI.js";
+} from "./chunk-2YLLH33A.js";
 import {
-  scroll_view_default as scroll_view_default2
-} from "./chunk-D5CPWRMA.js";
+  resizable_default
+} from "./chunk-YFGZCEGG.js";
 import {
   scroll_view_default
-} from "./chunk-HVLS2SHT.js";
+} from "./chunk-ERFOBVGB.js";
 import {
   context_menu_default,
   context_menu_default2
-} from "./chunk-ZQGHHMAA.js";
-import "./chunk-4SHJMC7Q.js";
+} from "./chunk-WVLKTOGN.js";
+import "./chunk-UZMEXCZI.js";
 import {
   ClearButton,
   TEXTEDITOR_INPUT_CONTAINER_CLASS,
@@ -240,8 +263,40 @@ import {
   editor_default,
   m_text_box_default,
   m_utils_caret_default
-} from "./chunk-EFEUTFTO.js";
-import "./chunk-OU6GQY4H.js";
+} from "./chunk-XQIAFPLZ.js";
+import "./chunk-FBHLX7Y5.js";
+import {
+  BindableTemplate,
+  DataSource,
+  Selection,
+  SelectionFilterCreator,
+  aggregators,
+  applyBatch,
+  base64_encode,
+  collection_widget_async_default,
+  collection_widget_edit_default,
+  createObjectWithChanges,
+  errorHandler,
+  errors,
+  isGroupItemsArray,
+  isItemsArray,
+  isLoadResultObject,
+  item_default,
+  keysEqual,
+  m_abstract_store_default,
+  m_array_store_default,
+  m_custom_store_default,
+  m_data_helper_default,
+  m_hold_default,
+  m_query_default,
+  m_store_helper_default,
+  name,
+  normalizeDataSourceOptions,
+  normalizeLoadResult,
+  resizeObserverSingleton,
+  resize_observer_default,
+  setErrorHandler
+} from "./chunk-E3JK6CCS.js";
 import {
   DxiAlertModule,
   DxiAnnotationModule,
@@ -480,14 +535,60 @@ import {
   DxoWidthModule,
   DxoZoomAndPanModule,
   DxoZoomLevelModule
-} from "./chunk-VHPDO6NT.js";
+} from "./chunk-U3ONYAQF.js";
 import {
   scrollable_default
-} from "./chunk-UAVVJIMK.js";
+} from "./chunk-35BBDHE7.js";
 import {
   AnimationType,
   load_indicator_default2 as load_indicator_default
-} from "./chunk-FYPIFWX2.js";
+} from "./chunk-TAYTCUZP.js";
+import {
+  BUTTON_CLASS,
+  BaseInfernoComponent,
+  Component as Component3,
+  ComponentWrapper,
+  ICON_CLASS,
+  InfernoWrapperComponent,
+  button_default,
+  combineClasses,
+  combineClasses2,
+  createComponentVNode,
+  createContext,
+  createFragment,
+  createPortal,
+  createReRenderEffect,
+  createRef,
+  createTextVNode,
+  createVNode,
+  dom_component_default as dom_component_default2,
+  getImageContainer,
+  getTemplate,
+  infernoRenderer,
+  normalizeProps,
+  normalizeStyles,
+  render,
+  render2,
+  rerender
+} from "./chunk-2B45MTVZ.js";
+import {
+  m_emitter_gesture_scroll_default
+} from "./chunk-PNTCRYNI.js";
+import {
+  number_default,
+  toFixed
+} from "./chunk-V2OZZIWV.js";
+import {
+  current,
+  isCompact,
+  isFluent,
+  isMaterial,
+  isMaterialBased
+} from "./chunk-FEONWG72.js";
+import {
+  core_default,
+  message_default
+} from "./chunk-PCELI6Y7.js";
 import {
   PROPERTY_TOKEN_alerts,
   PROPERTY_TOKEN_annotations,
@@ -528,124 +629,6 @@ import {
   PROPERTY_TOKEN_views
 } from "./chunk-QTDRYW7W.js";
 import {
-  DxDrawerComponent,
-  DxDrawerModule,
-  drawer_default
-} from "./chunk-MXS33ZGS.js";
-import {
-  BaseNestedOption,
-  CollectionNestedOption,
-  CollectionNestedOptionContainerImpl,
-  DX_TEMPLATE_WRAPPER_CLASS,
-  DxComponent,
-  DxComponentExtension,
-  DxIntegrationModule,
-  DxServerTransferStateModule,
-  DxTemplateDirective,
-  DxTemplateHost,
-  DxTemplateModule,
-  EmitterHelper,
-  IterableDifferHelper,
-  NestedOption,
-  NestedOptionHost,
-  NgEventsStrategy,
-  RenderData,
-  WatcherHelper,
-  extractTemplate,
-  getElement,
-  getServerStateKey
-} from "./chunk-AV5L3IRR.js";
-import {
-  Event,
-  off,
-  on,
-  one,
-  trigger
-} from "./chunk-7N374TII.js";
-import {
-  confirm,
-  custom
-} from "./chunk-JR3VTOTM.js";
-import {
-  resizable_default
-} from "./chunk-VOY7L4VC.js";
-import {
-  BindableTemplate,
-  DataSource,
-  Selection,
-  SelectionFilterCreator,
-  aggregators,
-  applyBatch,
-  base64_encode,
-  collection_widget_async_default,
-  collection_widget_edit_default,
-  createObjectWithChanges,
-  errorHandler,
-  errors,
-  isGroupItemsArray,
-  isItemsArray,
-  isLoadResultObject,
-  item_default,
-  keysEqual,
-  m_abstract_store_default,
-  m_array_store_default,
-  m_custom_store_default,
-  m_data_helper_default,
-  m_hold_default,
-  m_query_default,
-  m_store_helper_default,
-  name,
-  normalizeDataSourceOptions,
-  normalizeLoadResult,
-  resizeObserverSingleton,
-  resize_observer_default,
-  setErrorHandler
-} from "./chunk-LVWRVNT2.js";
-import {
-  BUTTON_CLASS,
-  BaseInfernoComponent,
-  Component as Component2,
-  ComponentWrapper,
-  ICON_CLASS,
-  InfernoWrapperComponent,
-  button_default,
-  combineClasses,
-  combineClasses2,
-  createComponentVNode,
-  createContext,
-  createFragment,
-  createPortal,
-  createReRenderEffect,
-  createRef,
-  createTextVNode,
-  createVNode,
-  dom_component_default as dom_component_default2,
-  getImageContainer,
-  getTemplate,
-  infernoRenderer,
-  normalizeProps,
-  normalizeStyles,
-  number_default,
-  render,
-  render2,
-  rerender,
-  toFixed
-} from "./chunk-UBAWJAV5.js";
-import {
-  m_emitter_gesture_scroll_default
-} from "./chunk-CYT7ZZVJ.js";
-import {
-  core_default,
-  message_default
-} from "./chunk-7AOZESUR.js";
-import {
-  current,
-  isCompact,
-  isFluent,
-  isMaterial,
-  isMaterialBased
-} from "./chunk-2D4FZXPO.js";
-import {
   DRAG_END_EVENT,
   DRAG_ENTER_EVENT,
   DRAG_EVENT,
@@ -656,16 +639,16 @@ import {
   overlay_default,
   remove,
   swatch_container_default
-} from "./chunk-VA6S6EFE.js";
+} from "./chunk-WEMEXRDR.js";
 import {
   EMPTY_ACTIVE_STATE_UNIT,
   widget_default
-} from "./chunk-IWHEGBWI.js";
-import "./chunk-Q7DS2YG3.js";
+} from "./chunk-5ODXKZLD.js";
+import "./chunk-IQ5FLR6K.js";
 import {
   CLICK_EVENT_NAME,
   ChildDefaultTemplate,
-  Component,
+  Component as Component2,
   EVENT_NAME,
   EmptyTemplate,
   FunctionTemplate,
@@ -718,22 +701,16 @@ import {
   triggerResizeEvent,
   triggerShownEvent,
   wrapToArray
-} from "./chunk-ICLEXNO5.js";
+} from "./chunk-67UZRO44.js";
 import {
   Cache,
   EventsStrategy,
-  adjust,
   dateSerialization,
   dateUtils,
   dateUtilsTs,
   date_default,
   date_serialization_default,
   devices_default,
-  fitIntoRange,
-  getExponent,
-  getExponentLength,
-  getPrecision,
-  getRemainderByDivision,
   getTimeZones,
   hide_top_overlay_default,
   init_mobile_viewport_default,
@@ -742,16 +719,45 @@ import {
   macro_task_array_default,
   pointerEvents,
   resize_callbacks_default,
+  ui_errors_default,
+  value
+} from "./chunk-QT6FPOQB.js";
+import {
+  adjust,
+  fitIntoRange,
+  getExponent,
+  getExponentLength,
+  getPrecision,
+  getRemainderByDivision,
   roundFloatPart,
   sign,
   solveCubicEquation,
-  trunc,
-  ui_errors_default,
-  value
-} from "./chunk-DONQLAZQ.js";
+  trunc
+} from "./chunk-VZ4XASFZ.js";
 import {
-  camelize,
-  captionize,
+  BaseNestedOption,
+  CollectionNestedOption,
+  CollectionNestedOptionContainerImpl,
+  DX_TEMPLATE_WRAPPER_CLASS,
+  DxComponent,
+  DxComponentExtension,
+  DxIntegrationModule,
+  DxServerTransferStateModule,
+  DxTemplateDirective,
+  DxTemplateHost,
+  DxTemplateModule,
+  EmitterHelper,
+  IterableDifferHelper,
+  NestedOption,
+  NestedOptionHost,
+  NgEventsStrategy,
+  RenderData,
+  WatcherHelper,
+  extractTemplate,
+  getElement,
+  getServerStateKey
+} from "./chunk-ZTK7N3KQ.js";
+import {
   data,
   getElementBoxParams,
   getHeight,
@@ -762,7 +768,6 @@ import {
   getOuterWidth,
   getVerticalOffsets,
   getWidth,
-  m_inflector_default,
   normalizeStyleProp,
   parseHeight,
   ready_callbacks_default,
@@ -774,78 +779,17 @@ import {
   setStyle,
   setWidth,
   setWidth2,
-  styleProp,
-  titleize
-} from "./chunk-Q6FQHMWM.js";
+  styleProp
+} from "./chunk-Z43WLGJP.js";
 import {
-  call_once_default,
-  m_events_engine_default
-} from "./chunk-3BIZTSZ2.js";
+  camelize,
+  captionize,
+  m_inflector_default,
+  titleize
+} from "./chunk-HVCREJTC.js";
 import {
   ajax_default
-} from "./chunk-BKRVOW4S.js";
-import {
-  Deferred,
-  Guid,
-  _extends,
-  applyServerDecimalSeparator,
-  callbacks_default,
-  class_default,
-  clone,
-  compileGetter,
-  compileSetter,
-  config_default,
-  config_default2,
-  deepExtendArraySafe,
-  deferRender,
-  deferUpdate,
-  dom_adapter_default,
-  each,
-  ensureDefined,
-  equalByValue,
-  error_default,
-  errors_default,
-  executeAsync,
-  extend,
-  extendFromObject,
-  format,
-  fromPromise,
-  getCurrentScreenFactor,
-  getNavigator,
-  getPathParts,
-  getWindow,
-  grep,
-  guid_default,
-  guid_default2,
-  hasProperty,
-  hasWindow,
-  isBoolean,
-  isDate,
-  isDeferred,
-  isDefined,
-  isEmptyObject,
-  isExponential,
-  isFunction,
-  isNumeric,
-  isObject,
-  isPlainObject,
-  isPromise,
-  isRenderer,
-  isString,
-  isWindow,
-  logger,
-  m_common_default,
-  m_window_default,
-  map,
-  noop,
-  normalizeKey,
-  reverseEach,
-  set_template_engine_default,
-  toComparable,
-  type,
-  version,
-  when
-} from "./chunk-G6GPM76E.js";
+} from "./chunk-NANMOECH.js";
 import {
   getDOM
 } from "./chunk-WJS7LJPJ.js";
@@ -853,7 +797,7 @@ import "./chunk-DASHI2JV.js";
 import {
   ApplicationRef,
   ChangeDetectorRef,
-  Component as Component3,
+  Component,
   ComponentFactoryResolver$1,
   ContentChildren,
   DOCUMENT,
@@ -888,7 +832,7 @@ import {
   computed,
   forwardRef,
   inject,
-  isPromise as isPromise2,
+  isPromise,
   isSubscribable,
   setClassMetadata,
   signal,
@@ -922,8 +866,83 @@ import {
   __spreadArray,
   forkJoin,
   from,
-  map as map2
+  map
 } from "./chunk-UAGUZQ4R.js";
+import {
+  Event,
+  off,
+  on,
+  one,
+  trigger
+} from "./chunk-BM7XALA6.js";
+import {
+  call_once_default,
+  m_events_engine_default
+} from "./chunk-5YLB5JQE.js";
+import {
+  dom_adapter_default,
+  getCurrentScreenFactor,
+  getNavigator,
+  getWindow,
+  hasProperty,
+  hasWindow,
+  m_window_default
+} from "./chunk-T2QELLXU.js";
+import {
+  Deferred,
+  Guid,
+  _extends,
+  applyServerDecimalSeparator,
+  callbacks_default,
+  class_default,
+  clone,
+  compileGetter,
+  compileSetter,
+  config_default,
+  config_default2,
+  deepExtendArraySafe,
+  deferRender,
+  deferUpdate,
+  each,
+  ensureDefined,
+  equalByValue,
+  error_default,
+  errors_default,
+  executeAsync,
+  extend,
+  extendFromObject,
+  format,
+  fromPromise,
+  getPathParts,
+  grep,
+  guid_default,
+  guid_default2,
+  isBoolean,
+  isDate,
+  isDeferred,
+  isDefined,
+  isEmptyObject,
+  isExponential,
+  isFunction,
+  isNumeric,
+  isObject,
+  isPlainObject,
+  isPromise as isPromise2,
+  isRenderer,
+  isString,
+  isWindow,
+  logger,
+  m_common_default,
+  map as map2,
+  noop,
+  normalizeKey,
+  reverseEach,
+  set_template_engine_default,
+  toComparable,
+  type,
+  version,
+  when
+} from "./chunk-EJA7O4BW.js";
 import {
   __async,
   __commonJS,
@@ -57277,7 +57296,7 @@ var DxiAccordionItemComponent = class _DxiAccordionItemComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiAccordionItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-accordion-item",
       standalone: true,
@@ -58122,7 +58141,7 @@ var DxAccordionComponent = class _DxAccordionComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxAccordionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-accordion",
       standalone: true,
@@ -58492,7 +58511,7 @@ var DxiActionSheetItemComponent = class _DxiActionSheetItemComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiActionSheetItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-action-sheet-item",
       standalone: true,
@@ -59119,7 +59138,7 @@ var DxActionSheetComponent = class _DxActionSheetComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxActionSheetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-action-sheet",
       standalone: true,
@@ -59848,7 +59867,7 @@ function isPresent(o2) {
   return o2 != null;
 }
 function toObservable(value2) {
-  const obs = isPromise2(value2) ? from(value2) : value2;
+  const obs = isPromise(value2) ? from(value2) : value2;
   if ((typeof ngDevMode === "undefined" || ngDevMode) && !isSubscribable(obs)) {
     let errorMessage = `Expected async validator to return Promise or Observable.`;
     if (typeof value2 === "object") {
@@ -59893,7 +59912,7 @@ function composeAsync(validators) {
   if (presentValidators.length == 0) return null;
   return function(control) {
     const observables = executeValidators(control, presentValidators).map(toObservable);
-    return forkJoin(observables).pipe(map2(mergeErrors));
+    return forkJoin(observables).pipe(map(mergeErrors));
   };
 }
 function composeAsyncValidators(validators) {
@@ -66103,7 +66122,7 @@ var DxoAutocompleteAnimationComponent = class _DxoAutocompleteAnimationComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-animation",
       standalone: true,
@@ -66207,7 +66226,7 @@ var DxoAutocompleteAtComponent = class _DxoAutocompleteAtComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-at",
       standalone: true,
@@ -66311,7 +66330,7 @@ var DxoAutocompleteBoundaryOffsetComponent = class _DxoAutocompleteBoundaryOffse
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-boundary-offset",
       standalone: true,
@@ -66422,7 +66441,7 @@ var DxiAutocompleteButtonComponent = class _DxiAutocompleteButtonComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiAutocompleteButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-autocomplete-button",
       standalone: true,
@@ -66532,7 +66551,7 @@ var DxoAutocompleteCollisionComponent = class _DxoAutocompleteCollisionComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-collision",
       standalone: true,
@@ -67009,7 +67028,7 @@ var DxoAutocompleteDropDownOptionsComponent = class _DxoAutocompleteDropDownOpti
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-drop-down-options",
       standalone: true,
@@ -67288,7 +67307,7 @@ var DxoAutocompleteFromComponent = class _DxoAutocompleteFromComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-from",
       standalone: true,
@@ -67457,7 +67476,7 @@ var DxoAutocompleteHideComponent = class _DxoAutocompleteHideComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-hide",
       standalone: true,
@@ -67624,7 +67643,7 @@ var DxiAutocompleteItemComponent = class _DxiAutocompleteItemComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiAutocompleteItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-autocomplete-item",
       standalone: true,
@@ -67756,7 +67775,7 @@ var DxoAutocompleteMyComponent = class _DxoAutocompleteMyComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-my",
       standalone: true,
@@ -67860,7 +67879,7 @@ var DxoAutocompleteOffsetComponent = class _DxoAutocompleteOffsetComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-offset",
       standalone: true,
@@ -68136,7 +68155,7 @@ var DxoAutocompleteOptionsComponent = class _DxoAutocompleteOptionsComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-options",
       standalone: true,
@@ -68357,7 +68376,7 @@ var DxoAutocompletePositionComponent = class _DxoAutocompletePositionComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompletePositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-position",
       standalone: true,
@@ -68532,7 +68551,7 @@ var DxoAutocompleteShowComponent = class _DxoAutocompleteShowComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-show",
       standalone: true,
@@ -68681,7 +68700,7 @@ var DxoAutocompleteToComponent = class _DxoAutocompleteToComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoAutocompleteToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-autocomplete-to",
       standalone: true,
@@ -68889,7 +68908,7 @@ var DxiAutocompleteToolbarItemComponent = class _DxiAutocompleteToolbarItemCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiAutocompleteToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-autocomplete-toolbar-item",
       standalone: true,
@@ -70428,7 +70447,7 @@ var DxAutocompleteComponent = class _DxAutocompleteComponent extends DxComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxAutocompleteComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-autocomplete",
       standalone: true,
@@ -82148,7 +82167,7 @@ function asyncEach(array, callback) {
   let i2 = 0;
   for (; i2 < array.length; i2++) {
     const result = callback(array[i2]);
-    if (isPromise(result)) {
+    if (isPromise2(result)) {
       result.then((() => {
         asyncEach(Array.prototype.slice.call(array, i2 + 1), callback, d2);
       }));
@@ -82174,7 +82193,7 @@ function drawCanvasElements(elements, context, parentOptions, shared) {
           context.restore();
         };
         const promise = drawCanvasElements(element.childNodes, context, options, shared);
-        if (isPromise(promise)) {
+        if (isPromise2(promise)) {
           promise.then(onDone);
         } else {
           onDone();
@@ -82207,7 +82226,7 @@ function setLineDash(context, options) {
   var _options$strokeDasha, _matches;
   let matches = null === (_options$strokeDasha = options["stroke-dasharray"]) || void 0 === _options$strokeDasha ? void 0 : _options$strokeDasha.match(/(\d+)/g);
   if (null !== (_matches = matches) && void 0 !== _matches && _matches.length) {
-    matches = map(matches, ((item) => _number(item)));
+    matches = map2(matches, ((item) => _number(item)));
     context.setLineDash(matches);
   }
 }
@@ -82236,7 +82255,7 @@ function getPattern(context, pattern, shared, parentOptions) {
     context.fill();
     context.globalAlpha = 1;
   };
-  if (isPromise(promise)) {
+  if (isPromise2(promise)) {
     promise.then(onDone);
   } else {
     onDone();
@@ -86633,15 +86652,6 @@ var pie = _extend7({}, barSeries2, {
 });
 var doughnut = pie;
 var donut = pie;
-
-// node_modules/devextreme/esm/common/core/localization.js
-var locale = core_default.locale.bind(core_default);
-var loadMessages = message_default.load.bind(message_default);
-var formatMessage = message_default.format.bind(message_default);
-var formatNumber = number_default.format.bind(number_default);
-var parseNumber = number_default.parse.bind(number_default);
-var formatDate = date_default2.format.bind(date_default2);
-var parseDate = date_default2.parse.bind(date_default2);
 
 // node_modules/devextreme/esm/__internal/viz/series/helpers/display_format_parser.js
 function formatValue(value2, format3) {
@@ -103994,7 +104004,7 @@ var DxoBarGaugeAnimationComponent = class _DxoBarGaugeAnimationComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-animation",
       standalone: true,
@@ -104122,7 +104132,7 @@ var DxoBarGaugeBarGaugeTitleSubtitleComponent = class _DxoBarGaugeBarGaugeTitleS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeBarGaugeTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-bar-gauge-title-subtitle",
       standalone: true,
@@ -104284,7 +104294,7 @@ var DxoBarGaugeBarGaugeTitleComponent = class _DxoBarGaugeBarGaugeTitleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeBarGaugeTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-bar-gauge-title",
       standalone: true,
@@ -104437,7 +104447,7 @@ var DxoBarGaugeBorderComponent = class _DxoBarGaugeBorderComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-border",
       standalone: true,
@@ -104588,7 +104598,7 @@ var DxoBarGaugeExportComponent = class _DxoBarGaugeExportComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-export",
       standalone: true,
@@ -104728,7 +104738,7 @@ var DxoBarGaugeFontComponent = class _DxoBarGaugeFontComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-font",
       standalone: true,
@@ -104869,7 +104879,7 @@ var DxoBarGaugeFormatComponent = class _DxoBarGaugeFormatComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-format",
       standalone: true,
@@ -104985,7 +104995,7 @@ var DxoBarGaugeGeometryComponent = class _DxoBarGaugeGeometryComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeGeometryComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-geometry",
       standalone: true,
@@ -105117,7 +105127,7 @@ var DxoBarGaugeItemTextFormatComponent = class _DxoBarGaugeItemTextFormatCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeItemTextFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-item-text-format",
       standalone: true,
@@ -105268,7 +105278,7 @@ var DxoBarGaugeLabelComponent = class _DxoBarGaugeLabelComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-label",
       standalone: true,
@@ -105415,7 +105425,7 @@ var DxoBarGaugeLegendBorderComponent = class _DxoBarGaugeLegendBorderComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeLegendBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-legend-border",
       standalone: true,
@@ -105538,7 +105548,7 @@ var DxoBarGaugeLegendTitleSubtitleComponent = class _DxoBarGaugeLegendTitleSubti
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeLegendTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-legend-title-subtitle",
       standalone: true,
@@ -105680,7 +105690,7 @@ var DxoBarGaugeLegendTitleComponent = class _DxoBarGaugeLegendTitleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeLegendTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-legend-title",
       standalone: true,
@@ -105946,7 +105956,7 @@ var DxoBarGaugeLegendComponent = class _DxoBarGaugeLegendComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeLegendComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-legend",
       standalone: true,
@@ -106139,7 +106149,7 @@ var DxoBarGaugeLoadingIndicatorComponent = class _DxoBarGaugeLoadingIndicatorCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-loading-indicator",
       standalone: true,
@@ -106266,7 +106276,7 @@ var DxoBarGaugeMarginComponent = class _DxoBarGaugeMarginComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-margin",
       standalone: true,
@@ -106397,7 +106407,7 @@ var DxoBarGaugeShadowComponent = class _DxoBarGaugeShadowComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-shadow",
       standalone: true,
@@ -106510,7 +106520,7 @@ var DxoBarGaugeSizeComponent = class _DxoBarGaugeSizeComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-size",
       standalone: true,
@@ -106635,7 +106645,7 @@ var DxoBarGaugeSubtitleComponent = class _DxoBarGaugeSubtitleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-subtitle",
       standalone: true,
@@ -106797,7 +106807,7 @@ var DxoBarGaugeTitleComponent = class _DxoBarGaugeTitleComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-title",
       standalone: true,
@@ -106943,7 +106953,7 @@ var DxoBarGaugeTooltipBorderComponent = class _DxoBarGaugeTooltipBorderComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-tooltip-border",
       standalone: true,
@@ -107154,7 +107164,7 @@ var DxoBarGaugeTooltipComponent = class _DxoBarGaugeTooltipComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBarGaugeTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bar-gauge-tooltip",
       standalone: true,
@@ -107968,7 +107978,7 @@ var DxBarGaugeComponent = class _DxBarGaugeComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxBarGaugeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-bar-gauge",
       standalone: true,
@@ -108343,7 +108353,7 @@ var DxiBoxItemComponent = class _DxiBoxItemComponent extends CollectionNestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiBoxItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-box-item",
       standalone: true,
@@ -108885,7 +108895,7 @@ var DxBoxComponent = class _DxBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-box",
       standalone: true,
@@ -109606,7 +109616,7 @@ var DxoBulletBorderComponent = class _DxoBulletBorderComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-border",
       standalone: true,
@@ -109740,7 +109750,7 @@ var DxoBulletFontComponent = class _DxoBulletFontComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-font",
       standalone: true,
@@ -109881,7 +109891,7 @@ var DxoBulletFormatComponent = class _DxoBulletFormatComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-format",
       standalone: true,
@@ -110011,7 +110021,7 @@ var DxoBulletMarginComponent = class _DxoBulletMarginComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-margin",
       standalone: true,
@@ -110142,7 +110152,7 @@ var DxoBulletShadowComponent = class _DxoBulletShadowComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-shadow",
       standalone: true,
@@ -110255,7 +110265,7 @@ var DxoBulletSizeComponent = class _DxoBulletSizeComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-size",
       standalone: true,
@@ -110457,7 +110467,7 @@ var DxoBulletTooltipComponent = class _DxoBulletTooltipComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoBulletTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-bullet-tooltip",
       standalone: true,
@@ -111042,7 +111052,7 @@ var DxBulletComponent = class _DxBulletComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxBulletComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-bullet",
       standalone: true,
@@ -111345,7 +111355,7 @@ var DxiButtonGroupItemComponent = class _DxiButtonGroupItemComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiButtonGroupItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-button-group-item",
       standalone: true,
@@ -111964,7 +111974,7 @@ var DxButtonGroupComponent = class _DxButtonGroupComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxButtonGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-button-group",
       standalone: true,
@@ -113041,7 +113051,7 @@ var DxCalendarComponent = class _DxCalendarComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxCalendarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-calendar",
       standalone: true,
@@ -113995,7 +114005,7 @@ var OptionsController = class {
     }));
   }
 };
-OptionsController.dependencies = [Component];
+OptionsController.dependencies = [Component2];
 
 // node_modules/devextreme/esm/__internal/grids/new/grid_core/options_controller/options_controller.js
 var GridCoreOptionsController = class extends OptionsController {
@@ -116055,7 +116065,7 @@ var CLASSES = {
 var CLASSES2 = _extends({}, CLASSES, {
   container: "dx-gridbase-a11y-status-container"
 });
-var A11yStatusContainer = class extends Component2 {
+var A11yStatusContainer = class extends Component3 {
   render() {
     return createVNode(1, "div", `${CLASSES2.container} ${CLASSES2.excludeFlexBox}`, this.props.statusText ?? "", 0, {
       role: "status"
@@ -116163,7 +116173,7 @@ var ConfigContext = createContext({
 });
 
 // node_modules/devextreme/esm/__internal/grids/new/grid_core/inferno_wrappers/widget_wrapper.js
-var InfernoWrapper = class extends Component2 {
+var InfernoWrapper = class extends Component3 {
   constructor() {
     super(...arguments);
     this.ref = createRef();
@@ -116227,7 +116237,7 @@ var CLASS3 = {
   dropzone: "dx-cardview-dropzone",
   dropzoneVisible: "dx-cardview-dropzone-visible"
 };
-var ColumnSortable = class extends Component2 {
+var ColumnSortable = class extends Component3 {
   constructor() {
     super(...arguments);
     this.onDragStart = (e2) => {
@@ -116446,7 +116456,7 @@ function SortIcon(props) {
     name: "arrowsortdown"
   }), props.showSortIndex && createVNode(1, "div", CLASSES3.sorting.order, props.sortIndex, 0)], 0);
 }
-var Item = class extends Component2 {
+var Item = class extends Component3 {
   constructor() {
     super(...arguments);
     this.onFilterClickHandler = (event2) => {
@@ -116644,7 +116654,7 @@ var CLASS4 = {
   treeviewItem: "dx-treeview-item",
   treeviewExpanderIcon: "dx-treeview-expander-icon-stub"
 };
-var ColumnChooser = class extends Component2 {
+var ColumnChooser = class extends Component3 {
   constructor() {
     super(...arguments);
     this.onShowing = (e2) => {
@@ -117076,7 +117086,7 @@ var KbnFocusTrapDisabled = (props) => {
     "data-dx-focus-trap-content": false
   }), 2, _extends({}, restProps), null, elementRef));
 };
-var KbnFocusTrapEnabled = class extends Component2 {
+var KbnFocusTrapEnabled = class extends Component3 {
   constructor() {
     super(...arguments);
     this.elementRef = createRef();
@@ -117200,7 +117210,7 @@ var KbnNavigationContainerDisabled = (props) => {
     "data-dx-focus-container": false
   }), null, elementRef));
 };
-var KbnNavigationContainerEnabled = class extends Component2 {
+var KbnNavigationContainerEnabled = class extends Component3 {
   constructor() {
     super(...arguments);
     this.elementRef = createRef();
@@ -117504,7 +117514,7 @@ var __metadata3 = function(k, v2) {
   }
 };
 var withKeyDownHandler = (WrappedComponent) => {
-  class WithKeyDownHandler extends Component2 {
+  class WithKeyDownHandler extends Component3 {
     constructor() {
       super(...arguments);
       this.elementRef = createRef();
@@ -117565,7 +117575,7 @@ var __metadata4 = function(k, v2) {
   }
 };
 var withKbnNavigationItem = (WrappedComponent) => {
-  class WithKbnNavigationItem extends Component2 {
+  class WithKbnNavigationItem extends Component3 {
     constructor() {
       super(...arguments);
       this.elementRef = createRef();
@@ -117931,7 +117941,7 @@ function getCancelButtonConfig(props) {
 }
 
 // node_modules/devextreme/esm/__internal/grids/new/grid_core/editing/popup/component.js
-var EditPopup = class extends Component2 {
+var EditPopup = class extends Component3 {
   render() {
     if (!this.props.visible) {
       this.props.formRef.current = null;
@@ -118279,7 +118289,7 @@ var WidgetMock = class {
 };
 
 // node_modules/devextreme/esm/__internal/grids/new/grid_core/filtering/header_filter/view.js
-var HeaderFilterPopupComponent = class extends Component2 {
+var HeaderFilterPopupComponent = class extends Component3 {
   constructor() {
     super(...arguments);
     this.containerRef = createRef();
@@ -118366,7 +118376,7 @@ var defaultOptions9 = {
 };
 
 // node_modules/devextreme/esm/__internal/grids/new/grid_core/filtering/filter_panel/filter_panel.js
-var FilterPanelComponent = class extends Component2 {
+var FilterPanelComponent = class extends Component3 {
   constructor() {
     super(...arguments);
     this.filterPanelRef = createRef();
@@ -119101,7 +119111,7 @@ var Toolbar = class extends InfernoWrapper {
 
 // node_modules/devextreme/esm/__internal/grids/new/grid_core/toolbar/toolbar.js
 var ToolbarComponent = withKeyDownHandler(Toolbar);
-var ToolbarView = class extends Component2 {
+var ToolbarView = class extends Component3 {
   constructor() {
     super(...arguments);
     this.containerRef = createRef();
@@ -119576,7 +119586,7 @@ var CLASSES4 = {
   image: "dx-card-cover-image",
   noImage: "dx-card-cover-noimage"
 };
-var Cover = class extends Component2 {
+var Cover = class extends Component3 {
   render() {
     const {
       id,
@@ -119605,7 +119615,7 @@ var Cover = class extends Component2 {
 };
 
 // node_modules/devextreme/esm/__internal/grids/new/card_view/content_view/content/card/caption.js
-var Caption = class extends Component2 {
+var Caption = class extends Component3 {
   constructor() {
     super(...arguments);
     this.ref = createRef();
@@ -119653,7 +119663,7 @@ var CLASS5 = {
   root: ROOT_CLASS,
   textPartHighlighted: `${ROOT_CLASS}__text-part--highlighted`
 };
-var ValueText = class extends Component2 {
+var ValueText = class extends Component3 {
   constructor() {
     super(...arguments);
     this.ref = createRef();
@@ -119709,7 +119719,7 @@ var CLASSES5 = {
   fieldTemplate: "dx-cardview-field-template",
   overflowHint: "dx-cardview-overflow-hint"
 };
-var Field = class extends Component2 {
+var Field = class extends Component3 {
   constructor(props) {
     super(props);
     this.containerRef = this.props.elementRef ?? createRef();
@@ -119741,7 +119751,7 @@ var CLASSES6 = {
   cardHeader: "dx-cardview-card-header",
   cardSelectCheckBox: "dx-cardview-select-checkbox"
 };
-var CardHeader = class extends Component2 {
+var CardHeader = class extends Component3 {
   getCheckBoxItem() {
     const {
       isCheckBoxesRendered,
@@ -119839,7 +119849,7 @@ var CLASSES7 = {
   footer: "dx-cardview-card-footer",
   selectCard: "dx-cardview-card-selection"
 };
-var Card = class extends Component2 {
+var Card = class extends Component3 {
   constructor() {
     super(...arguments);
     this.containerRef = createRef();
@@ -120056,7 +120066,7 @@ var CLASSES9 = {
   iconContainer: "dx-gridcore-nodata-icon-container",
   text: "dx-gridcore-nodata-text"
 };
-var NoDataText = class extends Component2 {
+var NoDataText = class extends Component3 {
   render() {
     const Template = this.props.template;
     return createVNode(1, "div", CLASSES9.container, Template ? createComponentVNode(2, Template, {
@@ -120146,7 +120156,7 @@ var LoadPanel2 = class extends BaseInfernoComponent {
 var CLASSES10 = {
   contentView: "dx-gridcore-contentview"
 };
-var ContentView2 = class extends Component2 {
+var ContentView2 = class extends Component3 {
   constructor() {
     super(...arguments);
     this.scrollableRef = createRef();
@@ -120208,7 +120218,7 @@ function getInfernoCardKey(card) {
   }
   return;
 }
-var Content = class extends Component2 {
+var Content = class extends Component3 {
   constructor() {
     super(...arguments);
     this.containerRef = createRef();
@@ -120363,7 +120373,7 @@ var Content = class extends Component2 {
 };
 
 // node_modules/devextreme/esm/__internal/grids/new/card_view/content_view/content_view.js
-var ContentView3 = class extends Component2 {
+var ContentView3 = class extends Component3 {
   render() {
     return normalizeProps(createComponentVNode(2, ContentView2, _extends({}, this.props, {
       children: normalizeProps(createComponentVNode(2, Content, _extends({}, this.props.contentProps)))
@@ -120747,7 +120757,7 @@ var EmptyHeaderPanelText = (props) => {
     role: "menuitem"
   });
 };
-var HeaderPanel = class extends Component2 {
+var HeaderPanel = class extends Component3 {
   render() {
     const HeaderItem = this.props.kbnEnabled ? ItemWithKbn : Item;
     if (!this.props.visible) {
@@ -120944,7 +120954,7 @@ var _excluded11 = ["rootElementRef", "ref", "className", "children"];
 function normalizeEventName(name3) {
   return name3.substring(2).toLowerCase();
 }
-var RootElementUpdater = class extends Component2 {
+var RootElementUpdater = class extends Component3 {
   constructor() {
     super(...arguments);
     this.previousClasses = [];
@@ -121191,7 +121201,7 @@ var DxoCardViewAnimationComponent = class _DxoCardViewAnimationComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-animation",
       standalone: true,
@@ -121317,7 +121327,7 @@ var DxiCardViewAsyncRuleComponent = class _DxiCardViewAsyncRuleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewAsyncRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-async-rule",
       standalone: true,
@@ -121433,7 +121443,7 @@ var DxoCardViewAtComponent = class _DxoCardViewAtComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-at",
       standalone: true,
@@ -121537,7 +121547,7 @@ var DxoCardViewBoundaryOffsetComponent = class _DxoCardViewBoundaryOffsetCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-boundary-offset",
       standalone: true,
@@ -121691,7 +121701,7 @@ var DxiCardViewButtonItemComponent = class _DxiCardViewButtonItemComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewButtonItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-button-item",
       standalone: true,
@@ -121991,7 +122001,7 @@ var DxoCardViewButtonOptionsComponent = class _DxoCardViewButtonOptionsComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewButtonOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-button-options",
       standalone: true,
@@ -122216,7 +122226,7 @@ var DxoCardViewCardCoverComponent = class _DxoCardViewCardCoverComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCardCoverComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-card-cover",
       standalone: true,
@@ -122440,7 +122450,7 @@ var DxiCardViewCardHeaderItemComponent = class _DxiCardViewCardHeaderItemCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewCardHeaderItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-card-header-item",
       standalone: true,
@@ -122633,7 +122643,7 @@ var DxoCardViewCardHeaderComponent = class _DxoCardViewCardHeaderComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCardHeaderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-card-header",
       standalone: true,
@@ -122774,7 +122784,7 @@ var DxoCardViewCardViewHeaderFilterSearchComponent = class _DxoCardViewCardViewH
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCardViewHeaderFilterSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-card-view-header-filter-search",
       standalone: true,
@@ -122891,7 +122901,7 @@ var DxoCardViewCardViewHeaderFilterTextsComponent = class _DxoCardViewCardViewHe
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCardViewHeaderFilterTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-card-view-header-filter-texts",
       standalone: true,
@@ -123040,7 +123050,7 @@ var DxoCardViewCardViewHeaderFilterComponent = class _DxoCardViewCardViewHeaderF
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCardViewHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-card-view-header-filter",
       standalone: true,
@@ -123176,7 +123186,7 @@ var DxoCardViewCardViewSelectionComponent = class _DxoCardViewCardViewSelectionC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCardViewSelectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-card-view-selection",
       standalone: true,
@@ -123307,7 +123317,7 @@ var DxiCardViewChangeComponent = class _DxiCardViewChangeComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewChangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-change",
       standalone: true,
@@ -123437,7 +123447,7 @@ var DxoCardViewColCountByScreenComponent = class _DxoCardViewColCountByScreenCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewColCountByScreenComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-col-count-by-screen",
       standalone: true,
@@ -123547,7 +123557,7 @@ var DxoCardViewCollisionComponent = class _DxoCardViewCollisionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-collision",
       standalone: true,
@@ -123658,7 +123668,7 @@ var DxoCardViewColumnChooserSearchComponent = class _DxoCardViewColumnChooserSea
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewColumnChooserSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-column-chooser-search",
       standalone: true,
@@ -123772,7 +123782,7 @@ var DxoCardViewColumnChooserSelectionComponent = class _DxoCardViewColumnChooser
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewColumnChooserSelectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-column-chooser-selection",
       standalone: true,
@@ -123956,7 +123966,7 @@ var DxoCardViewColumnChooserComponent = class _DxoCardViewColumnChooserComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewColumnChooserComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-column-chooser",
       standalone: true,
@@ -124421,7 +124431,7 @@ var DxiCardViewColumnComponent = class _DxiCardViewColumnComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewColumnComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-column",
       standalone: true,
@@ -124682,7 +124692,7 @@ var DxoCardViewColumnHeaderFilterSearchComponent = class _DxoCardViewColumnHeade
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewColumnHeaderFilterSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-column-header-filter-search",
       standalone: true,
@@ -124837,7 +124847,7 @@ var DxoCardViewColumnHeaderFilterComponent = class _DxoCardViewColumnHeaderFilte
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewColumnHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-column-header-filter",
       standalone: true,
@@ -124981,7 +124991,7 @@ var DxiCardViewCompareRuleComponent = class _DxiCardViewCompareRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewCompareRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-compare-rule",
       standalone: true,
@@ -125139,7 +125149,7 @@ var DxiCardViewCustomOperationComponent = class _DxiCardViewCustomOperationCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewCustomOperationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-custom-operation",
       standalone: true,
@@ -125286,7 +125296,7 @@ var DxiCardViewCustomRuleComponent = class _DxiCardViewCustomRuleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewCustomRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-custom-rule",
       standalone: true,
@@ -125451,7 +125461,7 @@ var DxoCardViewDraggingComponent = class _DxoCardViewDraggingComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewDraggingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-dragging",
       standalone: true,
@@ -125604,7 +125614,7 @@ var DxoCardViewEditingTextsComponent = class _DxoCardViewEditingTextsComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewEditingTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-editing-texts",
       standalone: true,
@@ -125781,7 +125791,7 @@ var DxoCardViewEditingComponent = class _DxoCardViewEditingComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewEditingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-editing",
       standalone: true,
@@ -125918,7 +125928,7 @@ var DxiCardViewEmailRuleComponent = class _DxiCardViewEmailRuleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewEmailRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-email-rule",
       standalone: true,
@@ -126057,7 +126067,7 @@ var DxiCardViewEmptyItemComponent = class _DxiCardViewEmptyItemComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewEmptyItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-empty-item",
       standalone: true,
@@ -126253,7 +126263,7 @@ var DxiCardViewFieldComponent = class _DxiCardViewFieldComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewFieldComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-field",
       standalone: true,
@@ -126597,7 +126607,7 @@ var DxoCardViewFilterBuilderComponent = class _DxoCardViewFilterBuilderComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFilterBuilderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-filter-builder",
       standalone: true,
@@ -126864,7 +126874,7 @@ var DxoCardViewFilterOperationDescriptionsComponent = class _DxoCardViewFilterOp
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFilterOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-filter-operation-descriptions",
       standalone: true,
@@ -127008,7 +127018,7 @@ var DxoCardViewFilterPanelTextsComponent = class _DxoCardViewFilterPanelTextsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFilterPanelTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-filter-panel-texts",
       standalone: true,
@@ -127141,7 +127151,7 @@ var DxoCardViewFilterPanelComponent = class _DxoCardViewFilterPanelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFilterPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-filter-panel",
       standalone: true,
@@ -127368,7 +127378,7 @@ var DxoCardViewFormItemComponent = class _DxoCardViewFormItemComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFormItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-form-item",
       standalone: true,
@@ -127818,7 +127828,7 @@ var DxoCardViewFormComponent = class _DxoCardViewFormComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFormComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-form",
       standalone: true,
@@ -128071,7 +128081,7 @@ var DxoCardViewFormatComponent = class _DxoCardViewFormatComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-format",
       standalone: true,
@@ -128208,7 +128218,7 @@ var DxoCardViewFromComponent = class _DxoCardViewFromComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-from",
       standalone: true,
@@ -128429,7 +128439,7 @@ var DxiCardViewGroupItemComponent = class _DxiCardViewGroupItemComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewGroupItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-group-item",
       standalone: true,
@@ -128603,7 +128613,7 @@ var DxoCardViewGroupOperationDescriptionsComponent = class _DxoCardViewGroupOper
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewGroupOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-group-operation-descriptions",
       standalone: true,
@@ -128776,7 +128786,7 @@ var DxoCardViewHeaderFilterComponent = class _DxoCardViewHeaderFilterComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-header-filter",
       standalone: true,
@@ -128921,7 +128931,7 @@ var DxoCardViewHeaderPanelComponent = class _DxoCardViewHeaderPanelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewHeaderPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-header-panel",
       standalone: true,
@@ -129087,7 +129097,7 @@ var DxoCardViewHideComponent = class _DxoCardViewHideComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-hide",
       standalone: true,
@@ -129507,7 +129517,7 @@ var DxiCardViewItemComponent = class _DxiCardViewItemComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-item",
       standalone: true,
@@ -129796,7 +129806,7 @@ var DxoCardViewLabelComponent = class _DxoCardViewLabelComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-label",
       standalone: true,
@@ -130166,7 +130176,7 @@ var DxoCardViewLoadPanelComponent = class _DxoCardViewLoadPanelComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewLoadPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-load-panel",
       standalone: true,
@@ -130383,7 +130393,7 @@ var DxoCardViewLookupComponent = class _DxoCardViewLookupComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewLookupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-lookup",
       standalone: true,
@@ -130493,7 +130503,7 @@ var DxoCardViewMyComponent = class _DxoCardViewMyComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-my",
       standalone: true,
@@ -130605,7 +130615,7 @@ var DxiCardViewNumericRuleComponent = class _DxiCardViewNumericRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewNumericRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-numeric-rule",
       standalone: true,
@@ -130715,7 +130725,7 @@ var DxoCardViewOffsetComponent = class _DxoCardViewOffsetComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-offset",
       standalone: true,
@@ -130861,7 +130871,7 @@ var DxoCardViewPagerComponent = class _DxoCardViewPagerComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewPagerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-pager",
       standalone: true,
@@ -131011,7 +131021,7 @@ var DxoCardViewPagingComponent = class _DxoCardViewPagingComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewPagingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-paging",
       standalone: true,
@@ -131139,7 +131149,7 @@ var DxiCardViewPatternRuleComponent = class _DxiCardViewPatternRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewPatternRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-pattern-rule",
       standalone: true,
@@ -131287,7 +131297,7 @@ var DxoCardViewPositionComponent = class _DxoCardViewPositionComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-position",
       standalone: true,
@@ -131435,7 +131445,7 @@ var DxiCardViewRangeRuleComponent = class _DxiCardViewRangeRuleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewRangeRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-range-rule",
       standalone: true,
@@ -131568,7 +131578,7 @@ var DxoCardViewRemoteOperationsComponent = class _DxoCardViewRemoteOperationsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewRemoteOperationsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-remote-operations",
       standalone: true,
@@ -131686,7 +131696,7 @@ var DxiCardViewRequiredRuleComponent = class _DxiCardViewRequiredRuleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewRequiredRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-required-rule",
       standalone: true,
@@ -131810,7 +131820,7 @@ var DxoCardViewScrollingComponent = class _DxoCardViewScrollingComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewScrollingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-scrolling",
       standalone: true,
@@ -131967,7 +131977,7 @@ var DxoCardViewSearchPanelComponent = class _DxoCardViewSearchPanelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewSearchPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-search-panel",
       standalone: true,
@@ -132110,7 +132120,7 @@ var DxoCardViewSearchComponent = class _DxoCardViewSearchComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-search",
       standalone: true,
@@ -132251,7 +132261,7 @@ var DxoCardViewSelectionComponent = class _DxoCardViewSelectionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewSelectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-selection",
       standalone: true,
@@ -132423,7 +132433,7 @@ var DxoCardViewShowComponent = class _DxoCardViewShowComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-show",
       standalone: true,
@@ -132666,7 +132676,7 @@ var DxiCardViewSimpleItemComponent = class _DxiCardViewSimpleItemComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewSimpleItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-simple-item",
       standalone: true,
@@ -132850,7 +132860,7 @@ var DxoCardViewSortingComponent = class _DxoCardViewSortingComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewSortingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-sorting",
       standalone: true,
@@ -132992,7 +133002,7 @@ var DxiCardViewStringLengthRuleComponent = class _DxiCardViewStringLengthRuleCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewStringLengthRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-string-length-rule",
       standalone: true,
@@ -133197,7 +133207,7 @@ var DxiCardViewTabComponent = class _DxiCardViewTabComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewTabComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-tab",
       standalone: true,
@@ -133415,7 +133425,7 @@ var DxiCardViewTabPanelOptionsItemComponent = class _DxiCardViewTabPanelOptionsI
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewTabPanelOptionsItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-tab-panel-options-item",
       standalone: true,
@@ -133902,7 +133912,7 @@ var DxoCardViewTabPanelOptionsComponent = class _DxoCardViewTabPanelOptionsCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewTabPanelOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-tab-panel-options",
       standalone: true,
@@ -134203,7 +134213,7 @@ var DxiCardViewTabbedItemComponent = class _DxiCardViewTabbedItemComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewTabbedItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-tabbed-item",
       standalone: true,
@@ -134402,7 +134412,7 @@ var DxoCardViewTextsComponent = class _DxoCardViewTextsComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-texts",
       standalone: true,
@@ -134557,7 +134567,7 @@ var DxoCardViewToComponent = class _DxoCardViewToComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-to",
       standalone: true,
@@ -134765,7 +134775,7 @@ var DxiCardViewToolbarItemComponent = class _DxiCardViewToolbarItemComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-toolbar-item",
       standalone: true,
@@ -134947,7 +134957,7 @@ var DxoCardViewToolbarComponent = class _DxoCardViewToolbarComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCardViewToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-card-view-toolbar",
       standalone: true,
@@ -135125,7 +135135,7 @@ var DxiCardViewValidationRuleComponent = class _DxiCardViewValidationRuleCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCardViewValidationRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-card-view-validation-rule",
       standalone: true,
@@ -136407,7 +136417,7 @@ var DxCardViewComponent = class _DxCardViewComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxCardViewComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-card-view",
       standalone: true,
@@ -141706,7 +141716,7 @@ var DxoChartAdaptiveLayoutComponent = class _DxoChartAdaptiveLayoutComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAdaptiveLayoutComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-adaptive-layout",
       standalone: true,
@@ -141862,7 +141872,7 @@ var DxoChartAggregationIntervalComponent = class _DxoChartAggregationIntervalCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAggregationIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-aggregation-interval",
       standalone: true,
@@ -141994,7 +142004,7 @@ var DxoChartAggregationComponent = class _DxoChartAggregationComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAggregationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-aggregation",
       standalone: true,
@@ -142115,7 +142125,7 @@ var DxoChartAnimationComponent = class _DxoChartAnimationComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-animation",
       standalone: true,
@@ -142253,7 +142263,7 @@ var DxoChartAnnotationBorderComponent = class _DxoChartAnnotationBorderComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAnnotationBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-annotation-border",
       standalone: true,
@@ -142597,7 +142607,7 @@ var DxiChartAnnotationComponent = class _DxiChartAnnotationComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartAnnotationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-annotation",
       standalone: true,
@@ -142817,7 +142827,7 @@ var DxoChartAnnotationImageComponent = class _DxoChartAnnotationImageComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAnnotationImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-annotation-image",
       standalone: true,
@@ -143296,7 +143306,7 @@ var DxoChartArgumentAxisComponent = class _DxoChartArgumentAxisComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartArgumentAxisComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-argument-axis",
       standalone: true,
@@ -143587,7 +143597,7 @@ var DxoChartArgumentFormatComponent = class _DxoChartArgumentFormatComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartArgumentFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-argument-format",
       standalone: true,
@@ -143724,7 +143734,7 @@ var DxoChartAxisConstantLineStyleLabelComponent = class _DxoChartAxisConstantLin
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAxisConstantLineStyleLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-axis-constant-line-style-label",
       standalone: true,
@@ -143865,7 +143875,7 @@ var DxoChartAxisConstantLineStyleComponent = class _DxoChartAxisConstantLineStyl
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAxisConstantLineStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-axis-constant-line-style",
       standalone: true,
@@ -144090,7 +144100,7 @@ var DxoChartAxisLabelComponent = class _DxoChartAxisLabelComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAxisLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-axis-label",
       standalone: true,
@@ -144277,7 +144287,7 @@ var DxoChartAxisTitleComponent = class _DxoChartAxisTitleComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartAxisTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-axis-title",
       standalone: true,
@@ -144393,7 +144403,7 @@ var DxoChartBackgroundColorComponent = class _DxoChartBackgroundColorComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartBackgroundColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-background-color",
       standalone: true,
@@ -144553,7 +144563,7 @@ var DxoChartBorderComponent = class _DxoChartBorderComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-border",
       standalone: true,
@@ -144681,7 +144691,7 @@ var DxiChartBreakComponent = class _DxiChartBreakComponent extends CollectionNes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartBreakComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-break",
       standalone: true,
@@ -144795,7 +144805,7 @@ var DxoChartBreakStyleComponent = class _DxoChartBreakStyleComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartBreakStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-break-style",
       standalone: true,
@@ -144923,7 +144933,7 @@ var DxoChartChartTitleSubtitleComponent = class _DxoChartChartTitleSubtitleCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartChartTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-chart-title-subtitle",
       standalone: true,
@@ -145085,7 +145095,7 @@ var DxoChartChartTitleComponent = class _DxoChartChartTitleComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartChartTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-chart-title",
       standalone: true,
@@ -145210,7 +145220,7 @@ var DxoChartColorComponent = class _DxoChartColorComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-color",
       standalone: true,
@@ -145535,7 +145545,7 @@ var DxoChartCommonAnnotationSettingsComponent = class _DxoChartCommonAnnotationS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonAnnotationSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-annotation-settings",
       standalone: true,
@@ -145749,7 +145759,7 @@ var DxoChartCommonAxisSettingsConstantLineStyleLabelComponent = class _DxoChartC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonAxisSettingsConstantLineStyleLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-axis-settings-constant-line-style-label",
       standalone: true,
@@ -145884,7 +145894,7 @@ var DxoChartCommonAxisSettingsConstantLineStyleComponent = class _DxoChartCommon
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonAxisSettingsConstantLineStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-axis-settings-constant-line-style",
       standalone: true,
@@ -146088,7 +146098,7 @@ var DxoChartCommonAxisSettingsLabelComponent = class _DxoChartCommonAxisSettings
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonAxisSettingsLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-axis-settings-label",
       standalone: true,
@@ -146259,7 +146269,7 @@ var DxoChartCommonAxisSettingsTitleComponent = class _DxoChartCommonAxisSettings
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonAxisSettingsTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-axis-settings-title",
       standalone: true,
@@ -146512,7 +146522,7 @@ var DxoChartCommonAxisSettingsComponent = class _DxoChartCommonAxisSettingsCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonAxisSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-axis-settings",
       standalone: true,
@@ -146676,7 +146686,7 @@ var DxoChartCommonPaneSettingsComponent = class _DxoChartCommonPaneSettingsCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonPaneSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-pane-settings",
       standalone: true,
@@ -146808,7 +146818,7 @@ var DxoChartCommonSeriesSettingsHoverStyleComponent = class _DxoChartCommonSerie
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonSeriesSettingsHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-series-settings-hover-style",
       standalone: true,
@@ -147015,7 +147025,7 @@ var DxoChartCommonSeriesSettingsLabelComponent = class _DxoChartCommonSeriesSett
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonSeriesSettingsLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-series-settings-label",
       standalone: true,
@@ -147186,7 +147196,7 @@ var DxoChartCommonSeriesSettingsSelectionStyleComponent = class _DxoChartCommonS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonSeriesSettingsSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-series-settings-selection-style",
       standalone: true,
@@ -147715,7 +147725,7 @@ var DxoChartCommonSeriesSettingsComponent = class _DxoChartCommonSeriesSettingsC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCommonSeriesSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-common-series-settings",
       standalone: true,
@@ -148003,7 +148013,7 @@ var DxoChartConnectorComponent = class _DxoChartConnectorComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartConnectorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-connector",
       standalone: true,
@@ -148159,7 +148169,7 @@ var DxiChartConstantLineComponent = class _DxiChartConstantLineComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartConstantLineComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-constant-line",
       standalone: true,
@@ -148315,7 +148325,7 @@ var DxoChartConstantLineLabelComponent = class _DxoChartConstantLineLabelCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartConstantLineLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-constant-line-label",
       standalone: true,
@@ -148459,7 +148469,7 @@ var DxoChartConstantLineStyleComponent = class _DxoChartConstantLineStyleCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartConstantLineStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-constant-line-style",
       standalone: true,
@@ -148617,7 +148627,7 @@ var DxoChartCrosshairComponent = class _DxoChartCrosshairComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartCrosshairComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-crosshair",
       standalone: true,
@@ -148746,7 +148756,7 @@ var DxoChartDataPrepareSettingsComponent = class _DxoChartDataPrepareSettingsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartDataPrepareSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-data-prepare-settings",
       standalone: true,
@@ -148853,7 +148863,7 @@ var DxoChartDragBoxStyleComponent = class _DxoChartDragBoxStyleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartDragBoxStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-drag-box-style",
       standalone: true,
@@ -148992,7 +149002,7 @@ var DxoChartExportComponent = class _DxoChartExportComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-export",
       standalone: true,
@@ -149132,7 +149142,7 @@ var DxoChartFontComponent = class _DxoChartFontComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-font",
       standalone: true,
@@ -149273,7 +149283,7 @@ var DxoChartFormatComponent = class _DxoChartFormatComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-format",
       standalone: true,
@@ -149403,7 +149413,7 @@ var DxoChartGridComponent = class _DxoChartGridComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartGridComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-grid",
       standalone: true,
@@ -149527,7 +149537,7 @@ var DxoChartHatchingComponent = class _DxoChartHatchingComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartHatchingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-hatching",
       standalone: true,
@@ -149637,7 +149647,7 @@ var DxoChartHeightComponent = class _DxoChartHeightComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartHeightComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-height",
       standalone: true,
@@ -149762,7 +149772,7 @@ var DxoChartHorizontalLineLabelComponent = class _DxoChartHorizontalLineLabelCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartHorizontalLineLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-horizontal-line-label",
       standalone: true,
@@ -149903,7 +149913,7 @@ var DxoChartHorizontalLineComponent = class _DxoChartHorizontalLineComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartHorizontalLineComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-horizontal-line",
       standalone: true,
@@ -150054,7 +150064,7 @@ var DxoChartHoverStyleComponent = class _DxoChartHoverStyleComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-hover-style",
       standalone: true,
@@ -150180,7 +150190,7 @@ var DxoChartImageComponent = class _DxoChartImageComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-image",
       standalone: true,
@@ -150473,7 +150483,7 @@ var DxoChartLabelComponent = class _DxoChartLabelComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-label",
       standalone: true,
@@ -150672,7 +150682,7 @@ var DxoChartLegendTitleSubtitleComponent = class _DxoChartLegendTitleSubtitleCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartLegendTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-legend-title-subtitle",
       standalone: true,
@@ -150814,7 +150824,7 @@ var DxoChartLegendTitleComponent = class _DxoChartLegendTitleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartLegendTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-legend-title",
       standalone: true,
@@ -151087,7 +151097,7 @@ var DxoChartLegendComponent = class _DxoChartLegendComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartLegendComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-legend",
       standalone: true,
@@ -151306,7 +151316,7 @@ var DxoChartLengthComponent = class _DxoChartLengthComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartLengthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-length",
       standalone: true,
@@ -151464,7 +151474,7 @@ var DxoChartLoadingIndicatorComponent = class _DxoChartLoadingIndicatorComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-loading-indicator",
       standalone: true,
@@ -151594,7 +151604,7 @@ var DxoChartMarginComponent = class _DxoChartMarginComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-margin",
       standalone: true,
@@ -151753,7 +151763,7 @@ var DxoChartMinVisualRangeLengthComponent = class _DxoChartMinVisualRangeLengthC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartMinVisualRangeLengthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-min-visual-range-length",
       standalone: true,
@@ -151892,7 +151902,7 @@ var DxoChartMinorGridComponent = class _DxoChartMinorGridComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartMinorGridComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-minor-grid",
       standalone: true,
@@ -152051,7 +152061,7 @@ var DxoChartMinorTickIntervalComponent = class _DxoChartMinorTickIntervalCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartMinorTickIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-minor-tick-interval",
       standalone: true,
@@ -152204,7 +152214,7 @@ var DxoChartMinorTickComponent = class _DxoChartMinorTickComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-minor-tick",
       standalone: true,
@@ -152369,7 +152379,7 @@ var DxoChartPaneBorderComponent = class _DxoChartPaneBorderComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartPaneBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-pane-border",
       standalone: true,
@@ -152508,7 +152518,7 @@ var DxiChartPaneComponent = class _DxiChartPaneComponent extends CollectionNeste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartPaneComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-pane",
       standalone: true,
@@ -152628,7 +152638,7 @@ var DxoChartPointBorderComponent = class _DxoChartPointBorderComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartPointBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-point-border",
       standalone: true,
@@ -152742,7 +152752,7 @@ var DxoChartPointHoverStyleComponent = class _DxoChartPointHoverStyleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartPointHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-point-hover-style",
       standalone: true,
@@ -152856,7 +152866,7 @@ var DxoChartPointImageComponent = class _DxoChartPointImageComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartPointImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-point-image",
       standalone: true,
@@ -152970,7 +152980,7 @@ var DxoChartPointSelectionStyleComponent = class _DxoChartPointSelectionStyleCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartPointSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-point-selection-style",
       standalone: true,
@@ -153133,7 +153143,7 @@ var DxoChartPointComponent = class _DxoChartPointComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartPointComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-point",
       standalone: true,
@@ -153261,7 +153271,7 @@ var DxoChartReductionComponent = class _DxoChartReductionComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartReductionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-reduction",
       standalone: true,
@@ -153393,7 +153403,7 @@ var DxoChartScrollBarComponent = class _DxoChartScrollBarComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartScrollBarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-scroll-bar",
       standalone: true,
@@ -153544,7 +153554,7 @@ var DxoChartSelectionStyleComponent = class _DxoChartSelectionStyleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-selection-style",
       standalone: true,
@@ -153677,7 +153687,7 @@ var DxoChartSeriesBorderComponent = class _DxoChartSeriesBorderComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartSeriesBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-series-border",
       standalone: true,
@@ -154053,7 +154063,7 @@ var DxiChartSeriesComponent = class _DxiChartSeriesComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartSeriesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-series",
       standalone: true,
@@ -154274,7 +154284,7 @@ var DxoChartSeriesTemplateComponent = class _DxoChartSeriesTemplateComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartSeriesTemplateComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-series-template",
       standalone: true,
@@ -154399,7 +154409,7 @@ var DxoChartShadowComponent = class _DxoChartShadowComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-shadow",
       standalone: true,
@@ -154512,7 +154522,7 @@ var DxoChartSizeComponent = class _DxoChartSizeComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-size",
       standalone: true,
@@ -154644,7 +154654,7 @@ var DxiChartStripComponent = class _DxiChartStripComponent extends CollectionNes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartStripComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-strip",
       standalone: true,
@@ -154777,7 +154787,7 @@ var DxoChartStripLabelComponent = class _DxoChartStripLabelComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartStripLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-strip-label",
       standalone: true,
@@ -154894,7 +154904,7 @@ var DxoChartStripStyleLabelComponent = class _DxoChartStripStyleLabelComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartStripStyleLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-strip-style-label",
       standalone: true,
@@ -155008,7 +155018,7 @@ var DxoChartStripStyleComponent = class _DxoChartStripStyleComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartStripStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-strip-style",
       standalone: true,
@@ -155136,7 +155146,7 @@ var DxoChartSubtitleComponent = class _DxoChartSubtitleComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-subtitle",
       standalone: true,
@@ -155298,7 +155308,7 @@ var DxoChartTickIntervalComponent = class _DxoChartTickIntervalComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartTickIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-tick-interval",
       standalone: true,
@@ -155451,7 +155461,7 @@ var DxoChartTickComponent = class _DxoChartTickComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-tick",
       standalone: true,
@@ -155623,7 +155633,7 @@ var DxoChartTitleComponent = class _DxoChartTitleComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-title",
       standalone: true,
@@ -155772,7 +155782,7 @@ var DxoChartTooltipBorderComponent = class _DxoChartTooltipBorderComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-tooltip-border",
       standalone: true,
@@ -156004,7 +156014,7 @@ var DxoChartTooltipComponent = class _DxoChartTooltipComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-tooltip",
       standalone: true,
@@ -156159,7 +156169,7 @@ var DxoChartUrlComponent = class _DxoChartUrlComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartUrlComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-url",
       standalone: true,
@@ -156628,7 +156638,7 @@ var DxiChartValueAxisComponent = class _DxiChartValueAxisComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChartValueAxisComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chart-value-axis",
       standalone: true,
@@ -156940,7 +156950,7 @@ var DxoChartValueErrorBarComponent = class _DxoChartValueErrorBarComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartValueErrorBarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-value-error-bar",
       standalone: true,
@@ -157093,7 +157103,7 @@ var DxoChartVerticalLineComponent = class _DxoChartVerticalLineComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartVerticalLineComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-vertical-line",
       standalone: true,
@@ -157237,7 +157247,7 @@ var DxoChartVisualRangeComponent = class _DxoChartVisualRangeComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartVisualRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-visual-range",
       standalone: true,
@@ -157378,7 +157388,7 @@ var DxoChartWholeRangeComponent = class _DxoChartWholeRangeComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartWholeRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-whole-range",
       standalone: true,
@@ -157491,7 +157501,7 @@ var DxoChartWidthComponent = class _DxoChartWidthComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartWidthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-width",
       standalone: true,
@@ -157630,7 +157640,7 @@ var DxoChartZoomAndPanComponent = class _DxoChartZoomAndPanComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChartZoomAndPanComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chart-zoom-and-pan",
       standalone: true,
@@ -159068,7 +159078,7 @@ var DxChartComponent = class _DxChartComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxChartComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-chart",
       standalone: true,
@@ -159532,7 +159542,7 @@ function invokeConditionally(cancelResult, callback, cancelCallback) {
     const callbackToInvoke = cancel ? cancelCallback : callback;
     null === callbackToInvoke || void 0 === callbackToInvoke || callbackToInvoke();
   };
-  if (isPromise(cancelResult)) {
+  if (isPromise2(cancelResult)) {
     cancelResult.then(invokeCallback).catch(callback);
   } else {
     invokeCallback(Boolean(cancelResult));
@@ -162277,7 +162287,7 @@ var DxiChatAlertComponent = class _DxiChatAlertComponent extends CollectionNeste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChatAlertComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chat-alert",
       standalone: true,
@@ -162398,7 +162408,7 @@ var DxoChatAuthorComponent = class _DxoChatAuthorComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChatAuthorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chat-author",
       standalone: true,
@@ -162536,7 +162546,7 @@ var DxoChatDayHeaderFormatComponent = class _DxoChatDayHeaderFormatComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChatDayHeaderFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chat-day-header-format",
       standalone: true,
@@ -162652,7 +162662,7 @@ var DxoChatEditingComponent = class _DxoChatEditingComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChatEditingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chat-editing",
       standalone: true,
@@ -162805,7 +162815,7 @@ var DxiChatItemComponent = class _DxiChatItemComponent extends CollectionNestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChatItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chat-item",
       standalone: true,
@@ -162961,7 +162971,7 @@ var DxoChatMessageTimestampFormatComponent = class _DxoChatMessageTimestampForma
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChatMessageTimestampFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chat-message-timestamp-format",
       standalone: true,
@@ -163091,7 +163101,7 @@ var DxiChatTypingUserComponent = class _DxiChatTypingUserComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiChatTypingUserComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-chat-typing-user",
       standalone: true,
@@ -163218,7 +163228,7 @@ var DxoChatUserComponent = class _DxoChatUserComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoChatUserComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-chat-user",
       standalone: true,
@@ -164004,7 +164014,7 @@ var DxChatComponent = class _DxChatComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxChatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-chat",
       standalone: true,
@@ -164930,7 +164940,7 @@ var DxCheckBoxComponent = class _DxCheckBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxCheckBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-check-box",
       standalone: true,
@@ -165227,7 +165237,7 @@ var DxoCircularGaugeAnimationComponent = class _DxoCircularGaugeAnimationCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-animation",
       standalone: true,
@@ -165334,7 +165344,7 @@ var DxoCircularGaugeBackgroundColorComponent = class _DxoCircularGaugeBackground
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeBackgroundColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-background-color",
       standalone: true,
@@ -165459,7 +165469,7 @@ var DxoCircularGaugeBorderComponent = class _DxoCircularGaugeBorderComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-border",
       standalone: true,
@@ -165572,7 +165582,7 @@ var DxoCircularGaugeColorComponent = class _DxoCircularGaugeColorComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-color",
       standalone: true,
@@ -165711,7 +165721,7 @@ var DxoCircularGaugeExportComponent = class _DxoCircularGaugeExportComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-export",
       standalone: true,
@@ -165851,7 +165861,7 @@ var DxoCircularGaugeFontComponent = class _DxoCircularGaugeFontComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-font",
       standalone: true,
@@ -165992,7 +166002,7 @@ var DxoCircularGaugeFormatComponent = class _DxoCircularGaugeFormatComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-format",
       standalone: true,
@@ -166108,7 +166118,7 @@ var DxoCircularGaugeGeometryComponent = class _DxoCircularGaugeGeometryComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeGeometryComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-geometry",
       standalone: true,
@@ -166254,7 +166264,7 @@ var DxoCircularGaugeLabelComponent = class _DxoCircularGaugeLabelComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-label",
       standalone: true,
@@ -166402,7 +166412,7 @@ var DxoCircularGaugeLoadingIndicatorComponent = class _DxoCircularGaugeLoadingIn
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-loading-indicator",
       standalone: true,
@@ -166529,7 +166539,7 @@ var DxoCircularGaugeMarginComponent = class _DxoCircularGaugeMarginComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-margin",
       standalone: true,
@@ -166660,7 +166670,7 @@ var DxoCircularGaugeMinorTickComponent = class _DxoCircularGaugeMinorTickCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-minor-tick",
       standalone: true,
@@ -166820,7 +166830,7 @@ var DxoCircularGaugeRangeContainerComponent = class _DxoCircularGaugeRangeContai
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeRangeContainerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-range-container",
       standalone: true,
@@ -166950,7 +166960,7 @@ var DxiCircularGaugeRangeComponent = class _DxiCircularGaugeRangeComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiCircularGaugeRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-circular-gauge-range",
       standalone: true,
@@ -167130,7 +167140,7 @@ var DxoCircularGaugeScaleComponent = class _DxoCircularGaugeScaleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeScaleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-scale",
       standalone: true,
@@ -167285,7 +167295,7 @@ var DxoCircularGaugeShadowComponent = class _DxoCircularGaugeShadowComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-shadow",
       standalone: true,
@@ -167398,7 +167408,7 @@ var DxoCircularGaugeSizeComponent = class _DxoCircularGaugeSizeComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-size",
       standalone: true,
@@ -167523,7 +167533,7 @@ var DxoCircularGaugeSubtitleComponent = class _DxoCircularGaugeSubtitleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-subtitle",
       standalone: true,
@@ -167755,7 +167765,7 @@ var DxoCircularGaugeSubvalueIndicatorComponent = class _DxoCircularGaugeSubvalue
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeSubvalueIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-subvalue-indicator",
       standalone: true,
@@ -167924,7 +167934,7 @@ var DxoCircularGaugeTextComponent = class _DxoCircularGaugeTextComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeTextComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-text",
       standalone: true,
@@ -168055,7 +168065,7 @@ var DxoCircularGaugeTickComponent = class _DxoCircularGaugeTickComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-tick",
       standalone: true,
@@ -168217,7 +168227,7 @@ var DxoCircularGaugeTitleComponent = class _DxoCircularGaugeTitleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-title",
       standalone: true,
@@ -168440,7 +168450,7 @@ var DxoCircularGaugeTooltipComponent = class _DxoCircularGaugeTooltipComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-tooltip",
       standalone: true,
@@ -168705,7 +168715,7 @@ var DxoCircularGaugeValueIndicatorComponent = class _DxoCircularGaugeValueIndica
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoCircularGaugeValueIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-circular-gauge-value-indicator",
       standalone: true,
@@ -169438,7 +169448,7 @@ var DxCircularGaugeComponent = class _DxCircularGaugeComponent extends DxCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxCircularGaugeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-circular-gauge",
       standalone: true,
@@ -170720,7 +170730,7 @@ var DxoColorBoxAnimationComponent = class _DxoColorBoxAnimationComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-animation",
       standalone: true,
@@ -170824,7 +170834,7 @@ var DxoColorBoxAtComponent = class _DxoColorBoxAtComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-at",
       standalone: true,
@@ -170928,7 +170938,7 @@ var DxoColorBoxBoundaryOffsetComponent = class _DxoColorBoxBoundaryOffsetCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-boundary-offset",
       standalone: true,
@@ -171039,7 +171049,7 @@ var DxiColorBoxButtonComponent = class _DxiColorBoxButtonComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiColorBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-color-box-button",
       standalone: true,
@@ -171149,7 +171159,7 @@ var DxoColorBoxCollisionComponent = class _DxoColorBoxCollisionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-collision",
       standalone: true,
@@ -171626,7 +171636,7 @@ var DxoColorBoxDropDownOptionsComponent = class _DxoColorBoxDropDownOptionsCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-drop-down-options",
       standalone: true,
@@ -171905,7 +171915,7 @@ var DxoColorBoxFromComponent = class _DxoColorBoxFromComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-from",
       standalone: true,
@@ -172074,7 +172084,7 @@ var DxoColorBoxHideComponent = class _DxoColorBoxHideComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-hide",
       standalone: true,
@@ -172202,7 +172212,7 @@ var DxoColorBoxMyComponent = class _DxoColorBoxMyComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-my",
       standalone: true,
@@ -172306,7 +172316,7 @@ var DxoColorBoxOffsetComponent = class _DxoColorBoxOffsetComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-offset",
       standalone: true,
@@ -172582,7 +172592,7 @@ var DxoColorBoxOptionsComponent = class _DxoColorBoxOptionsComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-options",
       standalone: true,
@@ -172803,7 +172813,7 @@ var DxoColorBoxPositionComponent = class _DxoColorBoxPositionComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-position",
       standalone: true,
@@ -172978,7 +172988,7 @@ var DxoColorBoxShowComponent = class _DxoColorBoxShowComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-show",
       standalone: true,
@@ -173127,7 +173137,7 @@ var DxoColorBoxToComponent = class _DxoColorBoxToComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoColorBoxToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-color-box-to",
       standalone: true,
@@ -173335,7 +173345,7 @@ var DxiColorBoxToolbarItemComponent = class _DxiColorBoxToolbarItemComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiColorBoxToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-color-box-toolbar-item",
       standalone: true,
@@ -174610,7 +174620,7 @@ var DxColorBoxComponent = class _DxColorBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxColorBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-color-box",
       standalone: true,
@@ -175047,7 +175057,7 @@ var DxoDateBoxAnimationComponent = class _DxoDateBoxAnimationComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-animation",
       standalone: true,
@@ -175151,7 +175161,7 @@ var DxoDateBoxAtComponent = class _DxoDateBoxAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-at",
       standalone: true,
@@ -175255,7 +175265,7 @@ var DxoDateBoxBoundaryOffsetComponent = class _DxoDateBoxBoundaryOffsetComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-boundary-offset",
       standalone: true,
@@ -175366,7 +175376,7 @@ var DxiDateBoxButtonComponent = class _DxiDateBoxButtonComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDateBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-date-box-button",
       standalone: true,
@@ -175763,7 +175773,7 @@ var DxoDateBoxCalendarOptionsComponent = class _DxoDateBoxCalendarOptionsCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxCalendarOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-calendar-options",
       standalone: true,
@@ -175987,7 +175997,7 @@ var DxoDateBoxCollisionComponent = class _DxoDateBoxCollisionComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-collision",
       standalone: true,
@@ -176119,7 +176129,7 @@ var DxoDateBoxDisplayFormatComponent = class _DxoDateBoxDisplayFormatComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxDisplayFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-display-format",
       standalone: true,
@@ -176608,7 +176618,7 @@ var DxoDateBoxDropDownOptionsComponent = class _DxoDateBoxDropDownOptionsCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-drop-down-options",
       standalone: true,
@@ -176887,7 +176897,7 @@ var DxoDateBoxFromComponent = class _DxoDateBoxFromComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-from",
       standalone: true,
@@ -177056,7 +177066,7 @@ var DxoDateBoxHideComponent = class _DxoDateBoxHideComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-hide",
       standalone: true,
@@ -177184,7 +177194,7 @@ var DxoDateBoxMyComponent = class _DxoDateBoxMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-my",
       standalone: true,
@@ -177288,7 +177298,7 @@ var DxoDateBoxOffsetComponent = class _DxoDateBoxOffsetComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-offset",
       standalone: true,
@@ -177564,7 +177574,7 @@ var DxoDateBoxOptionsComponent = class _DxoDateBoxOptionsComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-options",
       standalone: true,
@@ -177785,7 +177795,7 @@ var DxoDateBoxPositionComponent = class _DxoDateBoxPositionComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-position",
       standalone: true,
@@ -177960,7 +177970,7 @@ var DxoDateBoxShowComponent = class _DxoDateBoxShowComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-show",
       standalone: true,
@@ -178109,7 +178119,7 @@ var DxoDateBoxToComponent = class _DxoDateBoxToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateBoxToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-box-to",
       standalone: true,
@@ -178317,7 +178327,7 @@ var DxiDateBoxToolbarItemComponent = class _DxiDateBoxToolbarItemComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDateBoxToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-date-box-toolbar-item",
       standalone: true,
@@ -179905,7 +179915,7 @@ var DxDateBoxComponent = class _DxDateBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxDateBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-date-box",
       standalone: true,
@@ -181723,7 +181733,7 @@ var DxoDateRangeBoxAnimationComponent = class _DxoDateRangeBoxAnimationComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-animation",
       standalone: true,
@@ -181827,7 +181837,7 @@ var DxoDateRangeBoxAtComponent = class _DxoDateRangeBoxAtComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-at",
       standalone: true,
@@ -181931,7 +181941,7 @@ var DxoDateRangeBoxBoundaryOffsetComponent = class _DxoDateRangeBoxBoundaryOffse
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-boundary-offset",
       standalone: true,
@@ -182042,7 +182052,7 @@ var DxiDateRangeBoxButtonComponent = class _DxiDateRangeBoxButtonComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDateRangeBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-date-range-box-button",
       standalone: true,
@@ -182439,7 +182449,7 @@ var DxoDateRangeBoxCalendarOptionsComponent = class _DxoDateRangeBoxCalendarOpti
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxCalendarOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-calendar-options",
       standalone: true,
@@ -182663,7 +182673,7 @@ var DxoDateRangeBoxCollisionComponent = class _DxoDateRangeBoxCollisionComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-collision",
       standalone: true,
@@ -182795,7 +182805,7 @@ var DxoDateRangeBoxDisplayFormatComponent = class _DxoDateRangeBoxDisplayFormatC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxDisplayFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-display-format",
       standalone: true,
@@ -183284,7 +183294,7 @@ var DxoDateRangeBoxDropDownOptionsComponent = class _DxoDateRangeBoxDropDownOpti
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-drop-down-options",
       standalone: true,
@@ -183563,7 +183573,7 @@ var DxoDateRangeBoxFromComponent = class _DxoDateRangeBoxFromComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-from",
       standalone: true,
@@ -183732,7 +183742,7 @@ var DxoDateRangeBoxHideComponent = class _DxoDateRangeBoxHideComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-hide",
       standalone: true,
@@ -183860,7 +183870,7 @@ var DxoDateRangeBoxMyComponent = class _DxoDateRangeBoxMyComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-my",
       standalone: true,
@@ -183964,7 +183974,7 @@ var DxoDateRangeBoxOffsetComponent = class _DxoDateRangeBoxOffsetComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-offset",
       standalone: true,
@@ -184240,7 +184250,7 @@ var DxoDateRangeBoxOptionsComponent = class _DxoDateRangeBoxOptionsComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-options",
       standalone: true,
@@ -184461,7 +184471,7 @@ var DxoDateRangeBoxPositionComponent = class _DxoDateRangeBoxPositionComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-position",
       standalone: true,
@@ -184636,7 +184646,7 @@ var DxoDateRangeBoxShowComponent = class _DxoDateRangeBoxShowComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-show",
       standalone: true,
@@ -184785,7 +184795,7 @@ var DxoDateRangeBoxToComponent = class _DxoDateRangeBoxToComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDateRangeBoxToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-date-range-box-to",
       standalone: true,
@@ -184993,7 +185003,7 @@ var DxiDateRangeBoxToolbarItemComponent = class _DxiDateRangeBoxToolbarItemCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDateRangeBoxToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-date-range-box-toolbar-item",
       standalone: true,
@@ -186661,7 +186671,7 @@ var DxDateRangeBoxComponent = class _DxDateRangeBoxComponent extends DxComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxDateRangeBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-date-range-box",
       standalone: true,
@@ -187193,7 +187203,7 @@ var DeferRendering = class extends widget_default {
     const $element = this.$element();
     const renderWhen = this.option("renderWhen");
     const doRender = () => that._renderDeferredContent();
-    if (isPromise(renderWhen)) {
+    if (isPromise2(renderWhen)) {
       fromPromise(renderWhen).done(doRender);
     } else {
       $element.data("dx-render-delegate", doRender);
@@ -187477,7 +187487,7 @@ var DxoDeferRenderingAnimationComponent = class _DxoDeferRenderingAnimationCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-animation",
       standalone: true,
@@ -187605,7 +187615,7 @@ var DxoDeferRenderingAtComponent = class _DxoDeferRenderingAtComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-at",
       standalone: true,
@@ -187709,7 +187719,7 @@ var DxoDeferRenderingBoundaryOffsetComponent = class _DxoDeferRenderingBoundaryO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-boundary-offset",
       standalone: true,
@@ -187813,7 +187823,7 @@ var DxoDeferRenderingCollisionComponent = class _DxoDeferRenderingCollisionCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-collision",
       standalone: true,
@@ -187938,7 +187948,7 @@ var DxoDeferRenderingFromComponent = class _DxoDeferRenderingFromComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-from",
       standalone: true,
@@ -188051,7 +188061,7 @@ var DxoDeferRenderingMyComponent = class _DxoDeferRenderingMyComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-my",
       standalone: true,
@@ -188155,7 +188165,7 @@ var DxoDeferRenderingOffsetComponent = class _DxoDeferRenderingOffsetComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-offset",
       standalone: true,
@@ -188294,7 +188304,7 @@ var DxoDeferRenderingPositionComponent = class _DxoDeferRenderingPositionCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-position",
       standalone: true,
@@ -188434,7 +188444,7 @@ var DxoDeferRenderingToComponent = class _DxoDeferRenderingToComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDeferRenderingToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-defer-rendering-to",
       standalone: true,
@@ -188922,7 +188932,7 @@ var DxDeferRenderingComponent = class _DxDeferRenderingComponent extends DxCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxDeferRenderingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-defer-rendering",
       standalone: true,
@@ -191233,7 +191243,7 @@ function getExpandedLevel(options, axisName) {
   return expandedLevel;
 }
 function createGroupFields(item) {
-  return map(["year", "quarter", "month"], ((value2, index2) => extend({}, item, {
+  return map2(["year", "quarter", "month"], ((value2, index2) => extend({}, item, {
     groupInterval: value2,
     groupIndex: index2
   })));
@@ -194520,7 +194530,7 @@ var DiagramDialogManager = {
 var ui_diagram_dialog_manager_default = DiagramDialogManager;
 
 // node_modules/devextreme/esm/ui/diagram/diagram.items_option.js
-var ItemsOptionBase = Component.inherit({}).include(m_data_helper_default);
+var ItemsOptionBase = Component2.inherit({}).include(m_data_helper_default);
 var ItemsOption = class extends ItemsOptionBase {
   constructor(diagramWidget) {
     super();
@@ -197006,7 +197016,7 @@ var DxoDiagramAutoLayoutComponent = class _DxoDiagramAutoLayoutComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramAutoLayoutComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-auto-layout",
       standalone: true,
@@ -197143,7 +197153,7 @@ var DxiDiagramCommandComponent = class _DxiDiagramCommandComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramCommandComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-command",
       standalone: true,
@@ -197296,7 +197306,7 @@ var DxiDiagramCommandItemComponent = class _DxiDiagramCommandItemComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramCommandItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-command-item",
       standalone: true,
@@ -197416,7 +197426,7 @@ var DxiDiagramConnectionPointComponent = class _DxiDiagramConnectionPointCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramConnectionPointComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-connection-point",
       standalone: true,
@@ -197535,7 +197545,7 @@ var DxoDiagramContextMenuComponent = class _DxoDiagramContextMenuComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramContextMenuComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-context-menu",
       standalone: true,
@@ -197671,7 +197681,7 @@ var DxoDiagramContextToolboxComponent = class _DxoDiagramContextToolboxComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramContextToolboxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-context-toolbox",
       standalone: true,
@@ -198069,7 +198079,7 @@ var DxiDiagramCustomShapeComponent = class _DxiDiagramCustomShapeComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramCustomShapeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-custom-shape",
       standalone: true,
@@ -198353,7 +198363,7 @@ var DxoDiagramDefaultItemPropertiesComponent = class _DxoDiagramDefaultItemPrope
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramDefaultItemPropertiesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-default-item-properties",
       standalone: true,
@@ -198576,7 +198586,7 @@ var DxoDiagramEdgesComponent = class _DxoDiagramEdgesComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramEdgesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-edges",
       standalone: true,
@@ -198771,7 +198781,7 @@ var DxoDiagramEditingComponent = class _DxoDiagramEditingComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramEditingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-editing",
       standalone: true,
@@ -198889,7 +198899,7 @@ var DxoDiagramExportComponent = class _DxoDiagramExportComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-export",
       standalone: true,
@@ -199002,7 +199012,7 @@ var DxoDiagramGridSizeComponent = class _DxoDiagramGridSizeComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramGridSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-grid-size",
       standalone: true,
@@ -199149,7 +199159,7 @@ var DxiDiagramGroupComponent = class _DxiDiagramGroupComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-group",
       standalone: true,
@@ -199284,7 +199294,7 @@ var DxoDiagramHistoryToolbarComponent = class _DxoDiagramHistoryToolbarComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramHistoryToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-history-toolbar",
       standalone: true,
@@ -199439,7 +199449,7 @@ var DxiDiagramItemComponent = class _DxiDiagramItemComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-item",
       standalone: true,
@@ -199577,7 +199587,7 @@ var DxoDiagramMainToolbarComponent = class _DxoDiagramMainToolbarComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramMainToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-main-toolbar",
       standalone: true,
@@ -199811,7 +199821,7 @@ var DxoDiagramNodesComponent = class _DxoDiagramNodesComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramNodesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-nodes",
       standalone: true,
@@ -199976,7 +199986,7 @@ var DxiDiagramPageSizeItemComponent = class _DxiDiagramPageSizeItemComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramPageSizeItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-page-size-item",
       standalone: true,
@@ -200126,7 +200136,7 @@ var DxoDiagramPageSizeComponent = class _DxoDiagramPageSizeComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramPageSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-page-size",
       standalone: true,
@@ -200255,7 +200265,7 @@ var DxoDiagramPropertiesPanelComponent = class _DxoDiagramPropertiesPanelCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramPropertiesPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-properties-panel",
       standalone: true,
@@ -200387,7 +200397,7 @@ var DxiDiagramTabComponent = class _DxiDiagramTabComponent extends CollectionNes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramTabComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-tab",
       standalone: true,
@@ -200517,7 +200527,7 @@ var DxiDiagramTabGroupComponent = class _DxiDiagramTabGroupComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramTabGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-tab-group",
       standalone: true,
@@ -200649,7 +200659,7 @@ var DxiDiagramToolboxGroupComponent = class _DxiDiagramToolboxGroupComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDiagramToolboxGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-diagram-toolbox-group",
       standalone: true,
@@ -200798,7 +200808,7 @@ var DxoDiagramToolboxComponent = class _DxoDiagramToolboxComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramToolboxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-toolbox",
       standalone: true,
@@ -200927,7 +200937,7 @@ var DxoDiagramViewToolbarComponent = class _DxoDiagramViewToolbarComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramViewToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-view-toolbar",
       standalone: true,
@@ -201047,7 +201057,7 @@ var DxoDiagramZoomLevelComponent = class _DxoDiagramZoomLevelComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDiagramZoomLevelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-diagram-zoom-level",
       standalone: true,
@@ -202037,7 +202047,7 @@ var DxDiagramComponent = class _DxDiagramComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxDiagramComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-diagram",
       standalone: true,
@@ -202418,7 +202428,7 @@ var DxoDraggableCursorOffsetComponent = class _DxoDraggableCursorOffsetComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDraggableCursorOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-draggable-cursor-offset",
       standalone: true,
@@ -202903,7 +202913,7 @@ var DxDraggableComponent = class _DxDraggableComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxDraggableComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-draggable",
       standalone: true,
@@ -203149,7 +203159,7 @@ var DropDownBox = class extends m_drop_down_editor_default {
     const currentValue = this._getCurrentValue();
     let keys = currentValue ?? [];
     keys = Array.isArray(keys) ? keys : [keys];
-    const itemLoadDeferreds = map(keys, ((key) => {
+    const itemLoadDeferreds = map2(keys, ((key) => {
       const deferred = Deferred();
       this._loadItem(key).always(((item) => {
         const displayValue = this._displayGetter(item);
@@ -203375,7 +203385,7 @@ var DxoDropDownBoxAnimationComponent = class _DxoDropDownBoxAnimationComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-animation",
       standalone: true,
@@ -203479,7 +203489,7 @@ var DxoDropDownBoxAtComponent = class _DxoDropDownBoxAtComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-at",
       standalone: true,
@@ -203583,7 +203593,7 @@ var DxoDropDownBoxBoundaryOffsetComponent = class _DxoDropDownBoxBoundaryOffsetC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-boundary-offset",
       standalone: true,
@@ -203694,7 +203704,7 @@ var DxiDropDownBoxButtonComponent = class _DxiDropDownBoxButtonComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDropDownBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-drop-down-box-button",
       standalone: true,
@@ -203804,7 +203814,7 @@ var DxoDropDownBoxCollisionComponent = class _DxoDropDownBoxCollisionComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-collision",
       standalone: true,
@@ -204281,7 +204291,7 @@ var DxoDropDownBoxDropDownOptionsComponent = class _DxoDropDownBoxDropDownOption
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-drop-down-options",
       standalone: true,
@@ -204560,7 +204570,7 @@ var DxoDropDownBoxFromComponent = class _DxoDropDownBoxFromComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-from",
       standalone: true,
@@ -204729,7 +204739,7 @@ var DxoDropDownBoxHideComponent = class _DxoDropDownBoxHideComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-hide",
       standalone: true,
@@ -204857,7 +204867,7 @@ var DxoDropDownBoxMyComponent = class _DxoDropDownBoxMyComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-my",
       standalone: true,
@@ -204961,7 +204971,7 @@ var DxoDropDownBoxOffsetComponent = class _DxoDropDownBoxOffsetComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-offset",
       standalone: true,
@@ -205237,7 +205247,7 @@ var DxoDropDownBoxOptionsComponent = class _DxoDropDownBoxOptionsComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-options",
       standalone: true,
@@ -205458,7 +205468,7 @@ var DxoDropDownBoxPositionComponent = class _DxoDropDownBoxPositionComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-position",
       standalone: true,
@@ -205633,7 +205643,7 @@ var DxoDropDownBoxShowComponent = class _DxoDropDownBoxShowComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-show",
       standalone: true,
@@ -205782,7 +205792,7 @@ var DxoDropDownBoxToComponent = class _DxoDropDownBoxToComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoDropDownBoxToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-drop-down-box-to",
       standalone: true,
@@ -205990,7 +206000,7 @@ var DxiDropDownBoxToolbarItemComponent = class _DxiDropDownBoxToolbarItemCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiDropDownBoxToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-drop-down-box-toolbar-item",
       standalone: true,
@@ -207340,7 +207350,7 @@ var DxDropDownBoxComponent = class _DxDropDownBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxDropDownBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-drop-down-box",
       standalone: true,
@@ -208057,7 +208067,7 @@ var FileSystemProviderBase = class {
     const deferred = new Deferred();
     try {
       const result = action();
-      if (isPromise(result)) {
+      if (isPromise2(result)) {
         fromPromise(result).done(((userResult) => deferred.resolve(keepResult && userResult || void 0))).fail(((error) => deferred.reject(error)));
       } else {
         deferred.resolve(keepResult && result || void 0);
@@ -209217,7 +209227,7 @@ var FileItemsController = class {
         errorText: args.errorText,
         errorCode: args.errorCode
       });
-    } else if (isPromise(args.cancel)) {
+    } else if (isPromise2(args.cancel)) {
       when(args.cancel).then(((res) => {
         if (true === res) {
           deferred.reject();
@@ -215502,7 +215512,7 @@ var DxiFileManagerColumnComponent = class _DxiFileManagerColumnComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFileManagerColumnComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-file-manager-column",
       standalone: true,
@@ -215704,7 +215714,7 @@ var DxiFileManagerContextMenuItemComponent = class _DxiFileManagerContextMenuIte
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFileManagerContextMenuItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-file-manager-context-menu-item",
       standalone: true,
@@ -215844,7 +215854,7 @@ var DxoFileManagerContextMenuComponent = class _DxoFileManagerContextMenuCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerContextMenuComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-context-menu",
       standalone: true,
@@ -215954,7 +215964,7 @@ var DxoFileManagerDetailsComponent = class _DxoFileManagerDetailsComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerDetailsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-details",
       standalone: true,
@@ -216122,7 +216132,7 @@ var DxiFileManagerFileSelectionItemComponent = class _DxiFileManagerFileSelectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFileManagerFileSelectionItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-file-manager-file-selection-item",
       standalone: true,
@@ -216366,7 +216376,7 @@ var DxiFileManagerItemComponent = class _DxiFileManagerItemComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFileManagerItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-file-manager-item",
       standalone: true,
@@ -216533,7 +216543,7 @@ var DxoFileManagerItemViewComponent = class _DxoFileManagerItemViewComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerItemViewComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-item-view",
       standalone: true,
@@ -216643,7 +216653,7 @@ var DxoFileManagerNotificationsComponent = class _DxoFileManagerNotificationsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerNotificationsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-notifications",
       standalone: true,
@@ -216782,7 +216792,7 @@ var DxoFileManagerPermissionsComponent = class _DxoFileManagerPermissionsCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerPermissionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-permissions",
       standalone: true,
@@ -216964,7 +216974,7 @@ var DxiFileManagerToolbarItemComponent = class _DxiFileManagerToolbarItemCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFileManagerToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-file-manager-toolbar-item",
       standalone: true,
@@ -217115,7 +217125,7 @@ var DxoFileManagerToolbarComponent = class _DxoFileManagerToolbarComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-toolbar",
       standalone: true,
@@ -217227,7 +217237,7 @@ var DxoFileManagerUploadComponent = class _DxoFileManagerUploadComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFileManagerUploadComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-file-manager-upload",
       standalone: true,
@@ -218208,7 +218218,7 @@ var DxFileManagerComponent = class _DxFileManagerComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxFileManagerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-file-manager",
       standalone: true,
@@ -219794,7 +219804,7 @@ var DxFileUploaderComponent = class _DxFileUploaderComponent extends DxComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxFileUploaderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-file-uploader",
       standalone: true,
@@ -220300,7 +220310,7 @@ var DxiFilterBuilderCustomOperationComponent = class _DxiFilterBuilderCustomOper
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFilterBuilderCustomOperationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-filter-builder-custom-operation",
       standalone: true,
@@ -220502,7 +220512,7 @@ var DxiFilterBuilderFieldComponent = class _DxiFilterBuilderFieldComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiFilterBuilderFieldComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-filter-builder-field",
       standalone: true,
@@ -220719,7 +220729,7 @@ var DxoFilterBuilderFilterOperationDescriptionsComponent = class _DxoFilterBuild
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFilterBuilderFilterOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-filter-builder-filter-operation-descriptions",
       standalone: true,
@@ -220884,7 +220894,7 @@ var DxoFilterBuilderFormatComponent = class _DxoFilterBuilderFormatComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFilterBuilderFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-filter-builder-format",
       standalone: true,
@@ -221014,7 +221024,7 @@ var DxoFilterBuilderGroupOperationDescriptionsComponent = class _DxoFilterBuilde
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFilterBuilderGroupOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-filter-builder-group-operation-descriptions",
       standalone: true,
@@ -221138,7 +221148,7 @@ var DxoFilterBuilderLookupComponent = class _DxoFilterBuilderLookupComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFilterBuilderLookupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-filter-builder-lookup",
       standalone: true,
@@ -221812,7 +221822,7 @@ var DxFilterBuilderComponent = class _DxFilterBuilderComponent extends DxCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxFilterBuilderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-filter-builder",
       standalone: true,
@@ -223048,7 +223058,7 @@ var DxoFunnelAdaptiveLayoutComponent = class _DxoFunnelAdaptiveLayoutComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelAdaptiveLayoutComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-adaptive-layout",
       standalone: true,
@@ -223183,7 +223193,7 @@ var DxoFunnelBorderComponent = class _DxoFunnelBorderComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-border",
       standalone: true,
@@ -223313,7 +223323,7 @@ var DxoFunnelConnectorComponent = class _DxoFunnelConnectorComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelConnectorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-connector",
       standalone: true,
@@ -223458,7 +223468,7 @@ var DxoFunnelExportComponent = class _DxoFunnelExportComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-export",
       standalone: true,
@@ -223598,7 +223608,7 @@ var DxoFunnelFontComponent = class _DxoFunnelFontComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-font",
       standalone: true,
@@ -223739,7 +223749,7 @@ var DxoFunnelFormatComponent = class _DxoFunnelFormatComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-format",
       standalone: true,
@@ -223876,7 +223886,7 @@ var DxoFunnelFunnelTitleSubtitleComponent = class _DxoFunnelFunnelTitleSubtitleC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelFunnelTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-funnel-title-subtitle",
       standalone: true,
@@ -224038,7 +224048,7 @@ var DxoFunnelFunnelTitleComponent = class _DxoFunnelFunnelTitleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelFunnelTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-funnel-title",
       standalone: true,
@@ -224177,7 +224187,7 @@ var DxoFunnelHatchingComponent = class _DxoFunnelHatchingComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelHatchingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-hatching",
       standalone: true,
@@ -224287,7 +224297,7 @@ var DxoFunnelHoverStyleComponent = class _DxoFunnelHoverStyleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-hover-style",
       standalone: true,
@@ -224398,7 +224408,7 @@ var DxoFunnelItemBorderComponent = class _DxoFunnelItemBorderComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelItemBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-item-border",
       standalone: true,
@@ -224512,7 +224522,7 @@ var DxoFunnelItemComponent = class _DxoFunnelItemComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-item",
       standalone: true,
@@ -224633,7 +224643,7 @@ var DxoFunnelLabelBorderComponent = class _DxoFunnelLabelBorderComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLabelBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-label-border",
       standalone: true,
@@ -224820,7 +224830,7 @@ var DxoFunnelLabelComponent = class _DxoFunnelLabelComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-label",
       standalone: true,
@@ -224985,7 +224995,7 @@ var DxoFunnelLegendBorderComponent = class _DxoFunnelLegendBorderComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLegendBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-legend-border",
       standalone: true,
@@ -225108,7 +225118,7 @@ var DxoFunnelLegendTitleSubtitleComponent = class _DxoFunnelLegendTitleSubtitleC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLegendTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-legend-title-subtitle",
       standalone: true,
@@ -225250,7 +225260,7 @@ var DxoFunnelLegendTitleComponent = class _DxoFunnelLegendTitleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLegendTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-legend-title",
       standalone: true,
@@ -225509,7 +225519,7 @@ var DxoFunnelLegendComponent = class _DxoFunnelLegendComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLegendComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-legend",
       standalone: true,
@@ -225706,7 +225716,7 @@ var DxoFunnelLoadingIndicatorComponent = class _DxoFunnelLoadingIndicatorCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-loading-indicator",
       standalone: true,
@@ -225836,7 +225846,7 @@ var DxoFunnelMarginComponent = class _DxoFunnelMarginComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-margin",
       standalone: true,
@@ -225946,7 +225956,7 @@ var DxoFunnelSelectionStyleComponent = class _DxoFunnelSelectionStyleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-selection-style",
       standalone: true,
@@ -226071,7 +226081,7 @@ var DxoFunnelShadowComponent = class _DxoFunnelShadowComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-shadow",
       standalone: true,
@@ -226184,7 +226194,7 @@ var DxoFunnelSizeComponent = class _DxoFunnelSizeComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-size",
       standalone: true,
@@ -226309,7 +226319,7 @@ var DxoFunnelSubtitleComponent = class _DxoFunnelSubtitleComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-subtitle",
       standalone: true,
@@ -226471,7 +226481,7 @@ var DxoFunnelTitleComponent = class _DxoFunnelTitleComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-title",
       standalone: true,
@@ -226617,7 +226627,7 @@ var DxoFunnelTooltipBorderComponent = class _DxoFunnelTooltipBorderComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-tooltip-border",
       standalone: true,
@@ -226821,7 +226831,7 @@ var DxoFunnelTooltipComponent = class _DxoFunnelTooltipComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoFunnelTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-funnel-tooltip",
       standalone: true,
@@ -227714,7 +227724,7 @@ var DxFunnelComponent = class _DxFunnelComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxFunnelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-funnel",
       standalone: true,
@@ -229076,7 +229086,7 @@ var DxiGalleryItemComponent = class _DxiGalleryItemComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGalleryItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gallery-item",
       standalone: true,
@@ -229920,7 +229930,7 @@ var DxGalleryComponent = class _DxGalleryComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxGalleryComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-gallery",
       standalone: true,
@@ -230267,7 +230277,7 @@ var ModelChangesListener = {
 };
 
 // node_modules/devextreme/esm/ui/gantt/ui.gantt.data.option.js
-var DataOption = class extends Component {
+var DataOption = class extends Component2 {
   constructor(optionName, getLoadPanel, dataSourceChangedCallback) {
     super();
     this._optionName = optionName;
@@ -238303,7 +238313,7 @@ var DxiGanttColumnComponent = class _DxiGanttColumnComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGanttColumnComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gantt-column",
       standalone: true,
@@ -238542,7 +238552,7 @@ var DxoGanttColumnHeaderFilterSearchComponent = class _DxoGanttColumnHeaderFilte
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttColumnHeaderFilterSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-column-header-filter-search",
       standalone: true,
@@ -238697,7 +238707,7 @@ var DxoGanttColumnHeaderFilterComponent = class _DxoGanttColumnHeaderFilterCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttColumnHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-column-header-filter",
       standalone: true,
@@ -238912,7 +238922,7 @@ var DxiGanttContextMenuItemComponent = class _DxiGanttContextMenuItemComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGanttContextMenuItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gantt-context-menu-item",
       standalone: true,
@@ -239152,7 +239162,7 @@ var DxiGanttContextMenuItemItemComponent = class _DxiGanttContextMenuItemItemCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGanttContextMenuItemItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gantt-context-menu-item-item",
       standalone: true,
@@ -239315,7 +239325,7 @@ var DxoGanttContextMenuComponent = class _DxoGanttContextMenuComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttContextMenuComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-context-menu",
       standalone: true,
@@ -239444,7 +239454,7 @@ var DxoGanttDependenciesComponent = class _DxoGanttDependenciesComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttDependenciesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-dependencies",
       standalone: true,
@@ -239613,7 +239623,7 @@ var DxoGanttEditingComponent = class _DxoGanttEditingComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttEditingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-editing",
       standalone: true,
@@ -239776,7 +239786,7 @@ var DxoGanttFilterRowComponent = class _DxoGanttFilterRowComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttFilterRowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-filter-row",
       standalone: true,
@@ -239923,7 +239933,7 @@ var DxoGanttFormatComponent = class _DxoGanttFormatComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-format",
       standalone: true,
@@ -240053,7 +240063,7 @@ var DxoGanttGanttHeaderFilterSearchComponent = class _DxoGanttGanttHeaderFilterS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttGanttHeaderFilterSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-gantt-header-filter-search",
       standalone: true,
@@ -240205,7 +240215,7 @@ var DxoGanttGanttHeaderFilterComponent = class _DxoGanttGanttHeaderFilterCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttGanttHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-gantt-header-filter",
       standalone: true,
@@ -240390,7 +240400,7 @@ var DxoGanttHeaderFilterComponent = class _DxoGanttHeaderFilterComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-header-filter",
       standalone: true,
@@ -240670,7 +240680,7 @@ var DxiGanttItemComponent = class _DxiGanttItemComponent extends CollectionNeste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGanttItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gantt-item",
       standalone: true,
@@ -240911,7 +240921,7 @@ var DxoGanttOperationDescriptionsComponent = class _DxoGanttOperationDescription
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-operation-descriptions",
       standalone: true,
@@ -241056,7 +241066,7 @@ var DxoGanttResourceAssignmentsComponent = class _DxoGanttResourceAssignmentsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttResourceAssignmentsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-resource-assignments",
       standalone: true,
@@ -241180,7 +241190,7 @@ var DxoGanttResourcesComponent = class _DxoGanttResourcesComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttResourcesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-resources",
       standalone: true,
@@ -241290,7 +241300,7 @@ var DxoGanttScaleTypeRangeComponent = class _DxoGanttScaleTypeRangeComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttScaleTypeRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-scale-type-range",
       standalone: true,
@@ -241415,7 +241425,7 @@ var DxoGanttSearchComponent = class _DxoGanttSearchComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-search",
       standalone: true,
@@ -241549,7 +241559,7 @@ var DxoGanttSortingComponent = class _DxoGanttSortingComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttSortingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-sorting",
       standalone: true,
@@ -241676,7 +241686,7 @@ var DxiGanttStripLineComponent = class _DxiGanttStripLineComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGanttStripLineComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gantt-strip-line",
       standalone: true,
@@ -241831,7 +241841,7 @@ var DxoGanttTasksComponent = class _DxoGanttTasksComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttTasksComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-tasks",
       standalone: true,
@@ -241960,7 +241970,7 @@ var DxoGanttTextsComponent = class _DxoGanttTextsComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-texts",
       standalone: true,
@@ -242162,7 +242172,7 @@ var DxiGanttToolbarItemComponent = class _DxiGanttToolbarItemComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiGanttToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-gantt-toolbar-item",
       standalone: true,
@@ -242323,7 +242333,7 @@ var DxoGanttToolbarComponent = class _DxoGanttToolbarComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-toolbar",
       standalone: true,
@@ -242435,7 +242445,7 @@ var DxoGanttValidationComponent = class _DxoGanttValidationComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoGanttValidationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-gantt-validation",
       standalone: true,
@@ -243743,7 +243753,7 @@ var DxGanttComponent = class _DxGanttComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxGanttComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-gantt",
       standalone: true,
@@ -244999,7 +245009,7 @@ var ImageUploader = class {
   }
   getItemsConfig() {
     if (this.useTabbedItems()) {
-      const tabsConfig = map(this.tabs, ((tabController) => ({
+      const tabsConfig = map2(this.tabs, ((tabController) => ({
         title: tabController.getTabName(),
         colCount: 11,
         items: tabController.getItemsConfig()
@@ -250607,7 +250617,7 @@ var DxiHtmlEditorCommandComponent = class _DxiHtmlEditorCommandComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiHtmlEditorCommandComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-html-editor-command",
       standalone: true,
@@ -250720,7 +250730,7 @@ var DxoHtmlEditorConverterComponent = class _DxoHtmlEditorConverterComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorConverterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-converter",
       standalone: true,
@@ -251270,7 +251280,7 @@ var DxoHtmlEditorFileUploaderOptionsComponent = class _DxoHtmlEditorFileUploader
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorFileUploaderOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-file-uploader-options",
       standalone: true,
@@ -251596,7 +251606,7 @@ var DxoHtmlEditorImageUploadComponent = class _DxoHtmlEditorImageUploadComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorImageUploadComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-image-upload",
       standalone: true,
@@ -251881,7 +251891,7 @@ var DxiHtmlEditorItemComponent = class _DxiHtmlEditorItemComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiHtmlEditorItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-html-editor-item",
       standalone: true,
@@ -252069,7 +252079,7 @@ var DxoHtmlEditorMediaResizingComponent = class _DxoHtmlEditorMediaResizingCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorMediaResizingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-media-resizing",
       standalone: true,
@@ -252240,7 +252250,7 @@ var DxiHtmlEditorMentionComponent = class _DxiHtmlEditorMentionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiHtmlEditorMentionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-html-editor-mention",
       standalone: true,
@@ -252377,7 +252387,7 @@ var DxiHtmlEditorTabComponent = class _DxiHtmlEditorTabComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiHtmlEditorTabComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-html-editor-tab",
       standalone: true,
@@ -252574,7 +252584,7 @@ var DxiHtmlEditorTableContextMenuItemComponent = class _DxiHtmlEditorTableContex
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiHtmlEditorTableContextMenuItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-html-editor-table-context-menu-item",
       standalone: true,
@@ -252740,7 +252750,7 @@ var DxoHtmlEditorTableContextMenuComponent = class _DxoHtmlEditorTableContextMen
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorTableContextMenuComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-table-context-menu",
       standalone: true,
@@ -252855,7 +252865,7 @@ var DxoHtmlEditorTableResizingComponent = class _DxoHtmlEditorTableResizingCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorTableResizingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-table-resizing",
       standalone: true,
@@ -253083,7 +253093,7 @@ var DxiHtmlEditorToolbarItemComponent = class _DxiHtmlEditorToolbarItemComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiHtmlEditorToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-html-editor-toolbar-item",
       standalone: true,
@@ -253268,7 +253278,7 @@ var DxoHtmlEditorToolbarComponent = class _DxoHtmlEditorToolbarComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-toolbar",
       standalone: true,
@@ -253379,7 +253389,7 @@ var DxoHtmlEditorVariablesComponent = class _DxoHtmlEditorVariablesComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoHtmlEditorVariablesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-html-editor-variables",
       standalone: true,
@@ -254359,7 +254369,7 @@ var DxHtmlEditorComponent = class _DxHtmlEditorComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxHtmlEditorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-html-editor",
       standalone: true,
@@ -255567,7 +255577,7 @@ var DxoLinearGaugeAnimationComponent = class _DxoLinearGaugeAnimationComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-animation",
       standalone: true,
@@ -255674,7 +255684,7 @@ var DxoLinearGaugeBackgroundColorComponent = class _DxoLinearGaugeBackgroundColo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeBackgroundColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-background-color",
       standalone: true,
@@ -255799,7 +255809,7 @@ var DxoLinearGaugeBorderComponent = class _DxoLinearGaugeBorderComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-border",
       standalone: true,
@@ -255912,7 +255922,7 @@ var DxoLinearGaugeColorComponent = class _DxoLinearGaugeColorComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-color",
       standalone: true,
@@ -256051,7 +256061,7 @@ var DxoLinearGaugeExportComponent = class _DxoLinearGaugeExportComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-export",
       standalone: true,
@@ -256191,7 +256201,7 @@ var DxoLinearGaugeFontComponent = class _DxoLinearGaugeFontComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-font",
       standalone: true,
@@ -256332,7 +256342,7 @@ var DxoLinearGaugeFormatComponent = class _DxoLinearGaugeFormatComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-format",
       standalone: true,
@@ -256441,7 +256451,7 @@ var DxoLinearGaugeGeometryComponent = class _DxoLinearGaugeGeometryComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeGeometryComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-geometry",
       standalone: true,
@@ -256577,7 +256587,7 @@ var DxoLinearGaugeLabelComponent = class _DxoLinearGaugeLabelComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-label",
       standalone: true,
@@ -256722,7 +256732,7 @@ var DxoLinearGaugeLoadingIndicatorComponent = class _DxoLinearGaugeLoadingIndica
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-loading-indicator",
       standalone: true,
@@ -256849,7 +256859,7 @@ var DxoLinearGaugeMarginComponent = class _DxoLinearGaugeMarginComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-margin",
       standalone: true,
@@ -256980,7 +256990,7 @@ var DxoLinearGaugeMinorTickComponent = class _DxoLinearGaugeMinorTickComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-minor-tick",
       standalone: true,
@@ -257147,7 +257157,7 @@ var DxoLinearGaugeRangeContainerComponent = class _DxoLinearGaugeRangeContainerC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeRangeContainerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-range-container",
       standalone: true,
@@ -257280,7 +257290,7 @@ var DxiLinearGaugeRangeComponent = class _DxiLinearGaugeRangeComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiLinearGaugeRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-linear-gauge-range",
       standalone: true,
@@ -257467,7 +257477,7 @@ var DxoLinearGaugeScaleComponent = class _DxoLinearGaugeScaleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeScaleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-scale",
       standalone: true,
@@ -257625,7 +257635,7 @@ var DxoLinearGaugeShadowComponent = class _DxoLinearGaugeShadowComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-shadow",
       standalone: true,
@@ -257738,7 +257748,7 @@ var DxoLinearGaugeSizeComponent = class _DxoLinearGaugeSizeComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-size",
       standalone: true,
@@ -257863,7 +257873,7 @@ var DxoLinearGaugeSubtitleComponent = class _DxoLinearGaugeSubtitleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-subtitle",
       standalone: true,
@@ -258095,7 +258105,7 @@ var DxoLinearGaugeSubvalueIndicatorComponent = class _DxoLinearGaugeSubvalueIndi
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeSubvalueIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-subvalue-indicator",
       standalone: true,
@@ -258264,7 +258274,7 @@ var DxoLinearGaugeTextComponent = class _DxoLinearGaugeTextComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeTextComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-text",
       standalone: true,
@@ -258395,7 +258405,7 @@ var DxoLinearGaugeTickComponent = class _DxoLinearGaugeTickComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-tick",
       standalone: true,
@@ -258557,7 +258567,7 @@ var DxoLinearGaugeTitleComponent = class _DxoLinearGaugeTitleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-title",
       standalone: true,
@@ -258780,7 +258790,7 @@ var DxoLinearGaugeTooltipComponent = class _DxoLinearGaugeTooltipComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-tooltip",
       standalone: true,
@@ -259045,7 +259055,7 @@ var DxoLinearGaugeValueIndicatorComponent = class _DxoLinearGaugeValueIndicatorC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeValueIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-value-indicator",
       standalone: true,
@@ -259200,7 +259210,7 @@ var DxoLinearGaugeWidthComponent = class _DxoLinearGaugeWidthComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLinearGaugeWidthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-linear-gauge-width",
       standalone: true,
@@ -259862,7 +259872,7 @@ var DxLinearGaugeComponent = class _DxLinearGaugeComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxLinearGaugeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-linear-gauge",
       standalone: true,
@@ -260134,7 +260144,7 @@ var DxoLoadPanelAnimationComponent = class _DxoLoadPanelAnimationComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-animation",
       standalone: true,
@@ -260238,7 +260248,7 @@ var DxoLoadPanelAtComponent = class _DxoLoadPanelAtComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-at",
       standalone: true,
@@ -260342,7 +260352,7 @@ var DxoLoadPanelBoundaryOffsetComponent = class _DxoLoadPanelBoundaryOffsetCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-boundary-offset",
       standalone: true,
@@ -260446,7 +260456,7 @@ var DxoLoadPanelCollisionComponent = class _DxoLoadPanelCollisionComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-collision",
       standalone: true,
@@ -260571,7 +260581,7 @@ var DxoLoadPanelFromComponent = class _DxoLoadPanelFromComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-from",
       standalone: true,
@@ -260740,7 +260750,7 @@ var DxoLoadPanelHideComponent = class _DxoLoadPanelHideComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-hide",
       standalone: true,
@@ -260868,7 +260878,7 @@ var DxoLoadPanelMyComponent = class _DxoLoadPanelMyComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-my",
       standalone: true,
@@ -260972,7 +260982,7 @@ var DxoLoadPanelOffsetComponent = class _DxoLoadPanelOffsetComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-offset",
       standalone: true,
@@ -261111,7 +261121,7 @@ var DxoLoadPanelPositionComponent = class _DxoLoadPanelPositionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-position",
       standalone: true,
@@ -261286,7 +261296,7 @@ var DxoLoadPanelShowComponent = class _DxoLoadPanelShowComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-show",
       standalone: true,
@@ -261435,7 +261445,7 @@ var DxoLoadPanelToComponent = class _DxoLoadPanelToComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLoadPanelToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-load-panel-to",
       standalone: true,
@@ -262125,7 +262135,7 @@ var DxLoadPanelComponent = class _DxLoadPanelComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxLoadPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-load-panel",
       standalone: true,
@@ -263303,7 +263313,7 @@ var DxoLookupAnimationComponent = class _DxoLookupAnimationComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-animation",
       standalone: true,
@@ -263407,7 +263417,7 @@ var DxoLookupAtComponent = class _DxoLookupAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-at",
       standalone: true,
@@ -263511,7 +263521,7 @@ var DxoLookupBoundaryOffsetComponent = class _DxoLookupBoundaryOffsetComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-boundary-offset",
       standalone: true,
@@ -263615,7 +263625,7 @@ var DxoLookupCollisionComponent = class _DxoLookupCollisionComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-collision",
       standalone: true,
@@ -264029,7 +264039,7 @@ var DxoLookupDropDownOptionsComponent = class _DxoLookupDropDownOptionsComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-drop-down-options",
       standalone: true,
@@ -264281,7 +264291,7 @@ var DxoLookupFromComponent = class _DxoLookupFromComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-from",
       standalone: true,
@@ -264394,7 +264404,7 @@ var DxoLookupHideEventComponent = class _DxoLookupHideEventComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupHideEventComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-hide-event",
       standalone: true,
@@ -264554,7 +264564,7 @@ var DxoLookupHideComponent = class _DxoLookupHideComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-hide",
       standalone: true,
@@ -264721,7 +264731,7 @@ var DxiLookupItemComponent = class _DxiLookupItemComponent extends CollectionNes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiLookupItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-lookup-item",
       standalone: true,
@@ -264853,7 +264863,7 @@ var DxoLookupMyComponent = class _DxoLookupMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-my",
       standalone: true,
@@ -264957,7 +264967,7 @@ var DxoLookupOffsetComponent = class _DxoLookupOffsetComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-offset",
       standalone: true,
@@ -265096,7 +265106,7 @@ var DxoLookupPositionComponent = class _DxoLookupPositionComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-position",
       standalone: true,
@@ -265215,7 +265225,7 @@ var DxoLookupShowEventComponent = class _DxoLookupShowEventComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupShowEventComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-show-event",
       standalone: true,
@@ -265375,7 +265385,7 @@ var DxoLookupShowComponent = class _DxoLookupShowComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-show",
       standalone: true,
@@ -265524,7 +265534,7 @@ var DxoLookupToComponent = class _DxoLookupToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoLookupToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-lookup-to",
       standalone: true,
@@ -265732,7 +265742,7 @@ var DxiLookupToolbarItemComponent = class _DxiLookupToolbarItemComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiLookupToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-lookup-toolbar-item",
       standalone: true,
@@ -267487,7 +267497,7 @@ var DxLookupComponent = class _DxLookupComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxLookupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-lookup",
       standalone: true,
@@ -270100,7 +270110,7 @@ var DxoMapApiKeyComponent = class _DxoMapApiKeyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMapApiKeyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-map-api-key",
       standalone: true,
@@ -270210,7 +270220,7 @@ var DxoMapCenterComponent = class _DxoMapCenterComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMapCenterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-map-center",
       standalone: true,
@@ -270314,7 +270324,7 @@ var DxiMapLocationComponent = class _DxiMapLocationComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiMapLocationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-map-location",
       standalone: true,
@@ -270421,7 +270431,7 @@ var DxoMapLocationComponent = class _DxoMapLocationComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMapLocationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-map-location",
       standalone: true,
@@ -270539,7 +270549,7 @@ var DxiMapMarkerComponent = class _DxiMapMarkerComponent extends CollectionNeste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiMapMarkerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-map-marker",
       standalone: true,
@@ -270652,7 +270662,7 @@ var DxoMapProviderConfigComponent = class _DxoMapProviderConfigComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMapProviderConfigComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-map-provider-config",
       standalone: true,
@@ -270789,7 +270799,7 @@ var DxiMapRouteComponent = class _DxiMapRouteComponent extends CollectionNestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiMapRouteComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-map-route",
       standalone: true,
@@ -270909,7 +270919,7 @@ var DxoMapTooltipComponent = class _DxoMapTooltipComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMapTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-map-tooltip",
       standalone: true,
@@ -271619,7 +271629,7 @@ var DxMapComponent = class _DxMapComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxMapComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-map",
       standalone: true,
@@ -271912,7 +271922,7 @@ var DxoMenuAnimationComponent = class _DxoMenuAnimationComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-animation",
       standalone: true,
@@ -272016,7 +272026,7 @@ var DxoMenuAtComponent = class _DxoMenuAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-at",
       standalone: true,
@@ -272120,7 +272130,7 @@ var DxoMenuBoundaryOffsetComponent = class _DxoMenuBoundaryOffsetComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-boundary-offset",
       standalone: true,
@@ -272224,7 +272234,7 @@ var DxoMenuCollisionComponent = class _DxoMenuCollisionComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-collision",
       standalone: true,
@@ -272328,7 +272338,7 @@ var DxoMenuDelayComponent = class _DxoMenuDelayComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuDelayComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-delay",
       standalone: true,
@@ -272453,7 +272463,7 @@ var DxoMenuFromComponent = class _DxoMenuFromComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-from",
       standalone: true,
@@ -272622,7 +272632,7 @@ var DxoMenuHideComponent = class _DxoMenuHideComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-hide",
       standalone: true,
@@ -272850,7 +272860,7 @@ var DxiMenuItemComponent = class _DxiMenuItemComponent extends CollectionNestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiMenuItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-menu-item",
       standalone: true,
@@ -273007,7 +273017,7 @@ var DxoMenuMyComponent = class _DxoMenuMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-my",
       standalone: true,
@@ -273111,7 +273121,7 @@ var DxoMenuOffsetComponent = class _DxoMenuOffsetComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-offset",
       standalone: true,
@@ -273250,7 +273260,7 @@ var DxoMenuPositionComponent = class _DxoMenuPositionComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-position",
       standalone: true,
@@ -273369,7 +273379,7 @@ var DxoMenuShowFirstSubmenuModeComponent = class _DxoMenuShowFirstSubmenuModeCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuShowFirstSubmenuModeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-show-first-submenu-mode",
       standalone: true,
@@ -273473,7 +273483,7 @@ var DxoMenuShowSubmenuModeComponent = class _DxoMenuShowSubmenuModeComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuShowSubmenuModeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-show-submenu-mode",
       standalone: true,
@@ -273633,7 +273643,7 @@ var DxoMenuShowComponent = class _DxoMenuShowComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-show",
       standalone: true,
@@ -273782,7 +273792,7 @@ var DxoMenuToComponent = class _DxoMenuToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoMenuToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-menu-to",
       standalone: true,
@@ -274657,7 +274667,7 @@ var DxMenuComponent = class _DxMenuComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxMenuComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-menu",
       standalone: true,
@@ -275031,7 +275041,7 @@ var DxiMultiViewItemComponent = class _DxiMultiViewItemComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiMultiViewItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-multi-view-item",
       standalone: true,
@@ -275752,7 +275762,7 @@ var DxMultiViewComponent = class _DxMultiViewComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxMultiViewComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-multi-view",
       standalone: true,
@@ -276040,7 +276050,7 @@ var DxiNumberBoxButtonComponent = class _DxiNumberBoxButtonComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiNumberBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-number-box-button",
       standalone: true,
@@ -276178,7 +276188,7 @@ var DxoNumberBoxFormatComponent = class _DxoNumberBoxFormatComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoNumberBoxFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-number-box-format",
       standalone: true,
@@ -276466,7 +276476,7 @@ var DxoNumberBoxOptionsComponent = class _DxoNumberBoxOptionsComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoNumberBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-number-box-options",
       standalone: true,
@@ -277675,7 +277685,7 @@ var DxNumberBoxComponent = class _DxNumberBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxNumberBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-number-box",
       standalone: true,
@@ -278578,7 +278588,7 @@ var DxPaginationComponent = class _DxPaginationComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPaginationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-pagination",
       standalone: true,
@@ -279245,7 +279255,7 @@ var DxoPieChartAdaptiveLayoutComponent = class _DxoPieChartAdaptiveLayoutCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartAdaptiveLayoutComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-adaptive-layout",
       standalone: true,
@@ -279366,7 +279376,7 @@ var DxoPieChartAnimationComponent = class _DxoPieChartAnimationComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-animation",
       standalone: true,
@@ -279504,7 +279514,7 @@ var DxoPieChartAnnotationBorderComponent = class _DxoPieChartAnnotationBorderCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartAnnotationBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-annotation-border",
       standalone: true,
@@ -279841,7 +279851,7 @@ var DxiPieChartAnnotationComponent = class _DxiPieChartAnnotationComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPieChartAnnotationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-pie-chart-annotation",
       standalone: true,
@@ -280079,7 +280089,7 @@ var DxoPieChartArgumentFormatComponent = class _DxoPieChartArgumentFormatCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartArgumentFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-argument-format",
       standalone: true,
@@ -280223,7 +280233,7 @@ var DxoPieChartBorderComponent = class _DxoPieChartBorderComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-border",
       standalone: true,
@@ -280339,7 +280349,7 @@ var DxoPieChartColorComponent = class _DxoPieChartColorComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-color",
       standalone: true,
@@ -280657,7 +280667,7 @@ var DxoPieChartCommonAnnotationSettingsComponent = class _DxoPieChartCommonAnnot
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartCommonAnnotationSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-common-annotation-settings",
       standalone: true,
@@ -280945,7 +280955,7 @@ var DxoPieChartCommonSeriesSettingsComponent = class _DxoPieChartCommonSeriesSet
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartCommonSeriesSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-common-series-settings",
       standalone: true,
@@ -281092,7 +281102,7 @@ var DxoPieChartConnectorComponent = class _DxoPieChartConnectorComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartConnectorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-connector",
       standalone: true,
@@ -281234,7 +281244,7 @@ var DxoPieChartExportComponent = class _DxoPieChartExportComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-export",
       standalone: true,
@@ -281374,7 +281384,7 @@ var DxoPieChartFontComponent = class _DxoPieChartFontComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-font",
       standalone: true,
@@ -281515,7 +281525,7 @@ var DxoPieChartFormatComponent = class _DxoPieChartFormatComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-format",
       standalone: true,
@@ -281645,7 +281655,7 @@ var DxoPieChartHatchingComponent = class _DxoPieChartHatchingComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartHatchingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-hatching",
       standalone: true,
@@ -281769,7 +281779,7 @@ var DxoPieChartHoverStyleComponent = class _DxoPieChartHoverStyleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-hover-style",
       standalone: true,
@@ -281886,7 +281896,7 @@ var DxoPieChartImageComponent = class _DxoPieChartImageComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-image",
       standalone: true,
@@ -282077,7 +282087,7 @@ var DxoPieChartLabelComponent = class _DxoPieChartLabelComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-label",
       standalone: true,
@@ -282224,7 +282234,7 @@ var DxoPieChartLegendTitleSubtitleComponent = class _DxoPieChartLegendTitleSubti
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartLegendTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-legend-title-subtitle",
       standalone: true,
@@ -282366,7 +282376,7 @@ var DxoPieChartLegendTitleComponent = class _DxoPieChartLegendTitleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartLegendTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-legend-title",
       standalone: true,
@@ -282632,7 +282642,7 @@ var DxoPieChartLegendComponent = class _DxoPieChartLegendComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartLegendComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-legend",
       standalone: true,
@@ -282832,7 +282842,7 @@ var DxoPieChartLoadingIndicatorComponent = class _DxoPieChartLoadingIndicatorCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-loading-indicator",
       standalone: true,
@@ -282962,7 +282972,7 @@ var DxoPieChartMarginComponent = class _DxoPieChartMarginComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-margin",
       standalone: true,
@@ -283093,7 +283103,7 @@ var DxoPieChartPieChartTitleSubtitleComponent = class _DxoPieChartPieChartTitleS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartPieChartTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-pie-chart-title-subtitle",
       standalone: true,
@@ -283255,7 +283265,7 @@ var DxoPieChartPieChartTitleComponent = class _DxoPieChartPieChartTitleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartPieChartTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-pie-chart-title",
       standalone: true,
@@ -283394,7 +283404,7 @@ var DxoPieChartSelectionStyleComponent = class _DxoPieChartSelectionStyleCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-selection-style",
       standalone: true,
@@ -283518,7 +283528,7 @@ var DxoPieChartSeriesBorderComponent = class _DxoPieChartSeriesBorderComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartSeriesBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-series-border",
       standalone: true,
@@ -283726,7 +283736,7 @@ var DxiPieChartSeriesComponent = class _DxiPieChartSeriesComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPieChartSeriesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-pie-chart-series",
       standalone: true,
@@ -283875,7 +283885,7 @@ var DxoPieChartSeriesTemplateComponent = class _DxoPieChartSeriesTemplateCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartSeriesTemplateComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-series-template",
       standalone: true,
@@ -284000,7 +284010,7 @@ var DxoPieChartShadowComponent = class _DxoPieChartShadowComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-shadow",
       standalone: true,
@@ -284113,7 +284123,7 @@ var DxoPieChartSizeComponent = class _DxoPieChartSizeComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-size",
       standalone: true,
@@ -284231,7 +284241,7 @@ var DxoPieChartSmallValuesGroupingComponent = class _DxoPieChartSmallValuesGroup
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartSmallValuesGroupingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-small-values-grouping",
       standalone: true,
@@ -284362,7 +284372,7 @@ var DxoPieChartSubtitleComponent = class _DxoPieChartSubtitleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-subtitle",
       standalone: true,
@@ -284524,7 +284534,7 @@ var DxoPieChartTitleComponent = class _DxoPieChartTitleComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-title",
       standalone: true,
@@ -284670,7 +284680,7 @@ var DxoPieChartTooltipBorderComponent = class _DxoPieChartTooltipBorderComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-tooltip-border",
       standalone: true,
@@ -284895,7 +284905,7 @@ var DxoPieChartTooltipComponent = class _DxoPieChartTooltipComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPieChartTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pie-chart-tooltip",
       standalone: true,
@@ -285971,7 +285981,7 @@ var DxPieChartComponent = class _DxPieChartComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPieChartComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-pie-chart",
       standalone: true,
@@ -289281,7 +289291,7 @@ var XmlaStore = class {
     return mdxString;
   }
   prepareDataFields(withArray, valueFields) {
-    return map(valueFields, ((cell) => {
+    return map2(valueFields, ((cell) => {
       if (isString(cell.expression)) {
         this.declare(cell.expression, withArray, cell.dataField, "member");
       }
@@ -289870,7 +289880,7 @@ function getSliceIndex(items, path) {
     foreachTree(items, ((items2) => {
       const item = items2[0];
       const itemPath = createPath(items2).join(".");
-      const textPath = map(items2, ((item2) => item2.text)).reverse().join(".");
+      const textPath = map2(items2, ((item2) => item2.text)).reverse().join(".");
       if (pathValue === itemPath || item.key && textPath === pathValue) {
         index2 = items2[0].index;
         return false;
@@ -291007,7 +291017,7 @@ var DataController3 = class {
       if (stringValuesUsed && -1 !== sortBySummaryPath[0].indexOf("&[") && headerItem.key || !headerItem.key) {
         path = createPath(items);
       } else {
-        path = map(items, ((it) => it.dataIndex >= 0 ? it.value : it.text)).reverse();
+        path = map2(items, ((it) => it.dataIndex >= 0 ? it.value : it.text)).reverse();
       }
       if ("GT" === item.type) {
         path = path.slice(1);
@@ -292741,7 +292751,7 @@ var processItems = function(groupItems, field) {
     var _item$value;
     const item = items[0];
     const path = createPath(items);
-    const preparedFilterValueByText = isTree ? map(items, ((item2) => item2.text)).reverse().join("/") : item.text;
+    const preparedFilterValueByText = isTree ? map2(items, ((item2) => item2.text)).reverse().join("/") : item.text;
     item.value = isTree ? path.slice(0) : item.key || item.value;
     const preparedFilterValue = isTree ? path.join("/") : null === (_item$value = item.value) || void 0 === _item$value ? void 0 : _item$value.valueOf();
     if (item.children) {
@@ -295112,7 +295122,7 @@ var DxoPivotGridExportComponent = class _DxoPivotGridExportComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-export",
       standalone: true,
@@ -295234,7 +295244,7 @@ var DxoPivotGridFieldChooserTextsComponent = class _DxoPivotGridFieldChooserText
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser-texts",
       standalone: true,
@@ -295396,7 +295406,7 @@ var DxoPivotGridFieldChooserComponent = class _DxoPivotGridFieldChooserComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser",
       standalone: true,
@@ -295535,7 +295545,7 @@ var DxoPivotGridFieldPanelTextsComponent = class _DxoPivotGridFieldPanelTextsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldPanelTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-panel-texts",
       standalone: true,
@@ -295680,7 +295690,7 @@ var DxoPivotGridFieldPanelComponent = class _DxoPivotGridFieldPanelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-panel",
       standalone: true,
@@ -295806,7 +295816,7 @@ var DxoPivotGridHeaderFilterTextsComponent = class _DxoPivotGridHeaderFilterText
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridHeaderFilterTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-header-filter-texts",
       standalone: true,
@@ -295955,7 +295965,7 @@ var DxoPivotGridHeaderFilterComponent = class _DxoPivotGridHeaderFilterComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-header-filter",
       standalone: true,
@@ -296126,7 +296136,7 @@ var DxoPivotGridLoadPanelComponent = class _DxoPivotGridLoadPanelComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridLoadPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-load-panel",
       standalone: true,
@@ -296314,7 +296324,7 @@ var DxoPivotGridPivotGridTextsComponent = class _DxoPivotGridPivotGridTextsCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridPivotGridTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-pivot-grid-texts",
       standalone: true,
@@ -296445,7 +296455,7 @@ var DxoPivotGridScrollingComponent = class _DxoPivotGridScrollingComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridScrollingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-scrolling",
       standalone: true,
@@ -296563,7 +296573,7 @@ var DxoPivotGridSearchComponent = class _DxoPivotGridSearchComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-search",
       standalone: true,
@@ -296701,7 +296711,7 @@ var DxoPivotGridStateStoringComponent = class _DxoPivotGridStateStoringComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridStateStoringComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-state-storing",
       standalone: true,
@@ -296964,7 +296974,7 @@ var DxoPivotGridTextsComponent = class _DxoPivotGridTextsComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-texts",
       standalone: true,
@@ -297875,7 +297885,7 @@ var DxPivotGridComponent = class _DxPivotGridComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPivotGridComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-pivot-grid",
       standalone: true,
@@ -298212,7 +298222,7 @@ var DxoPivotGridFieldChooserHeaderFilterTextsComponent = class _DxoPivotGridFiel
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserHeaderFilterTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser-header-filter-texts",
       standalone: true,
@@ -298361,7 +298371,7 @@ var DxoPivotGridFieldChooserHeaderFilterComponent = class _DxoPivotGridFieldChoo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser-header-filter",
       standalone: true,
@@ -298504,7 +298514,7 @@ var DxoPivotGridFieldChooserPivotGridFieldChooserTextsComponent = class _DxoPivo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserPivotGridFieldChooserTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser-pivot-grid-field-chooser-texts",
       standalone: true,
@@ -298631,7 +298641,7 @@ var DxoPivotGridFieldChooserSearchComponent = class _DxoPivotGridFieldChooserSea
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser-search",
       standalone: true,
@@ -298783,7 +298793,7 @@ var DxoPivotGridFieldChooserTextsComponent2 = class _DxoPivotGridFieldChooserTex
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPivotGridFieldChooserTextsComponent2, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-pivot-grid-field-chooser-texts",
       standalone: true,
@@ -299396,7 +299406,7 @@ var DxPivotGridFieldChooserComponent = class _DxPivotGridFieldChooserComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPivotGridFieldChooserComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-pivot-grid-field-chooser",
       standalone: true,
@@ -299850,7 +299860,7 @@ var DxoPolarChartAdaptiveLayoutComponent = class _DxoPolarChartAdaptiveLayoutCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartAdaptiveLayoutComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-adaptive-layout",
       standalone: true,
@@ -299971,7 +299981,7 @@ var DxoPolarChartAnimationComponent = class _DxoPolarChartAnimationComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-animation",
       standalone: true,
@@ -300109,7 +300119,7 @@ var DxoPolarChartAnnotationBorderComponent = class _DxoPolarChartAnnotationBorde
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartAnnotationBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-annotation-border",
       standalone: true,
@@ -300460,7 +300470,7 @@ var DxiPolarChartAnnotationComponent = class _DxiPolarChartAnnotationComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPolarChartAnnotationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-polar-chart-annotation",
       standalone: true,
@@ -300704,7 +300714,7 @@ var DxoPolarChartArgumentAxisMinorTickComponent = class _DxoPolarChartArgumentAx
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartArgumentAxisMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-argument-axis-minor-tick",
       standalone: true,
@@ -300848,7 +300858,7 @@ var DxoPolarChartArgumentAxisTickComponent = class _DxoPolarChartArgumentAxisTic
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartArgumentAxisTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-argument-axis-tick",
       standalone: true,
@@ -301184,7 +301194,7 @@ var DxoPolarChartArgumentAxisComponent = class _DxoPolarChartArgumentAxisCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartArgumentAxisComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-argument-axis",
       standalone: true,
@@ -301411,7 +301421,7 @@ var DxoPolarChartArgumentFormatComponent = class _DxoPolarChartArgumentFormatCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartArgumentFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-argument-format",
       standalone: true,
@@ -301562,7 +301572,7 @@ var DxoPolarChartAxisLabelComponent = class _DxoPolarChartAxisLabelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartAxisLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-axis-label",
       standalone: true,
@@ -301709,7 +301719,7 @@ var DxoPolarChartBorderComponent = class _DxoPolarChartBorderComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-border",
       standalone: true,
@@ -301825,7 +301835,7 @@ var DxoPolarChartColorComponent = class _DxoPolarChartColorComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-color",
       standalone: true,
@@ -302157,7 +302167,7 @@ var DxoPolarChartCommonAnnotationSettingsComponent = class _DxoPolarChartCommonA
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonAnnotationSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-annotation-settings",
       standalone: true,
@@ -302381,7 +302391,7 @@ var DxoPolarChartCommonAxisSettingsLabelComponent = class _DxoPolarChartCommonAx
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonAxisSettingsLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-axis-settings-label",
       standalone: true,
@@ -302512,7 +302522,7 @@ var DxoPolarChartCommonAxisSettingsMinorTickComponent = class _DxoPolarChartComm
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonAxisSettingsMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-axis-settings-minor-tick",
       standalone: true,
@@ -302646,7 +302656,7 @@ var DxoPolarChartCommonAxisSettingsTickComponent = class _DxoPolarChartCommonAxi
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonAxisSettingsTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-axis-settings-tick",
       standalone: true,
@@ -302850,7 +302860,7 @@ var DxoPolarChartCommonAxisSettingsComponent = class _DxoPolarChartCommonAxisSet
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonAxisSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-axis-settings",
       standalone: true,
@@ -303021,7 +303031,7 @@ var DxoPolarChartCommonSeriesSettingsHoverStyleComponent = class _DxoPolarChartC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonSeriesSettingsHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-series-settings-hover-style",
       standalone: true,
@@ -303207,7 +303217,7 @@ var DxoPolarChartCommonSeriesSettingsLabelComponent = class _DxoPolarChartCommon
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonSeriesSettingsLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-series-settings-label",
       standalone: true,
@@ -303369,7 +303379,7 @@ var DxoPolarChartCommonSeriesSettingsSelectionStyleComponent = class _DxoPolarCh
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonSeriesSettingsSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-series-settings-selection-style",
       standalone: true,
@@ -303681,7 +303691,7 @@ var DxoPolarChartCommonSeriesSettingsComponent = class _DxoPolarChartCommonSerie
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartCommonSeriesSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-common-series-settings",
       standalone: true,
@@ -303876,7 +303886,7 @@ var DxoPolarChartConnectorComponent = class _DxoPolarChartConnectorComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartConnectorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-connector",
       standalone: true,
@@ -304018,7 +304028,7 @@ var DxiPolarChartConstantLineComponent = class _DxiPolarChartConstantLineCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPolarChartConstantLineComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-polar-chart-constant-line",
       standalone: true,
@@ -304147,7 +304157,7 @@ var DxoPolarChartConstantLineLabelComponent = class _DxoPolarChartConstantLineLa
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartConstantLineLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-constant-line-label",
       standalone: true,
@@ -304254,7 +304264,7 @@ var DxoPolarChartConstantLineStyleLabelComponent = class _DxoPolarChartConstantL
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartConstantLineStyleLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-constant-line-style-label",
       standalone: true,
@@ -304372,7 +304382,7 @@ var DxoPolarChartConstantLineStyleComponent = class _DxoPolarChartConstantLineSt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartConstantLineStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-constant-line-style",
       standalone: true,
@@ -304489,7 +304499,7 @@ var DxoPolarChartDataPrepareSettingsComponent = class _DxoPolarChartDataPrepareS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartDataPrepareSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-data-prepare-settings",
       standalone: true,
@@ -304631,7 +304641,7 @@ var DxoPolarChartExportComponent = class _DxoPolarChartExportComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-export",
       standalone: true,
@@ -304771,7 +304781,7 @@ var DxoPolarChartFontComponent = class _DxoPolarChartFontComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-font",
       standalone: true,
@@ -304912,7 +304922,7 @@ var DxoPolarChartFormatComponent = class _DxoPolarChartFormatComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-format",
       standalone: true,
@@ -305042,7 +305052,7 @@ var DxoPolarChartGridComponent = class _DxoPolarChartGridComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartGridComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-grid",
       standalone: true,
@@ -305166,7 +305176,7 @@ var DxoPolarChartHatchingComponent = class _DxoPolarChartHatchingComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartHatchingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-hatching",
       standalone: true,
@@ -305311,7 +305321,7 @@ var DxoPolarChartHoverStyleComponent = class _DxoPolarChartHoverStyleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-hover-style",
       standalone: true,
@@ -305437,7 +305447,7 @@ var DxoPolarChartImageComponent = class _DxoPolarChartImageComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-image",
       standalone: true,
@@ -305642,7 +305652,7 @@ var DxoPolarChartLabelComponent = class _DxoPolarChartLabelComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-label",
       standalone: true,
@@ -305795,7 +305805,7 @@ var DxoPolarChartLegendTitleSubtitleComponent = class _DxoPolarChartLegendTitleS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartLegendTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-legend-title-subtitle",
       standalone: true,
@@ -305937,7 +305947,7 @@ var DxoPolarChartLegendTitleComponent = class _DxoPolarChartLegendTitleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartLegendTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-legend-title",
       standalone: true,
@@ -306203,7 +306213,7 @@ var DxoPolarChartLegendComponent = class _DxoPolarChartLegendComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartLegendComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-legend",
       standalone: true,
@@ -306419,7 +306429,7 @@ var DxoPolarChartLengthComponent = class _DxoPolarChartLengthComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartLengthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-length",
       standalone: true,
@@ -306577,7 +306587,7 @@ var DxoPolarChartLoadingIndicatorComponent = class _DxoPolarChartLoadingIndicato
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-loading-indicator",
       standalone: true,
@@ -306707,7 +306717,7 @@ var DxoPolarChartMarginComponent = class _DxoPolarChartMarginComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-margin",
       standalone: true,
@@ -306866,7 +306876,7 @@ var DxoPolarChartMinVisualRangeLengthComponent = class _DxoPolarChartMinVisualRa
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartMinVisualRangeLengthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-min-visual-range-length",
       standalone: true,
@@ -307005,7 +307015,7 @@ var DxoPolarChartMinorGridComponent = class _DxoPolarChartMinorGridComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartMinorGridComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-minor-grid",
       standalone: true,
@@ -307164,7 +307174,7 @@ var DxoPolarChartMinorTickIntervalComponent = class _DxoPolarChartMinorTickInter
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartMinorTickIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-minor-tick-interval",
       standalone: true,
@@ -307317,7 +307327,7 @@ var DxoPolarChartMinorTickComponent = class _DxoPolarChartMinorTickComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-minor-tick",
       standalone: true,
@@ -307440,7 +307450,7 @@ var DxoPolarChartPointBorderComponent = class _DxoPolarChartPointBorderComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartPointBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-point-border",
       standalone: true,
@@ -307554,7 +307564,7 @@ var DxoPolarChartPointHoverStyleComponent = class _DxoPolarChartPointHoverStyleC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartPointHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-point-hover-style",
       standalone: true,
@@ -307668,7 +307678,7 @@ var DxoPolarChartPointSelectionStyleComponent = class _DxoPolarChartPointSelecti
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartPointSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-point-selection-style",
       standalone: true,
@@ -307831,7 +307841,7 @@ var DxoPolarChartPointComponent = class _DxoPolarChartPointComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartPointComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-point",
       standalone: true,
@@ -307980,7 +307990,7 @@ var DxoPolarChartPolarChartTitleSubtitleComponent = class _DxoPolarChartPolarCha
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartPolarChartTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-polar-chart-title-subtitle",
       standalone: true,
@@ -308142,7 +308152,7 @@ var DxoPolarChartPolarChartTitleComponent = class _DxoPolarChartPolarChartTitleC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartPolarChartTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-polar-chart-title",
       standalone: true,
@@ -308302,7 +308312,7 @@ var DxoPolarChartSelectionStyleComponent = class _DxoPolarChartSelectionStyleCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-selection-style",
       standalone: true,
@@ -308435,7 +308445,7 @@ var DxoPolarChartSeriesBorderComponent = class _DxoPolarChartSeriesBorderCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartSeriesBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-series-border",
       standalone: true,
@@ -308720,7 +308730,7 @@ var DxiPolarChartSeriesComponent = class _DxiPolarChartSeriesComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPolarChartSeriesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-polar-chart-series",
       standalone: true,
@@ -308902,7 +308912,7 @@ var DxoPolarChartSeriesTemplateComponent = class _DxoPolarChartSeriesTemplateCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartSeriesTemplateComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-series-template",
       standalone: true,
@@ -309027,7 +309037,7 @@ var DxoPolarChartShadowComponent = class _DxoPolarChartShadowComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-shadow",
       standalone: true,
@@ -309140,7 +309150,7 @@ var DxoPolarChartSizeComponent = class _DxoPolarChartSizeComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-size",
       standalone: true,
@@ -309258,7 +309268,7 @@ var DxiPolarChartStripComponent = class _DxiPolarChartStripComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPolarChartStripComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-polar-chart-strip",
       standalone: true,
@@ -309371,7 +309381,7 @@ var DxoPolarChartStripLabelComponent = class _DxoPolarChartStripLabelComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartStripLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-strip-label",
       standalone: true,
@@ -309468,7 +309478,7 @@ var DxoPolarChartStripStyleLabelComponent = class _DxoPolarChartStripStyleLabelC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartStripStyleLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-strip-style-label",
       standalone: true,
@@ -309562,7 +309572,7 @@ var DxoPolarChartStripStyleComponent = class _DxoPolarChartStripStyleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartStripStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-strip-style",
       standalone: true,
@@ -309684,7 +309694,7 @@ var DxoPolarChartSubtitleComponent = class _DxoPolarChartSubtitleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-subtitle",
       standalone: true,
@@ -309846,7 +309856,7 @@ var DxoPolarChartTickIntervalComponent = class _DxoPolarChartTickIntervalCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartTickIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-tick-interval",
       standalone: true,
@@ -309999,7 +310009,7 @@ var DxoPolarChartTickComponent = class _DxoPolarChartTickComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-tick",
       standalone: true,
@@ -310164,7 +310174,7 @@ var DxoPolarChartTitleComponent = class _DxoPolarChartTitleComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-title",
       standalone: true,
@@ -310310,7 +310320,7 @@ var DxoPolarChartTooltipBorderComponent = class _DxoPolarChartTooltipBorderCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-tooltip-border",
       standalone: true,
@@ -310535,7 +310545,7 @@ var DxoPolarChartTooltipComponent = class _DxoPolarChartTooltipComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-tooltip",
       standalone: true,
@@ -310940,7 +310950,7 @@ var DxoPolarChartValueAxisComponent = class _DxoPolarChartValueAxisComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartValueAxisComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-value-axis",
       standalone: true,
@@ -311200,7 +311210,7 @@ var DxoPolarChartValueErrorBarComponent = class _DxoPolarChartValueErrorBarCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartValueErrorBarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-value-error-bar",
       standalone: true,
@@ -311353,7 +311363,7 @@ var DxoPolarChartVisualRangeComponent = class _DxoPolarChartVisualRangeComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartVisualRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-visual-range",
       standalone: true,
@@ -311494,7 +311504,7 @@ var DxoPolarChartWholeRangeComponent = class _DxoPolarChartWholeRangeComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPolarChartWholeRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-polar-chart-whole-range",
       standalone: true,
@@ -312647,7 +312657,7 @@ var DxPolarChartComponent = class _DxPolarChartComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPolarChartComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-polar-chart",
       standalone: true,
@@ -313089,7 +313099,7 @@ var DxoPopoverAnimationComponent = class _DxoPopoverAnimationComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-animation",
       standalone: true,
@@ -313193,7 +313203,7 @@ var DxoPopoverAtComponent = class _DxoPopoverAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-at",
       standalone: true,
@@ -313297,7 +313307,7 @@ var DxoPopoverBoundaryOffsetComponent = class _DxoPopoverBoundaryOffsetComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-boundary-offset",
       standalone: true,
@@ -313401,7 +313411,7 @@ var DxoPopoverCollisionComponent = class _DxoPopoverCollisionComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-collision",
       standalone: true,
@@ -313526,7 +313536,7 @@ var DxoPopoverFromComponent = class _DxoPopoverFromComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-from",
       standalone: true,
@@ -313639,7 +313649,7 @@ var DxoPopoverHideEventComponent = class _DxoPopoverHideEventComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverHideEventComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-hide-event",
       standalone: true,
@@ -313799,7 +313809,7 @@ var DxoPopoverHideComponent = class _DxoPopoverHideComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-hide",
       standalone: true,
@@ -313927,7 +313937,7 @@ var DxoPopoverMyComponent = class _DxoPopoverMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-my",
       standalone: true,
@@ -314031,7 +314041,7 @@ var DxoPopoverOffsetComponent = class _DxoPopoverOffsetComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-offset",
       standalone: true,
@@ -314170,7 +314180,7 @@ var DxoPopoverPositionComponent = class _DxoPopoverPositionComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-position",
       standalone: true,
@@ -314289,7 +314299,7 @@ var DxoPopoverShowEventComponent = class _DxoPopoverShowEventComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverShowEventComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-show-event",
       standalone: true,
@@ -314449,7 +314459,7 @@ var DxoPopoverShowComponent = class _DxoPopoverShowComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-show",
       standalone: true,
@@ -314598,7 +314608,7 @@ var DxoPopoverToComponent = class _DxoPopoverToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopoverToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popover-to",
       standalone: true,
@@ -314806,7 +314816,7 @@ var DxiPopoverToolbarItemComponent = class _DxiPopoverToolbarItemComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPopoverToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-popover-toolbar-item",
       standalone: true,
@@ -315695,7 +315705,7 @@ var DxPopoverComponent = class _DxPopoverComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPopoverComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-popover",
       standalone: true,
@@ -316018,7 +316028,7 @@ var DxoPopupAnimationComponent = class _DxoPopupAnimationComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-animation",
       standalone: true,
@@ -316122,7 +316132,7 @@ var DxoPopupAtComponent = class _DxoPopupAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-at",
       standalone: true,
@@ -316226,7 +316236,7 @@ var DxoPopupBoundaryOffsetComponent = class _DxoPopupBoundaryOffsetComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-boundary-offset",
       standalone: true,
@@ -316330,7 +316340,7 @@ var DxoPopupCollisionComponent = class _DxoPopupCollisionComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-collision",
       standalone: true,
@@ -316455,7 +316465,7 @@ var DxoPopupFromComponent = class _DxoPopupFromComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-from",
       standalone: true,
@@ -316624,7 +316634,7 @@ var DxoPopupHideComponent = class _DxoPopupHideComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-hide",
       standalone: true,
@@ -316752,7 +316762,7 @@ var DxoPopupMyComponent = class _DxoPopupMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-my",
       standalone: true,
@@ -316856,7 +316866,7 @@ var DxoPopupOffsetComponent = class _DxoPopupOffsetComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-offset",
       standalone: true,
@@ -316995,7 +317005,7 @@ var DxoPopupPositionComponent = class _DxoPopupPositionComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-position",
       standalone: true,
@@ -317170,7 +317180,7 @@ var DxoPopupShowComponent = class _DxoPopupShowComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-show",
       standalone: true,
@@ -317319,7 +317329,7 @@ var DxoPopupToComponent = class _DxoPopupToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoPopupToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-popup-to",
       standalone: true,
@@ -317527,7 +317537,7 @@ var DxiPopupToolbarItemComponent = class _DxiPopupToolbarItemComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiPopupToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-popup-toolbar-item",
       standalone: true,
@@ -318570,7 +318580,7 @@ var DxPopupComponent = class _DxPopupComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxPopupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-popup",
       standalone: true,
@@ -318933,7 +318943,7 @@ var PopupServiceComponent = class _PopupServiceComponent extends DxPopupComponen
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(PopupServiceComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       standalone: true,
       providers: [DxTemplateHost, WatcherHelper, NestedOptionHost, IterableDifferHelper],
@@ -319645,7 +319655,7 @@ var DxProgressBarComponent = class _DxProgressBarComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxProgressBarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-progress-bar",
       standalone: true,
@@ -319951,7 +319961,7 @@ var DxiRadioGroupItemComponent = class _DxiRadioGroupItemComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiRadioGroupItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-radio-group-item",
       standalone: true,
@@ -320778,7 +320788,7 @@ var DxRadioGroupComponent = class _DxRadioGroupComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxRadioGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-radio-group",
       standalone: true,
@@ -323348,7 +323358,7 @@ var DxoRangeSelectorAggregationIntervalComponent = class _DxoRangeSelectorAggreg
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorAggregationIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-aggregation-interval",
       standalone: true,
@@ -323480,7 +323490,7 @@ var DxoRangeSelectorAggregationComponent = class _DxoRangeSelectorAggregationCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorAggregationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-aggregation",
       standalone: true,
@@ -323615,7 +323625,7 @@ var DxoRangeSelectorArgumentFormatComponent = class _DxoRangeSelectorArgumentFor
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorArgumentFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-argument-format",
       standalone: true,
@@ -323731,7 +323741,7 @@ var DxoRangeSelectorBackgroundImageComponent = class _DxoRangeSelectorBackground
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorBackgroundImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-background-image",
       standalone: true,
@@ -323842,7 +323852,7 @@ var DxoRangeSelectorBackgroundComponent = class _DxoRangeSelectorBackgroundCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorBackgroundComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-background",
       standalone: true,
@@ -323977,7 +323987,7 @@ var DxoRangeSelectorBehaviorComponent = class _DxoRangeSelectorBehaviorComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorBehaviorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-behavior",
       standalone: true,
@@ -324107,7 +324117,7 @@ var DxoRangeSelectorBorderComponent = class _DxoRangeSelectorBorderComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-border",
       standalone: true,
@@ -324217,7 +324227,7 @@ var DxiRangeSelectorBreakComponent = class _DxiRangeSelectorBreakComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiRangeSelectorBreakComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-range-selector-break",
       standalone: true,
@@ -324331,7 +324341,7 @@ var DxoRangeSelectorBreakStyleComponent = class _DxoRangeSelectorBreakStyleCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorBreakStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-break-style",
       standalone: true,
@@ -324534,7 +324544,7 @@ var DxoRangeSelectorChartComponent = class _DxoRangeSelectorChartComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorChartComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-chart",
       standalone: true,
@@ -324678,7 +324688,7 @@ var DxoRangeSelectorColorComponent = class _DxoRangeSelectorColorComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorColorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-color",
       standalone: true,
@@ -324810,7 +324820,7 @@ var DxoRangeSelectorCommonSeriesSettingsHoverStyleComponent = class _DxoRangeSel
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorCommonSeriesSettingsHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-common-series-settings-hover-style",
       standalone: true,
@@ -325017,7 +325027,7 @@ var DxoRangeSelectorCommonSeriesSettingsLabelComponent = class _DxoRangeSelector
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorCommonSeriesSettingsLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-common-series-settings-label",
       standalone: true,
@@ -325188,7 +325198,7 @@ var DxoRangeSelectorCommonSeriesSettingsSelectionStyleComponent = class _DxoRang
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorCommonSeriesSettingsSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-common-series-settings-selection-style",
       standalone: true,
@@ -325717,7 +325727,7 @@ var DxoRangeSelectorCommonSeriesSettingsComponent = class _DxoRangeSelectorCommo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorCommonSeriesSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-common-series-settings",
       standalone: true,
@@ -326005,7 +326015,7 @@ var DxoRangeSelectorConnectorComponent = class _DxoRangeSelectorConnectorCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorConnectorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-connector",
       standalone: true,
@@ -326119,7 +326129,7 @@ var DxoRangeSelectorDataPrepareSettingsComponent = class _DxoRangeSelectorDataPr
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorDataPrepareSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-data-prepare-settings",
       standalone: true,
@@ -326261,7 +326271,7 @@ var DxoRangeSelectorExportComponent = class _DxoRangeSelectorExportComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-export",
       standalone: true,
@@ -326401,7 +326411,7 @@ var DxoRangeSelectorFontComponent = class _DxoRangeSelectorFontComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-font",
       standalone: true,
@@ -326542,7 +326552,7 @@ var DxoRangeSelectorFormatComponent = class _DxoRangeSelectorFormatComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-format",
       standalone: true,
@@ -326672,7 +326682,7 @@ var DxoRangeSelectorHatchingComponent = class _DxoRangeSelectorHatchingComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorHatchingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-hatching",
       standalone: true,
@@ -326782,7 +326792,7 @@ var DxoRangeSelectorHeightComponent = class _DxoRangeSelectorHeightComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorHeightComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-height",
       standalone: true,
@@ -326921,7 +326931,7 @@ var DxoRangeSelectorHoverStyleComponent = class _DxoRangeSelectorHoverStyleCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-hover-style",
       standalone: true,
@@ -327054,7 +327064,7 @@ var DxoRangeSelectorImageComponent = class _DxoRangeSelectorImageComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-image",
       standalone: true,
@@ -327164,7 +327174,7 @@ var DxoRangeSelectorIndentComponent = class _DxoRangeSelectorIndentComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorIndentComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-indent",
       standalone: true,
@@ -327373,7 +327383,7 @@ var DxoRangeSelectorLabelComponent = class _DxoRangeSelectorLabelComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-label",
       standalone: true,
@@ -327571,7 +327581,7 @@ var DxoRangeSelectorLengthComponent = class _DxoRangeSelectorLengthComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorLengthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-length",
       standalone: true,
@@ -327729,7 +327739,7 @@ var DxoRangeSelectorLoadingIndicatorComponent = class _DxoRangeSelectorLoadingIn
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-loading-indicator",
       standalone: true,
@@ -327859,7 +327869,7 @@ var DxoRangeSelectorMarginComponent = class _DxoRangeSelectorMarginComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-margin",
       standalone: true,
@@ -327969,7 +327979,7 @@ var DxoRangeSelectorMarkerLabelComponent = class _DxoRangeSelectorMarkerLabelCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMarkerLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-marker-label",
       standalone: true,
@@ -328101,7 +328111,7 @@ var DxoRangeSelectorMarkerComponent = class _DxoRangeSelectorMarkerComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMarkerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-marker",
       standalone: true,
@@ -328266,7 +328276,7 @@ var DxoRangeSelectorMaxRangeComponent = class _DxoRangeSelectorMaxRangeComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMaxRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-max-range",
       standalone: true,
@@ -328440,7 +328450,7 @@ var DxoRangeSelectorMinRangeComponent = class _DxoRangeSelectorMinRangeComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMinRangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-min-range",
       standalone: true,
@@ -328614,7 +328624,7 @@ var DxoRangeSelectorMinorTickIntervalComponent = class _DxoRangeSelectorMinorTic
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMinorTickIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-minor-tick-interval",
       standalone: true,
@@ -328753,7 +328763,7 @@ var DxoRangeSelectorMinorTickComponent = class _DxoRangeSelectorMinorTickCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorMinorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-minor-tick",
       standalone: true,
@@ -328870,7 +328880,7 @@ var DxoRangeSelectorPointBorderComponent = class _DxoRangeSelectorPointBorderCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorPointBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-point-border",
       standalone: true,
@@ -328984,7 +328994,7 @@ var DxoRangeSelectorPointHoverStyleComponent = class _DxoRangeSelectorPointHover
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorPointHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-point-hover-style",
       standalone: true,
@@ -329098,7 +329108,7 @@ var DxoRangeSelectorPointImageComponent = class _DxoRangeSelectorPointImageCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorPointImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-point-image",
       standalone: true,
@@ -329212,7 +329222,7 @@ var DxoRangeSelectorPointSelectionStyleComponent = class _DxoRangeSelectorPointS
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorPointSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-point-selection-style",
       standalone: true,
@@ -329375,7 +329385,7 @@ var DxoRangeSelectorPointComponent = class _DxoRangeSelectorPointComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorPointComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-point",
       standalone: true,
@@ -329503,7 +329513,7 @@ var DxoRangeSelectorReductionComponent = class _DxoRangeSelectorReductionCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorReductionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-reduction",
       standalone: true,
@@ -329635,7 +329645,7 @@ var DxoRangeSelectorScaleLabelComponent = class _DxoRangeSelectorScaleLabelCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorScaleLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-scale-label",
       standalone: true,
@@ -329952,7 +329962,7 @@ var DxoRangeSelectorScaleComponent = class _DxoRangeSelectorScaleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorScaleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-scale",
       standalone: true,
@@ -330176,7 +330186,7 @@ var DxoRangeSelectorSelectionStyleComponent = class _DxoRangeSelectorSelectionSt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-selection-style",
       standalone: true,
@@ -330309,7 +330319,7 @@ var DxoRangeSelectorSeriesBorderComponent = class _DxoRangeSelectorSeriesBorderC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSeriesBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-series-border",
       standalone: true,
@@ -330685,7 +330695,7 @@ var DxiRangeSelectorSeriesComponent = class _DxiRangeSelectorSeriesComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiRangeSelectorSeriesComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-range-selector-series",
       standalone: true,
@@ -330906,7 +330916,7 @@ var DxoRangeSelectorSeriesTemplateComponent = class _DxoRangeSelectorSeriesTempl
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSeriesTemplateComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-series-template",
       standalone: true,
@@ -331010,7 +331020,7 @@ var DxoRangeSelectorShutterComponent = class _DxoRangeSelectorShutterComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorShutterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-shutter",
       standalone: true,
@@ -331114,7 +331124,7 @@ var DxoRangeSelectorSizeComponent = class _DxoRangeSelectorSizeComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-size",
       standalone: true,
@@ -331225,7 +331235,7 @@ var DxoRangeSelectorSliderHandleComponent = class _DxoRangeSelectorSliderHandleC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSliderHandleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-slider-handle",
       standalone: true,
@@ -331381,7 +331391,7 @@ var DxoRangeSelectorSliderMarkerComponent = class _DxoRangeSelectorSliderMarkerC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSliderMarkerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-slider-marker",
       standalone: true,
@@ -331527,7 +331537,7 @@ var DxoRangeSelectorSubtitleComponent = class _DxoRangeSelectorSubtitleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-subtitle",
       standalone: true,
@@ -331689,7 +331699,7 @@ var DxoRangeSelectorTickIntervalComponent = class _DxoRangeSelectorTickIntervalC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorTickIntervalComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-tick-interval",
       standalone: true,
@@ -331821,7 +331831,7 @@ var DxoRangeSelectorTickComponent = class _DxoRangeSelectorTickComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorTickComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-tick",
       standalone: true,
@@ -331977,7 +331987,7 @@ var DxoRangeSelectorTitleComponent = class _DxoRangeSelectorTitleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-title",
       standalone: true,
@@ -332102,7 +332112,7 @@ var DxoRangeSelectorUrlComponent = class _DxoRangeSelectorUrlComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorUrlComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-url",
       standalone: true,
@@ -332234,7 +332244,7 @@ var DxoRangeSelectorValueAxisComponent = class _DxoRangeSelectorValueAxisCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorValueAxisComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-value-axis",
       standalone: true,
@@ -332399,7 +332409,7 @@ var DxoRangeSelectorValueErrorBarComponent = class _DxoRangeSelectorValueErrorBa
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorValueErrorBarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-value-error-bar",
       standalone: true,
@@ -332552,7 +332562,7 @@ var DxoRangeSelectorValueComponent = class _DxoRangeSelectorValueComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorValueComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-value",
       standalone: true,
@@ -332665,7 +332675,7 @@ var DxoRangeSelectorWidthComponent = class _DxoRangeSelectorWidthComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSelectorWidthComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-selector-width",
       standalone: true,
@@ -333448,7 +333458,7 @@ var DxRangeSelectorComponent = class _DxRangeSelectorComponent extends DxCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxRangeSelectorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-range-selector",
       standalone: true,
@@ -334847,7 +334857,7 @@ var DxoRangeSliderFormatComponent = class _DxoRangeSliderFormatComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSliderFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-slider-format",
       standalone: true,
@@ -334970,7 +334980,7 @@ var DxoRangeSliderLabelComponent = class _DxoRangeSliderLabelComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSliderLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-slider-label",
       standalone: true,
@@ -335091,7 +335101,7 @@ var DxoRangeSliderTooltipComponent = class _DxoRangeSliderTooltipComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoRangeSliderTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-range-slider-tooltip",
       standalone: true,
@@ -335982,7 +335992,7 @@ var DxRangeSliderComponent = class _DxRangeSliderComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxRangeSliderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-range-slider",
       standalone: true,
@@ -337638,7 +337648,7 @@ var DxRecurrenceEditorComponent = class _DxRecurrenceEditorComponent extends DxC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxRecurrenceEditorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-recurrence-editor",
       standalone: true,
@@ -338180,7 +338190,7 @@ var DxResizableComponent = class _DxResizableComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxResizableComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-resizable",
       standalone: true,
@@ -338391,7 +338401,7 @@ var DxiResponsiveBoxColComponent = class _DxiResponsiveBoxColComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiResponsiveBoxColComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-responsive-box-col",
       standalone: true,
@@ -338562,7 +338572,7 @@ var DxiResponsiveBoxItemComponent = class _DxiResponsiveBoxItemComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiResponsiveBoxItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-responsive-box-item",
       standalone: true,
@@ -338722,7 +338732,7 @@ var DxiResponsiveBoxLocationComponent = class _DxiResponsiveBoxLocationComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiResponsiveBoxLocationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-responsive-box-location",
       standalone: true,
@@ -338852,7 +338862,7 @@ var DxiResponsiveBoxRowComponent = class _DxiResponsiveBoxRowComponent extends C
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiResponsiveBoxRowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-responsive-box-row",
       standalone: true,
@@ -339402,7 +339412,7 @@ var DxResponsiveBoxComponent = class _DxResponsiveBoxComponent extends DxCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxResponsiveBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-responsive-box",
       standalone: true,
@@ -340791,7 +340801,7 @@ var DxoSankeyAdaptiveLayoutComponent = class _DxoSankeyAdaptiveLayoutComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyAdaptiveLayoutComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-adaptive-layout",
       standalone: true,
@@ -340919,7 +340929,7 @@ var DxoSankeyBorderComponent = class _DxoSankeyBorderComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-border",
       standalone: true,
@@ -341067,7 +341077,7 @@ var DxoSankeyExportComponent = class _DxoSankeyExportComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-export",
       standalone: true,
@@ -341207,7 +341217,7 @@ var DxoSankeyFontComponent = class _DxoSankeyFontComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-font",
       standalone: true,
@@ -341348,7 +341358,7 @@ var DxoSankeyFormatComponent = class _DxoSankeyFormatComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-format",
       standalone: true,
@@ -341478,7 +341488,7 @@ var DxoSankeyHatchingComponent = class _DxoSankeyHatchingComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyHatchingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-hatching",
       standalone: true,
@@ -341602,7 +341612,7 @@ var DxoSankeyHoverStyleComponent = class _DxoSankeyHoverStyleComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-hover-style",
       standalone: true,
@@ -341761,7 +341771,7 @@ var DxoSankeyLabelComponent = class _DxoSankeyLabelComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-label",
       standalone: true,
@@ -341907,7 +341917,7 @@ var DxoSankeyLinkComponent = class _DxoSankeyLinkComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyLinkComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-link",
       standalone: true,
@@ -342053,7 +342063,7 @@ var DxoSankeyLoadingIndicatorComponent = class _DxoSankeyLoadingIndicatorCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-loading-indicator",
       standalone: true,
@@ -342183,7 +342193,7 @@ var DxoSankeyMarginComponent = class _DxoSankeyMarginComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-margin",
       standalone: true,
@@ -342321,7 +342331,7 @@ var DxoSankeyNodeComponent = class _DxoSankeyNodeComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyNodeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-node",
       standalone: true,
@@ -342444,7 +342454,7 @@ var DxoSankeySankeyborderComponent = class _DxoSankeySankeyborderComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeySankeyborderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-sankeyborder",
       standalone: true,
@@ -342572,7 +342582,7 @@ var DxoSankeyShadowComponent = class _DxoSankeyShadowComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-shadow",
       standalone: true,
@@ -342685,7 +342695,7 @@ var DxoSankeySizeComponent = class _DxoSankeySizeComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeySizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-size",
       standalone: true,
@@ -342810,7 +342820,7 @@ var DxoSankeySubtitleComponent = class _DxoSankeySubtitleComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeySubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-subtitle",
       standalone: true,
@@ -342972,7 +342982,7 @@ var DxoSankeyTitleComponent = class _DxoSankeyTitleComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-title",
       standalone: true,
@@ -343118,7 +343128,7 @@ var DxoSankeyTooltipBorderComponent = class _DxoSankeyTooltipBorderComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-tooltip-border",
       standalone: true,
@@ -343336,7 +343346,7 @@ var DxoSankeyTooltipComponent = class _DxoSankeyTooltipComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSankeyTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sankey-tooltip",
       standalone: true,
@@ -344137,7 +344147,7 @@ var DxSankeyComponent = class _DxSankeyComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSankeyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-sankey",
       standalone: true,
@@ -367764,7 +367774,7 @@ var Scheduler = class extends SchedulerOptionsBaseWidget {
     const resolveCallback = (callbackResult) => {
       when(fromPromise(callbackResult)).always(deferred.resolve);
     };
-    if (isPromise(actionOptions.cancel)) {
+    if (isPromise2(actionOptions.cancel)) {
       when(fromPromise(actionOptions.cancel)).always(((cancel) => {
         if (!isDefined(cancel)) {
           cancel = "rejected" === actionOptions.cancel.state();
@@ -368139,7 +368149,7 @@ var DxoSchedulerAppointmentDraggingComponent = class _DxoSchedulerAppointmentDra
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSchedulerAppointmentDraggingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-scheduler-appointment-dragging",
       standalone: true,
@@ -368295,7 +368305,7 @@ var DxoSchedulerEditingComponent = class _DxoSchedulerEditingComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSchedulerEditingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-scheduler-editing",
       standalone: true,
@@ -368534,7 +368544,7 @@ var DxiSchedulerItemComponent = class _DxiSchedulerItemComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSchedulerItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-scheduler-item",
       standalone: true,
@@ -368762,7 +368772,7 @@ var DxiSchedulerOptionsItemComponent = class _DxiSchedulerOptionsItemComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSchedulerOptionsItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-scheduler-options-item",
       standalone: true,
@@ -369097,7 +369107,7 @@ var DxoSchedulerOptionsComponent = class _DxoSchedulerOptionsComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSchedulerOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-scheduler-options",
       standalone: true,
@@ -369322,7 +369332,7 @@ var DxiSchedulerResourceComponent = class _DxiSchedulerResourceComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSchedulerResourceComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-scheduler-resource",
       standalone: true,
@@ -369440,7 +369450,7 @@ var DxoSchedulerScrollingComponent = class _DxoSchedulerScrollingComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSchedulerScrollingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-scheduler-scrolling",
       standalone: true,
@@ -369636,7 +369646,7 @@ var DxiSchedulerToolbarItemComponent = class _DxiSchedulerToolbarItemComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSchedulerToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-scheduler-toolbar-item",
       standalone: true,
@@ -369818,7 +369828,7 @@ var DxoSchedulerToolbarComponent = class _DxoSchedulerToolbarComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSchedulerToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-scheduler-toolbar",
       standalone: true,
@@ -370086,7 +370096,7 @@ var DxiSchedulerViewComponent = class _DxiSchedulerViewComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSchedulerViewComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-scheduler-view",
       standalone: true,
@@ -371725,7 +371735,7 @@ var DxSchedulerComponent = class _DxSchedulerComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSchedulerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-scheduler",
       standalone: true,
@@ -372269,7 +372279,7 @@ var DxoSelectBoxAnimationComponent = class _DxoSelectBoxAnimationComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-animation",
       standalone: true,
@@ -372373,7 +372383,7 @@ var DxoSelectBoxAtComponent = class _DxoSelectBoxAtComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-at",
       standalone: true,
@@ -372477,7 +372487,7 @@ var DxoSelectBoxBoundaryOffsetComponent = class _DxoSelectBoxBoundaryOffsetCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-boundary-offset",
       standalone: true,
@@ -372588,7 +372598,7 @@ var DxiSelectBoxButtonComponent = class _DxiSelectBoxButtonComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSelectBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-select-box-button",
       standalone: true,
@@ -372698,7 +372708,7 @@ var DxoSelectBoxCollisionComponent = class _DxoSelectBoxCollisionComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-collision",
       standalone: true,
@@ -373175,7 +373185,7 @@ var DxoSelectBoxDropDownOptionsComponent = class _DxoSelectBoxDropDownOptionsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-drop-down-options",
       standalone: true,
@@ -373454,7 +373464,7 @@ var DxoSelectBoxFromComponent = class _DxoSelectBoxFromComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-from",
       standalone: true,
@@ -373623,7 +373633,7 @@ var DxoSelectBoxHideComponent = class _DxoSelectBoxHideComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-hide",
       standalone: true,
@@ -373790,7 +373800,7 @@ var DxiSelectBoxItemComponent = class _DxiSelectBoxItemComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSelectBoxItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-select-box-item",
       standalone: true,
@@ -373922,7 +373932,7 @@ var DxoSelectBoxMyComponent = class _DxoSelectBoxMyComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-my",
       standalone: true,
@@ -374026,7 +374036,7 @@ var DxoSelectBoxOffsetComponent = class _DxoSelectBoxOffsetComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-offset",
       standalone: true,
@@ -374302,7 +374312,7 @@ var DxoSelectBoxOptionsComponent = class _DxoSelectBoxOptionsComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-options",
       standalone: true,
@@ -374523,7 +374533,7 @@ var DxoSelectBoxPositionComponent = class _DxoSelectBoxPositionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-position",
       standalone: true,
@@ -374698,7 +374708,7 @@ var DxoSelectBoxShowComponent = class _DxoSelectBoxShowComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-show",
       standalone: true,
@@ -374847,7 +374857,7 @@ var DxoSelectBoxToComponent = class _DxoSelectBoxToComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSelectBoxToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-select-box-to",
       standalone: true,
@@ -375055,7 +375065,7 @@ var DxiSelectBoxToolbarItemComponent = class _DxiSelectBoxToolbarItemComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSelectBoxToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-select-box-toolbar-item",
       standalone: true,
@@ -376745,7 +376755,7 @@ var DxSelectBoxComponent = class _DxSelectBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSelectBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-select-box",
       standalone: true,
@@ -377336,7 +377346,7 @@ var DxoSliderFormatComponent = class _DxoSliderFormatComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSliderFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-slider-format",
       standalone: true,
@@ -377459,7 +377469,7 @@ var DxoSliderLabelComponent = class _DxoSliderLabelComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSliderLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-slider-label",
       standalone: true,
@@ -377580,7 +377590,7 @@ var DxoSliderTooltipComponent = class _DxoSliderTooltipComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSliderTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-slider-tooltip",
       standalone: true,
@@ -378409,7 +378419,7 @@ var DxSliderComponent = class _DxSliderComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSliderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-slider",
       standalone: true,
@@ -378726,7 +378736,7 @@ var DxoSortableCursorOffsetComponent = class _DxoSortableCursorOffsetComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSortableCursorOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sortable-cursor-offset",
       standalone: true,
@@ -379355,7 +379365,7 @@ var DxSortableComponent = class _DxSortableComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSortableComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-sortable",
       standalone: true,
@@ -380090,7 +380100,7 @@ var DxoSparklineBorderComponent = class _DxoSparklineBorderComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-border",
       standalone: true,
@@ -380224,7 +380234,7 @@ var DxoSparklineFontComponent = class _DxoSparklineFontComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-font",
       standalone: true,
@@ -380365,7 +380375,7 @@ var DxoSparklineFormatComponent = class _DxoSparklineFormatComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-format",
       standalone: true,
@@ -380495,7 +380505,7 @@ var DxoSparklineMarginComponent = class _DxoSparklineMarginComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-margin",
       standalone: true,
@@ -380626,7 +380636,7 @@ var DxoSparklineShadowComponent = class _DxoSparklineShadowComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-shadow",
       standalone: true,
@@ -380739,7 +380749,7 @@ var DxoSparklineSizeComponent = class _DxoSparklineSizeComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-size",
       standalone: true,
@@ -380941,7 +380951,7 @@ var DxoSparklineTooltipComponent = class _DxoSparklineTooltipComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoSparklineTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-sparkline-tooltip",
       standalone: true,
@@ -381813,7 +381823,7 @@ var DxSparklineComponent = class _DxSparklineComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSparklineComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-sparkline",
       standalone: true,
@@ -383059,7 +383069,7 @@ var DxSpeedDialActionComponent = class _DxSpeedDialActionComponent extends DxCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSpeedDialActionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-speed-dial-action",
       standalone: true,
@@ -384666,7 +384676,7 @@ var DxiSplitterItemComponent = class _DxiSplitterItemComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiSplitterItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-splitter-item",
       standalone: true,
@@ -385238,7 +385248,7 @@ var DxSplitterComponent = class _DxSplitterComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSplitterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-splitter",
       standalone: true,
@@ -385944,7 +385954,7 @@ var DxiStepperItemComponent = class _DxiStepperItemComponent extends CollectionN
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiStepperItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-stepper-item",
       standalone: true,
@@ -386523,7 +386533,7 @@ var DxStepperComponent = class _DxStepperComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxStepperComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-stepper",
       standalone: true,
@@ -387379,7 +387389,7 @@ var DxSwitchComponent = class _DxSwitchComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxSwitchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-switch",
       standalone: true,
@@ -387728,7 +387738,7 @@ var DxiTabPanelItemComponent = class _DxiTabPanelItemComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTabPanelItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tab-panel-item",
       standalone: true,
@@ -388685,7 +388695,7 @@ var DxTabPanelComponent = class _DxTabPanelComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTabPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tab-panel",
       standalone: true,
@@ -389088,7 +389098,7 @@ var DxiTabsItemComponent = class _DxiTabsItemComponent extends CollectionNestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTabsItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tabs-item",
       standalone: true,
@@ -389950,7 +389960,7 @@ var DxTabsComponent = class _DxTabsComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTabsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tabs",
       standalone: true,
@@ -390270,7 +390280,7 @@ var DxoTagBoxAnimationComponent = class _DxoTagBoxAnimationComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-animation",
       standalone: true,
@@ -390374,7 +390384,7 @@ var DxoTagBoxAtComponent = class _DxoTagBoxAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-at",
       standalone: true,
@@ -390478,7 +390488,7 @@ var DxoTagBoxBoundaryOffsetComponent = class _DxoTagBoxBoundaryOffsetComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-boundary-offset",
       standalone: true,
@@ -390589,7 +390599,7 @@ var DxiTagBoxButtonComponent = class _DxiTagBoxButtonComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTagBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tag-box-button",
       standalone: true,
@@ -390699,7 +390709,7 @@ var DxoTagBoxCollisionComponent = class _DxoTagBoxCollisionComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-collision",
       standalone: true,
@@ -391176,7 +391186,7 @@ var DxoTagBoxDropDownOptionsComponent = class _DxoTagBoxDropDownOptionsComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxDropDownOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-drop-down-options",
       standalone: true,
@@ -391455,7 +391465,7 @@ var DxoTagBoxFromComponent = class _DxoTagBoxFromComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-from",
       standalone: true,
@@ -391624,7 +391634,7 @@ var DxoTagBoxHideComponent = class _DxoTagBoxHideComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-hide",
       standalone: true,
@@ -391791,7 +391801,7 @@ var DxiTagBoxItemComponent = class _DxiTagBoxItemComponent extends CollectionNes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTagBoxItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tag-box-item",
       standalone: true,
@@ -391923,7 +391933,7 @@ var DxoTagBoxMyComponent = class _DxoTagBoxMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-my",
       standalone: true,
@@ -392027,7 +392037,7 @@ var DxoTagBoxOffsetComponent = class _DxoTagBoxOffsetComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-offset",
       standalone: true,
@@ -392303,7 +392313,7 @@ var DxoTagBoxOptionsComponent = class _DxoTagBoxOptionsComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-options",
       standalone: true,
@@ -392524,7 +392534,7 @@ var DxoTagBoxPositionComponent = class _DxoTagBoxPositionComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-position",
       standalone: true,
@@ -392699,7 +392709,7 @@ var DxoTagBoxShowComponent = class _DxoTagBoxShowComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-show",
       standalone: true,
@@ -392848,7 +392858,7 @@ var DxoTagBoxToComponent = class _DxoTagBoxToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTagBoxToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tag-box-to",
       standalone: true,
@@ -393056,7 +393066,7 @@ var DxiTagBoxToolbarItemComponent = class _DxiTagBoxToolbarItemComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTagBoxToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tag-box-toolbar-item",
       standalone: true,
@@ -394879,7 +394889,7 @@ var DxTagBoxComponent = class _DxTagBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTagBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tag-box",
       standalone: true,
@@ -396385,7 +396395,7 @@ var DxTextAreaComponent = class _DxTextAreaComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTextAreaComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-text-area",
       standalone: true,
@@ -396764,7 +396774,7 @@ var DxiTextBoxButtonComponent = class _DxiTextBoxButtonComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTextBoxButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-text-box-button",
       standalone: true,
@@ -397046,7 +397056,7 @@ var DxoTextBoxOptionsComponent = class _DxoTextBoxOptionsComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTextBoxOptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-text-box-options",
       standalone: true,
@@ -398275,7 +398285,7 @@ var DxTextBoxComponent = class _DxTextBoxComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTextBoxComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-text-box",
       standalone: true,
@@ -399170,7 +399180,7 @@ var DxiTileViewItemComponent = class _DxiTileViewItemComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTileViewItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tile-view-item",
       standalone: true,
@@ -399866,7 +399876,7 @@ var DxTileViewComponent = class _DxTileViewComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTileViewComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tile-view",
       standalone: true,
@@ -400137,7 +400147,7 @@ var DxoToastAnimationComponent = class _DxoToastAnimationComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-animation",
       standalone: true,
@@ -400241,7 +400251,7 @@ var DxoToastAtComponent = class _DxoToastAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-at",
       standalone: true,
@@ -400345,7 +400355,7 @@ var DxoToastBoundaryOffsetComponent = class _DxoToastBoundaryOffsetComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-boundary-offset",
       standalone: true,
@@ -400449,7 +400459,7 @@ var DxoToastCollisionComponent = class _DxoToastCollisionComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-collision",
       standalone: true,
@@ -400574,7 +400584,7 @@ var DxoToastFromComponent = class _DxoToastFromComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-from",
       standalone: true,
@@ -400743,7 +400753,7 @@ var DxoToastHideComponent = class _DxoToastHideComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-hide",
       standalone: true,
@@ -400871,7 +400881,7 @@ var DxoToastMyComponent = class _DxoToastMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-my",
       standalone: true,
@@ -400975,7 +400985,7 @@ var DxoToastOffsetComponent = class _DxoToastOffsetComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-offset",
       standalone: true,
@@ -401114,7 +401124,7 @@ var DxoToastPositionComponent = class _DxoToastPositionComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-position",
       standalone: true,
@@ -401289,7 +401299,7 @@ var DxoToastShowComponent = class _DxoToastShowComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-show",
       standalone: true,
@@ -401438,7 +401448,7 @@ var DxoToastToComponent = class _DxoToastToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoToastToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-toast-to",
       standalone: true,
@@ -402168,7 +402178,7 @@ var DxToastComponent = class _DxToastComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxToastComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-toast",
       standalone: true,
@@ -402463,7 +402473,7 @@ var DxoTooltipAnimationComponent = class _DxoTooltipAnimationComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-animation",
       standalone: true,
@@ -402567,7 +402577,7 @@ var DxoTooltipAtComponent = class _DxoTooltipAtComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-at",
       standalone: true,
@@ -402671,7 +402681,7 @@ var DxoTooltipBoundaryOffsetComponent = class _DxoTooltipBoundaryOffsetComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-boundary-offset",
       standalone: true,
@@ -402775,7 +402785,7 @@ var DxoTooltipCollisionComponent = class _DxoTooltipCollisionComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-collision",
       standalone: true,
@@ -402900,7 +402910,7 @@ var DxoTooltipFromComponent = class _DxoTooltipFromComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-from",
       standalone: true,
@@ -403013,7 +403023,7 @@ var DxoTooltipHideEventComponent = class _DxoTooltipHideEventComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipHideEventComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-hide-event",
       standalone: true,
@@ -403173,7 +403183,7 @@ var DxoTooltipHideComponent = class _DxoTooltipHideComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-hide",
       standalone: true,
@@ -403301,7 +403311,7 @@ var DxoTooltipMyComponent = class _DxoTooltipMyComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-my",
       standalone: true,
@@ -403405,7 +403415,7 @@ var DxoTooltipOffsetComponent = class _DxoTooltipOffsetComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-offset",
       standalone: true,
@@ -403544,7 +403554,7 @@ var DxoTooltipPositionComponent = class _DxoTooltipPositionComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-position",
       standalone: true,
@@ -403663,7 +403673,7 @@ var DxoTooltipShowEventComponent = class _DxoTooltipShowEventComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipShowEventComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-show-event",
       standalone: true,
@@ -403823,7 +403833,7 @@ var DxoTooltipShowComponent = class _DxoTooltipShowComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-show",
       standalone: true,
@@ -403972,7 +403982,7 @@ var DxoTooltipToComponent = class _DxoTooltipToComponent extends NestedOption {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTooltipToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tooltip-to",
       standalone: true,
@@ -404648,7 +404658,7 @@ var DxTooltipComponent = class _DxTooltipComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tooltip",
       standalone: true,
@@ -404926,7 +404936,7 @@ var DxoTreeListAnimationComponent = class _DxoTreeListAnimationComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListAnimationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-animation",
       standalone: true,
@@ -405052,7 +405062,7 @@ var DxiTreeListAsyncRuleComponent = class _DxiTreeListAsyncRuleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListAsyncRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-async-rule",
       standalone: true,
@@ -405168,7 +405178,7 @@ var DxoTreeListAtComponent = class _DxoTreeListAtComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListAtComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-at",
       standalone: true,
@@ -405272,7 +405282,7 @@ var DxoTreeListBoundaryOffsetComponent = class _DxoTreeListBoundaryOffsetCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListBoundaryOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-boundary-offset",
       standalone: true,
@@ -405443,7 +405453,7 @@ var DxiTreeListButtonComponent = class _DxiTreeListButtonComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListButtonComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-button",
       standalone: true,
@@ -405608,7 +405618,7 @@ var DxiTreeListChangeComponent = class _DxiTreeListChangeComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListChangeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-change",
       standalone: true,
@@ -405738,7 +405748,7 @@ var DxoTreeListColCountByScreenComponent = class _DxoTreeListColCountByScreenCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColCountByScreenComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-col-count-by-screen",
       standalone: true,
@@ -405848,7 +405858,7 @@ var DxoTreeListCollisionComponent = class _DxoTreeListCollisionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListCollisionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-collision",
       standalone: true,
@@ -405959,7 +405969,7 @@ var DxoTreeListColumnChooserSearchComponent = class _DxoTreeListColumnChooserSea
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnChooserSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-chooser-search",
       standalone: true,
@@ -406073,7 +406083,7 @@ var DxoTreeListColumnChooserSelectionComponent = class _DxoTreeListColumnChooser
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnChooserSelectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-chooser-selection",
       standalone: true,
@@ -406257,7 +406267,7 @@ var DxoTreeListColumnChooserComponent = class _DxoTreeListColumnChooserComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnChooserComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-chooser",
       standalone: true,
@@ -406860,7 +406870,7 @@ var DxiTreeListColumnComponent = class _DxiTreeListColumnComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListColumnComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-column",
       standalone: true,
@@ -407183,7 +407193,7 @@ var DxoTreeListColumnFixingTextsComponent = class _DxoTreeListColumnFixingTextsC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnFixingTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-fixing-texts",
       standalone: true,
@@ -407303,7 +407313,7 @@ var DxoTreeListColumnFixingComponent = class _DxoTreeListColumnFixingComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnFixingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-fixing",
       standalone: true,
@@ -407431,7 +407441,7 @@ var DxoTreeListColumnHeaderFilterSearchComponent = class _DxoTreeListColumnHeade
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnHeaderFilterSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-header-filter-search",
       standalone: true,
@@ -407586,7 +407596,7 @@ var DxoTreeListColumnHeaderFilterComponent = class _DxoTreeListColumnHeaderFilte
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-header-filter",
       standalone: true,
@@ -407729,7 +407739,7 @@ var DxoTreeListColumnLookupComponent = class _DxoTreeListColumnLookupComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListColumnLookupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-column-lookup",
       standalone: true,
@@ -407864,7 +407874,7 @@ var DxiTreeListCompareRuleComponent = class _DxiTreeListCompareRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListCompareRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-compare-rule",
       standalone: true,
@@ -407980,7 +407990,7 @@ var DxoTreeListCursorOffsetComponent = class _DxoTreeListCursorOffsetComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListCursorOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-cursor-offset",
       standalone: true,
@@ -408126,7 +408136,7 @@ var DxiTreeListCustomOperationComponent = class _DxiTreeListCustomOperationCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListCustomOperationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-custom-operation",
       standalone: true,
@@ -408273,7 +408283,7 @@ var DxiTreeListCustomRuleComponent = class _DxiTreeListCustomRuleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListCustomRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-custom-rule",
       standalone: true,
@@ -408459,7 +408469,7 @@ var DxoTreeListEditingTextsComponent = class _DxoTreeListEditingTextsComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListEditingTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-editing-texts",
       standalone: true,
@@ -408726,7 +408736,7 @@ var DxoTreeListEditingComponent = class _DxoTreeListEditingComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListEditingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-editing",
       standalone: true,
@@ -408890,7 +408900,7 @@ var DxiTreeListEmailRuleComponent = class _DxiTreeListEmailRuleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListEmailRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-email-rule",
       standalone: true,
@@ -409077,7 +409087,7 @@ var DxiTreeListFieldComponent = class _DxiTreeListFieldComponent extends Collect
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListFieldComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-field",
       standalone: true,
@@ -409231,7 +409241,7 @@ var DxoTreeListFieldLookupComponent = class _DxoTreeListFieldLookupComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFieldLookupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-field-lookup",
       standalone: true,
@@ -409714,7 +409724,7 @@ var DxoTreeListFilterBuilderPopupComponent = class _DxoTreeListFilterBuilderPopu
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFilterBuilderPopupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-filter-builder-popup",
       standalone: true,
@@ -410176,7 +410186,7 @@ var DxoTreeListFilterBuilderComponent = class _DxoTreeListFilterBuilderComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFilterBuilderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-filter-builder",
       standalone: true,
@@ -410443,7 +410453,7 @@ var DxoTreeListFilterOperationDescriptionsComponent = class _DxoTreeListFilterOp
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFilterOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-filter-operation-descriptions",
       standalone: true,
@@ -410587,7 +410597,7 @@ var DxoTreeListFilterPanelTextsComponent = class _DxoTreeListFilterPanelTextsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFilterPanelTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-filter-panel-texts",
       standalone: true,
@@ -410720,7 +410730,7 @@ var DxoTreeListFilterPanelComponent = class _DxoTreeListFilterPanelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFilterPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-filter-panel",
       standalone: true,
@@ -410882,7 +410892,7 @@ var DxoTreeListFilterRowComponent = class _DxoTreeListFilterRowComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFilterRowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-filter-row",
       standalone: true,
@@ -411121,7 +411131,7 @@ var DxoTreeListFormItemComponent = class _DxoTreeListFormItemComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFormItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-form-item",
       standalone: true,
@@ -411559,7 +411569,7 @@ var DxoTreeListFormComponent = class _DxoTreeListFormComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFormComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-form",
       standalone: true,
@@ -411808,7 +411818,7 @@ var DxoTreeListFormatComponent = class _DxoTreeListFormatComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-format",
       standalone: true,
@@ -411945,7 +411955,7 @@ var DxoTreeListFromComponent = class _DxoTreeListFromComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListFromComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-from",
       standalone: true,
@@ -412072,7 +412082,7 @@ var DxoTreeListGroupOperationDescriptionsComponent = class _DxoTreeListGroupOper
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListGroupOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-group-operation-descriptions",
       standalone: true,
@@ -412245,7 +412255,7 @@ var DxoTreeListHeaderFilterComponent = class _DxoTreeListHeaderFilterComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-header-filter",
       standalone: true,
@@ -412432,7 +412442,7 @@ var DxoTreeListHideComponent = class _DxoTreeListHideComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListHideComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-hide",
       standalone: true,
@@ -412581,7 +412591,7 @@ var DxoTreeListIconsComponent = class _DxoTreeListIconsComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListIconsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-icons",
       standalone: true,
@@ -412789,7 +412799,7 @@ var DxiTreeListItemComponent = class _DxiTreeListItemComponent extends Collectio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-item",
       standalone: true,
@@ -412959,7 +412969,7 @@ var DxoTreeListKeyboardNavigationComponent = class _DxoTreeListKeyboardNavigatio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListKeyboardNavigationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-keyboard-navigation",
       standalone: true,
@@ -413115,7 +413125,7 @@ var DxoTreeListLabelComponent = class _DxoTreeListLabelComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-label",
       standalone: true,
@@ -413296,7 +413306,7 @@ var DxoTreeListLoadPanelComponent = class _DxoTreeListLoadPanelComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListLoadPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-load-panel",
       standalone: true,
@@ -413442,7 +413452,7 @@ var DxoTreeListLookupComponent = class _DxoTreeListLookupComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListLookupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-lookup",
       standalone: true,
@@ -413555,7 +413565,7 @@ var DxoTreeListMyComponent = class _DxoTreeListMyComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListMyComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-my",
       standalone: true,
@@ -413667,7 +413677,7 @@ var DxiTreeListNumericRuleComponent = class _DxiTreeListNumericRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListNumericRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-numeric-rule",
       standalone: true,
@@ -413777,7 +413787,7 @@ var DxoTreeListOffsetComponent = class _DxoTreeListOffsetComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListOffsetComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-offset",
       standalone: true,
@@ -413944,7 +413954,7 @@ var DxoTreeListOperationDescriptionsComponent = class _DxoTreeListOperationDescr
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListOperationDescriptionsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-operation-descriptions",
       standalone: true,
@@ -414117,7 +414127,7 @@ var DxoTreeListPagerComponent = class _DxoTreeListPagerComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListPagerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-pager",
       standalone: true,
@@ -414267,7 +414277,7 @@ var DxoTreeListPagingComponent = class _DxoTreeListPagingComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListPagingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-paging",
       standalone: true,
@@ -414395,7 +414405,7 @@ var DxiTreeListPatternRuleComponent = class _DxiTreeListPatternRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListPatternRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-pattern-rule",
       standalone: true,
@@ -414881,7 +414891,7 @@ var DxoTreeListPopupComponent = class _DxoTreeListPopupComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListPopupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-popup",
       standalone: true,
@@ -415174,7 +415184,7 @@ var DxoTreeListPositionComponent = class _DxoTreeListPositionComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListPositionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-position",
       standalone: true,
@@ -415322,7 +415332,7 @@ var DxiTreeListRangeRuleComponent = class _DxiTreeListRangeRuleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListRangeRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-range-rule",
       standalone: true,
@@ -415448,7 +415458,7 @@ var DxoTreeListRemoteOperationsComponent = class _DxoTreeListRemoteOperationsCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListRemoteOperationsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-remote-operations",
       standalone: true,
@@ -415563,7 +415573,7 @@ var DxiTreeListRequiredRuleComponent = class _DxiTreeListRequiredRuleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListRequiredRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-required-rule",
       standalone: true,
@@ -415820,7 +415830,7 @@ var DxoTreeListRowDraggingComponent = class _DxoTreeListRowDraggingComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListRowDraggingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-row-dragging",
       standalone: true,
@@ -416036,7 +416046,7 @@ var DxoTreeListScrollingComponent = class _DxoTreeListScrollingComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListScrollingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-scrolling",
       standalone: true,
@@ -416208,7 +416218,7 @@ var DxoTreeListSearchPanelComponent = class _DxoTreeListSearchPanelComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListSearchPanelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-search-panel",
       standalone: true,
@@ -416351,7 +416361,7 @@ var DxoTreeListSearchComponent = class _DxoTreeListSearchComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-search",
       standalone: true,
@@ -416478,7 +416488,7 @@ var DxoTreeListSelectionComponent = class _DxoTreeListSelectionComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListSelectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-selection",
       standalone: true,
@@ -416644,7 +416654,7 @@ var DxoTreeListShowComponent = class _DxoTreeListShowComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListShowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-show",
       standalone: true,
@@ -416793,7 +416803,7 @@ var DxoTreeListSortingComponent = class _DxoTreeListSortingComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListSortingComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-sorting",
       standalone: true,
@@ -416934,7 +416944,7 @@ var DxoTreeListStateStoringComponent = class _DxoTreeListStateStoringComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListStateStoringComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-state-storing",
       standalone: true,
@@ -417079,7 +417089,7 @@ var DxiTreeListStringLengthRuleComponent = class _DxiTreeListStringLengthRuleCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListStringLengthRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-string-length-rule",
       standalone: true,
@@ -417345,7 +417355,7 @@ var DxoTreeListTextsComponent = class _DxoTreeListTextsComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-texts",
       standalone: true,
@@ -417533,7 +417543,7 @@ var DxoTreeListToComponent = class _DxoTreeListToComponent extends NestedOption 
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListToComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-to",
       standalone: true,
@@ -417741,7 +417751,7 @@ var DxiTreeListToolbarItemComponent = class _DxiTreeListToolbarItemComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListToolbarItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-toolbar-item",
       standalone: true,
@@ -417916,7 +417926,7 @@ var DxoTreeListToolbarComponent = class _DxoTreeListToolbarComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListToolbarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-toolbar",
       standalone: true,
@@ -418041,7 +418051,7 @@ var DxoTreeListTreeListHeaderFilterSearchComponent = class _DxoTreeListTreeListH
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListTreeListHeaderFilterSearchComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-tree-list-header-filter-search",
       standalone: true,
@@ -418158,7 +418168,7 @@ var DxoTreeListTreeListHeaderFilterTextsComponent = class _DxoTreeListTreeListHe
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListTreeListHeaderFilterTextsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-tree-list-header-filter-texts",
       standalone: true,
@@ -418307,7 +418317,7 @@ var DxoTreeListTreeListHeaderFilterComponent = class _DxoTreeListTreeListHeaderF
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListTreeListHeaderFilterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-tree-list-header-filter",
       standalone: true,
@@ -418436,7 +418446,7 @@ var DxoTreeListTreeListSelectionComponent = class _DxoTreeListTreeListSelectionC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeListTreeListSelectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-list-tree-list-selection",
       standalone: true,
@@ -418607,7 +418617,7 @@ var DxiTreeListValidationRuleComponent = class _DxiTreeListValidationRuleCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiTreeListValidationRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-tree-list-validation-rule",
       standalone: true,
@@ -420763,7 +420773,7 @@ var DxTreeListComponent = class _DxTreeListComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTreeListComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tree-list",
       standalone: true,
@@ -423072,7 +423082,7 @@ var DxoTreeMapBorderComponent = class _DxoTreeMapBorderComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-border",
       standalone: true,
@@ -423213,7 +423223,7 @@ var DxoTreeMapColorizerComponent = class _DxoTreeMapColorizerComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapColorizerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-colorizer",
       standalone: true,
@@ -423364,7 +423374,7 @@ var DxoTreeMapExportComponent = class _DxoTreeMapExportComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-export",
       standalone: true,
@@ -423504,7 +423514,7 @@ var DxoTreeMapFontComponent = class _DxoTreeMapFontComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-font",
       standalone: true,
@@ -423645,7 +423655,7 @@ var DxoTreeMapFormatComponent = class _DxoTreeMapFormatComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapFormatComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-format",
       standalone: true,
@@ -423768,7 +423778,7 @@ var DxoTreeMapGroupLabelComponent = class _DxoTreeMapGroupLabelComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapGroupLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-group-label",
       standalone: true,
@@ -423917,7 +423927,7 @@ var DxoTreeMapGroupComponent = class _DxoTreeMapGroupComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-group",
       standalone: true,
@@ -424039,7 +424049,7 @@ var DxoTreeMapHoverStyleComponent = class _DxoTreeMapHoverStyleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapHoverStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-hover-style",
       standalone: true,
@@ -424157,7 +424167,7 @@ var DxoTreeMapLabelComponent = class _DxoTreeMapLabelComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-label",
       standalone: true,
@@ -424300,7 +424310,7 @@ var DxoTreeMapLoadingIndicatorComponent = class _DxoTreeMapLoadingIndicatorCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-loading-indicator",
       standalone: true,
@@ -424430,7 +424440,7 @@ var DxoTreeMapMarginComponent = class _DxoTreeMapMarginComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-margin",
       standalone: true,
@@ -424540,7 +424550,7 @@ var DxoTreeMapSelectionStyleComponent = class _DxoTreeMapSelectionStyleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapSelectionStyleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-selection-style",
       standalone: true,
@@ -424665,7 +424675,7 @@ var DxoTreeMapShadowComponent = class _DxoTreeMapShadowComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-shadow",
       standalone: true,
@@ -424778,7 +424788,7 @@ var DxoTreeMapSizeComponent = class _DxoTreeMapSizeComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-size",
       standalone: true,
@@ -424903,7 +424913,7 @@ var DxoTreeMapSubtitleComponent = class _DxoTreeMapSubtitleComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-subtitle",
       standalone: true,
@@ -425030,7 +425040,7 @@ var DxoTreeMapTileLabelComponent = class _DxoTreeMapTileLabelComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapTileLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-tile-label",
       standalone: true,
@@ -425161,7 +425171,7 @@ var DxoTreeMapTileComponent = class _DxoTreeMapTileComponent extends NestedOptio
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapTileComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-tile",
       standalone: true,
@@ -425323,7 +425333,7 @@ var DxoTreeMapTitleComponent = class _DxoTreeMapTitleComponent extends NestedOpt
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-title",
       standalone: true,
@@ -425469,7 +425479,7 @@ var DxoTreeMapTooltipBorderComponent = class _DxoTreeMapTooltipBorderComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-tooltip-border",
       standalone: true,
@@ -425673,7 +425683,7 @@ var DxoTreeMapTooltipComponent = class _DxoTreeMapTooltipComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-tooltip",
       standalone: true,
@@ -425816,7 +425826,7 @@ var DxoTreeMapTreeMapborderComponent = class _DxoTreeMapTreeMapborderComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoTreeMapTreeMapborderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-tree-map-tree-mapborder",
       standalone: true,
@@ -426630,7 +426640,7 @@ var DxTreeMapComponent = class _DxTreeMapComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxTreeMapComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-tree-map",
       standalone: true,
@@ -427032,7 +427042,7 @@ var DxValidationGroupComponent = class _DxValidationGroupComponent extends DxCom
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxValidationGroupComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-validation-group",
       standalone: true,
@@ -427208,7 +427218,7 @@ var DxiValidationSummaryItemComponent = class _DxiValidationSummaryItemComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidationSummaryItemComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validation-summary-item",
       standalone: true,
@@ -427523,7 +427533,7 @@ var DxValidationSummaryComponent = class _DxValidationSummaryComponent extends D
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxValidationSummaryComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-validation-summary",
       standalone: true,
@@ -427711,7 +427721,7 @@ var DxoValidatorAdapterComponent = class _DxoValidatorAdapterComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoValidatorAdapterComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-validator-adapter",
       standalone: true,
@@ -427849,7 +427859,7 @@ var DxiValidatorAsyncRuleComponent = class _DxiValidatorAsyncRuleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorAsyncRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-async-rule",
       standalone: true,
@@ -427987,7 +427997,7 @@ var DxiValidatorCompareRuleComponent = class _DxiValidatorCompareRuleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorCompareRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-compare-rule",
       standalone: true,
@@ -428125,7 +428135,7 @@ var DxiValidatorCustomRuleComponent = class _DxiValidatorCustomRuleComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorCustomRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-custom-rule",
       standalone: true,
@@ -428249,7 +428259,7 @@ var DxiValidatorEmailRuleComponent = class _DxiValidatorEmailRuleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorEmailRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-email-rule",
       standalone: true,
@@ -428367,7 +428377,7 @@ var DxiValidatorNumericRuleComponent = class _DxiValidatorNumericRuleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorNumericRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-numeric-rule",
       standalone: true,
@@ -428492,7 +428502,7 @@ var DxiValidatorPatternRuleComponent = class _DxiValidatorPatternRuleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorPatternRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-pattern-rule",
       standalone: true,
@@ -428634,7 +428644,7 @@ var DxiValidatorRangeRuleComponent = class _DxiValidatorRangeRuleComponent exten
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorRangeRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-range-rule",
       standalone: true,
@@ -428761,7 +428771,7 @@ var DxiValidatorRequiredRuleComponent = class _DxiValidatorRequiredRuleComponent
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorRequiredRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-required-rule",
       standalone: true,
@@ -428900,7 +428910,7 @@ var DxiValidatorStringLengthRuleComponent = class _DxiValidatorStringLengthRuleC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorStringLengthRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-string-length-rule",
       standalone: true,
@@ -429083,7 +429093,7 @@ var DxiValidatorValidationRuleComponent = class _DxiValidatorValidationRuleCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiValidatorValidationRuleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-validator-validation-rule",
       standalone: true,
@@ -429441,7 +429451,7 @@ var DxValidatorComponent = class _DxValidatorComponent extends DxComponentExtens
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxValidatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-validator",
       standalone: true,
@@ -433524,7 +433534,7 @@ var DxoVectorMapAnnotationBorderComponent = class _DxoVectorMapAnnotationBorderC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapAnnotationBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-annotation-border",
       standalone: true,
@@ -433847,7 +433857,7 @@ var DxiVectorMapAnnotationComponent = class _DxiVectorMapAnnotationComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiVectorMapAnnotationComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-vector-map-annotation",
       standalone: true,
@@ -434051,7 +434061,7 @@ var DxoVectorMapBackgroundComponent = class _DxoVectorMapBackgroundComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapBackgroundComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-background",
       standalone: true,
@@ -434183,7 +434193,7 @@ var DxoVectorMapBorderComponent = class _DxoVectorMapBorderComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-border",
       standalone: true,
@@ -434499,7 +434509,7 @@ var DxoVectorMapCommonAnnotationSettingsComponent = class _DxoVectorMapCommonAnn
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapCommonAnnotationSettingsComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-common-annotation-settings",
       standalone: true,
@@ -434746,7 +434756,7 @@ var DxoVectorMapControlBarComponent = class _DxoVectorMapControlBarComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapControlBarComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-control-bar",
       standalone: true,
@@ -434906,7 +434916,7 @@ var DxoVectorMapExportComponent = class _DxoVectorMapExportComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapExportComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-export",
       standalone: true,
@@ -435046,7 +435056,7 @@ var DxoVectorMapFontComponent = class _DxoVectorMapFontComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapFontComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-font",
       standalone: true,
@@ -435166,7 +435176,7 @@ var DxoVectorMapImageComponent = class _DxoVectorMapImageComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapImageComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-image",
       standalone: true,
@@ -435280,7 +435290,7 @@ var DxoVectorMapLabelComponent = class _DxoVectorMapLabelComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapLabelComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-label",
       standalone: true,
@@ -435576,7 +435586,7 @@ var DxiVectorMapLayerComponent = class _DxiVectorMapLayerComponent extends Colle
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiVectorMapLayerComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-vector-map-layer",
       standalone: true,
@@ -435925,7 +435935,7 @@ var DxiVectorMapLegendComponent = class _DxiVectorMapLegendComponent extends Col
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxiVectorMapLegendComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxi-vector-map-legend",
       standalone: true,
@@ -436108,7 +436118,7 @@ var DxoVectorMapLegendTitleSubtitleComponent = class _DxoVectorMapLegendTitleSub
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapLegendTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-legend-title-subtitle",
       standalone: true,
@@ -436250,7 +436260,7 @@ var DxoVectorMapLegendTitleComponent = class _DxoVectorMapLegendTitleComponent e
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapLegendTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-legend-title",
       standalone: true,
@@ -436402,7 +436412,7 @@ var DxoVectorMapLoadingIndicatorComponent = class _DxoVectorMapLoadingIndicatorC
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapLoadingIndicatorComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-loading-indicator",
       standalone: true,
@@ -436532,7 +436542,7 @@ var DxoVectorMapMarginComponent = class _DxoVectorMapMarginComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapMarginComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-margin",
       standalone: true,
@@ -436649,7 +436659,7 @@ var DxoVectorMapProjectionComponent = class _DxoVectorMapProjectionComponent ext
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapProjectionComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-projection",
       standalone: true,
@@ -436777,7 +436787,7 @@ var DxoVectorMapShadowComponent = class _DxoVectorMapShadowComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapShadowComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-shadow",
       standalone: true,
@@ -436890,7 +436900,7 @@ var DxoVectorMapSizeComponent = class _DxoVectorMapSizeComponent extends NestedO
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapSizeComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-size",
       standalone: true,
@@ -436994,7 +437004,7 @@ var DxoVectorMapSourceComponent = class _DxoVectorMapSourceComponent extends Nes
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapSourceComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-source",
       standalone: true,
@@ -437119,7 +437129,7 @@ var DxoVectorMapSubtitleComponent = class _DxoVectorMapSubtitleComponent extends
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-subtitle",
       standalone: true,
@@ -437281,7 +437291,7 @@ var DxoVectorMapTitleComponent = class _DxoVectorMapTitleComponent extends Neste
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-title",
       standalone: true,
@@ -437427,7 +437437,7 @@ var DxoVectorMapTooltipBorderComponent = class _DxoVectorMapTooltipBorderCompone
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapTooltipBorderComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-tooltip-border",
       standalone: true,
@@ -437624,7 +437634,7 @@ var DxoVectorMapTooltipComponent = class _DxoVectorMapTooltipComponent extends N
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapTooltipComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-tooltip",
       standalone: true,
@@ -437785,7 +437795,7 @@ var DxoVectorMapVectorMapTitleSubtitleComponent = class _DxoVectorMapVectorMapTi
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapVectorMapTitleSubtitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-vector-map-title-subtitle",
       standalone: true,
@@ -437947,7 +437957,7 @@ var DxoVectorMapVectorMapTitleComponent = class _DxoVectorMapVectorMapTitleCompo
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxoVectorMapVectorMapTitleComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dxo-vector-map-vector-map-title",
       standalone: true,
@@ -438812,7 +438822,7 @@ var DxVectorMapComponent = class _DxVectorMapComponent extends DxComponent {
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(DxVectorMapComponent, [{
-    type: Component3,
+    type: Component,
     args: [{
       selector: "dx-vector-map",
       standalone: true,

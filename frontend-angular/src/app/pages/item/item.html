@@ -13,26 +13,23 @@
     <div style="padding: 20px;">
         <dx-text-box
                 label="Código"
-                labelMode="floating"
                 [showClearButton]="true"
-                [(value)]="newItem.codigo">
+                [(value)]="formItem.codigo">
         </dx-text-box>
 
         <dx-text-box
                 label="Descrição"
-                labelMode="floating"
                 [showClearButton]="true"
-                [(value)]="newItem.descricao">
+                [(value)]="formItem.descricao">
         </dx-text-box>
 
         <dx-number-box
                 label="Valor"
-                labelMode="floating"
                 [showClearButton]="true"
                 [showSpinButtons]="true"
                 [min]="0"
-                format="R$ ###.##"
-                [(value)]="newItem.valorUnitario">
+                [format]="{ type: 'currency', precision: 2, currency: 'BRL' }"
+                [(value)]="formItem.valorUnitario">
         </dx-number-box>
 
     </div>
@@ -40,7 +37,7 @@
 </app-popup-form>
 
 <app-reusable-datagrid
-        [dataSource]="item"
+        [dataSource]="itens"
         [columns]="itemColumns"
         [showBorders]="true"
         [pageSize]="20"

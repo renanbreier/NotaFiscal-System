@@ -1,136 +1,176 @@
 import { Component } from '@angular/core';
 import { Item } from '../../models/item';
-import {ItemService} from "../../shared/services/item.service";
-import {GridAction, ReusableDatagridComponent} from "../../shared/components/reusable-datagrid/reusable-datagrid";
-import notify from "devextreme/ui/notify";
+import { ItemService } from '../../shared/services/item.service';
+import {
+    GridAction,
+    ReusableDatagridComponent,
+} from '../../shared/components/reusable-datagrid/reusable-datagrid';
+import { AddButtonComponent } from '../../shared/components/add-button/add-button';
+import { PopupFormComponent } from '../../shared/components/popup-form/popup-form';
+import { DxTextBoxComponent, DxNumberBoxComponent } from 'devextreme-angular';
+import notify from 'devextreme/ui/notify';
 import { confirm } from 'devextreme/ui/dialog';
-import {PopupFormComponent} from "../../shared/components/popup-form/popup-form";
-import {DxNumberBoxComponent, DxTextBoxComponent} from "devextreme-angular";
-import {AddButtonComponent} from "../../shared/components/add-button/add-button";
 
 @Component({
-  selector: 'app-item',
+    selector: 'app-item',
     imports: [
         ReusableDatagridComponent,
+        AddButtonComponent,
         PopupFormComponent,
         DxTextBoxComponent,
         DxNumberBoxComponent,
-        AddButtonComponent
     ],
-  templateUrl: './item.html',
-  styleUrl: './item.scss',
+    templateUrl: './item.html',
+    styleUrl: './item.scss',
 })
 export class ItemComponent {
+    /** Lista exibida na grid */
+    itens: Item[] = [];
 
-    // Array objeto item
-    item: Item[] = [];
+    /** Modelo do formulário */
+    formItem: Item = new Item();
 
-    // Instancia no novo objeto item
-    newItem: Item = new Item();
+    /** Configuração das colunas da grid */
+    readonly itemColumns = [
+        { dataField: 'codigo', caption: 'Código', width: 90, hidingPriority: 2 },
+        { dataField: 'descricao', caption: 'Descrição', hidingPriority: 5 },
+        { dataField: 'valorUnitario', caption: 'Valor Unitário', format: {type: 'currency', precision: 2, currency: 'BRL'}, width: 140 },
+    ];
 
-    // Colunas do datagrid
-    itemColumns: any[] = [
-        { dataField: 'codigo', caption: 'Código', width: 90, hidingPriority: 1 },
-        { dataField: 'descricao', caption: 'Descrição', hidingPriority: 2 },
-        { dataField: 'valorUnitario', caption: 'Valor', width: 120, hidingPriority: 2, dataType: 'number', format: 'currency', alignment: 'left' },
-    ]
+    /** Controle do popup */
+    popupVisible = false;
 
-    // Controla visibilidade do popup
-    popupVisible: boolean = false;
+    /** Indica se o popup está no modo edição */
+    isEdit = false;
 
-    // Estado do popup cadastro/edição
-    isEdit: boolean = false;
+    constructor(private itemService: ItemService) {}
 
-    constructor(private service: ItemService) { }
-
-    ngOnInit() {
-        this.loadItems();
+    ngOnInit(): void {
+        this.loadItens();
     }
 
-    // Carrega a lista de itens na grid
-    loadItems() {
-        this.service.getItens().subscribe((e) => {
-            this.item = e;
-        })
+    /** Carrega a lista */
+    private loadItens(): void {
+        this.itemService.getItens().subscribe({
+            next: (itens) => (this.itens = itens),
+            error: () => notify('Erro ao carregar itens.', 'error', 3000),
+        });
     }
 
-    // Abre popup para novo registro
-    openRegisterPopup() {
-        this.popupVisible = true;
+    /** Abre o popup para cadastrar */
+    openRegisterPopup(): void {
         this.isEdit = false;
-        this.newItem = new Item();
+        this.formItem = new Item();
+        this.popupVisible = true;
     }
 
-    // Fecha o popup
-    closePopup() {
+    /** Fecha o popup */
+    closePopup(): void {
         this.popupVisible = false;
     }
 
-    // Abre popup no modo edição e carrega os dados
-    startEditing(item: Item) {
-        this.popupVisible = true;
+    /** Abre popup no modo edição */
+    startEditing(item: Item): void {
         this.isEdit = true;
-        this.newItem = {...item};
+        this.formItem = { ...item };
+        this.popupVisible = true;
     }
 
-    // Salva ou atualiza o objeto item dependendo do estado do popup
-    saveOrUpdateItem() {
-        if (this.isEdit) {
-            this.service.updateItem(this.newItem).subscribe({
-                next: () => {
-                    this.popupVisible = false;
-                    this.loadItems();
-                    notify(`Item ${this.newItem.descricao} atualizado com sucesso.`, 'success', 3000);
-                },
-                error: (e) => {
-                    notify(`Erro ao atualizar item: ${e.message}.`, 'error', 5000);
-                }
-            })
-        } else {
-            this.service.saveItem(this.newItem).subscribe({
-                next: () => {
-                    this.popupVisible = false;
-                    this.loadItems();
-                    notify(`Item ${this.newItem.descricao} salvo com sucesso.`, 'success', 3000);
-                },
-                error: (e) => {
-                    notify(`Erro ao salvar item: ${e.message}.`, 'error', 5000);
-                }
-            })
+    /** Valida os dados antes de salvar ou atualizar */
+    private validateItem(): boolean {
+        const { codigo, descricao, valorUnitario } = this.formItem;
+
+        if (!codigo || codigo.toString().trim() === '') {
+            notify('O campo Código é obrigatório.', 'warning', 3000);
+            return false;
         }
+
+        if (!descricao || descricao.trim() === '') {
+            notify('O campo Descrição é obrigatório.', 'warning', 3000);
+            return false;
+        }
+
+        if (valorUnitario == null || valorUnitario <= 0) {
+            notify('O Valor Unitário deve ser maior que 0.', 'warning', 3000);
+            return false;
+        }
+
+        // Verificar duplicidade de código
+        const codigoDuplicado = this.itens.some(
+            (i) => i.codigo === codigo && i.id !== this.formItem.id
+        );
+
+        if (codigoDuplicado) {
+            notify('Já existe um item cadastrado com este código.', 'error', 4000);
+            return false;
+        }
+
+        return true;
     }
 
-    // Confirma a exclusão do objeto item
-    confirmDeletion(item: Item) {
-        const message = `Deseja realmente excluir o item <b>${item.descricao}</b> (Código: ${item.codigo})?`;
-        const title = "Confirmação de Exclusão";
+    /** Salva ou atualiza o item */
+    saveOrUpdateItem(): void {
+        if (!this.validateItem()) {
+            return;
+        }
 
-        confirm(message, title).then((dialogResult) => {
-            if (dialogResult) {
-                this.deleteItem(item);
-            }
-        });
+        this.isEdit ? this.updateItem() : this.saveItem();
     }
 
-    // Exclui o objeto item
-    deleteItem(item: Item) {
-        this.service.deleteItem(item.id).subscribe({
+    /** Salvar */
+    private saveItem(): void {
+        this.itemService.saveItem(this.formItem).subscribe({
             next: () => {
-                this.loadItems();
-                notify(`Item ${item.descricao} excluído com sucesso.`, 'success', 3000);
+                notify(`Item ${this.formItem.descricao} salvo com sucesso.`, 'success', 3000);
+                this.afterSave();
             },
-            error: (e) => {
-                notify(`Erro ao excluir item: ${e.message}`, 'error', 5000);
-            }
+            error: (e) => notify(`Erro ao salvar item: ${e.message}`, 'error', 5000),
         });
     }
 
-    // Identifica qual ação deve ser disparada
-    handleGridAction(event: GridAction) {
-        if (event.type === 'edit') {
-            this.startEditing(event.data);
-        } else if (event.type === 'delete') {
-            this.confirmDeletion(event.data);
-        }
+    /** Atualizar */
+    private updateItem(): void {
+        this.itemService.updateItem(this.formItem).subscribe({
+            next: () => {
+                notify(`Item ${this.formItem.descricao} atualizado com sucesso.`, 'success', 3000);
+                this.afterSave();
+            },
+            error: (e) => notify(`Erro ao atualizar item: ${e.message}`, 'error', 5000),
+        });
+    }
+
+    /** Ações após salvar */
+    private afterSave(): void {
+        this.popupVisible = false;
+        this.loadItens();
+    }
+
+    /** Solicita confirmação para excluir */
+    confirmDeletion(item: Item): void {
+        confirm(
+            `Deseja realmente excluir o item <b>${item.descricao}</b> (Código: ${item.codigo})?`,
+            'Confirmação de Exclusão'
+        ).then((accepted) => accepted && this.deleteItem(item));
+    }
+
+    /** Exclui o item */
+    private deleteItem(item: Item): void {
+        this.itemService.deleteItem(item.id).subscribe({
+            next: () => {
+                notify(`Item ${item.descricao} excluído com sucesso.`, 'success', 3000);
+                this.loadItens();
+            },
+            error: (e) => notify(`Erro ao excluir item: ${e.message}`, 'error', 5000),
+        });
+    }
+
+    /** Handler para ações da grid */
+    handleGridAction(event: GridAction): void {
+        const actions: Record<string, (data: Item) => void> = {
+            edit: (data) => this.startEditing(data),
+            delete: (data) => this.confirmDeletion(data),
+        };
+
+        actions[event.type]?.(event.data);
     }
 }
