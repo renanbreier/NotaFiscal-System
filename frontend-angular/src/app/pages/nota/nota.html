@@ -19,7 +19,7 @@
                         [readOnly]="isEdit"
                         [showClearButton]="true"
                         [min]="0"
-                        [(value)]="newNota.numeroNota">
+                        [(value)]="formNota.numeroNota">
                 </dx-number-box>
             </div>
 
@@ -29,7 +29,7 @@
                         type="date"
                         displayFormat="dd/MM/yyyy"
                         [showClearButton]="true"
-                        [(value)]="newNota.dataEmissao">
+                        [(value)]="formNota.dataEmissao">
                 </dx-date-box>
             </div>
 
@@ -37,7 +37,7 @@
                 <div class="dx-field-label">Cliente:</div>
                 <dx-select-box
                         [dataSource]="clientes"
-                        [(value)]="newNota.cliente.id"
+                        [(value)]="formNota.cliente.id"
                         displayExpr="nome"
                         valueExpr="id"
                         placeholder="Pesquise o Cliente"
@@ -63,7 +63,7 @@
         </div>
 
         <dx-data-grid
-                [dataSource]="newNota.itens"
+                [dataSource]="formNota.itens"
                 [showBorders]="true"
                 [columnAutoWidth]="true"
                 [editing]="{ allowUpdating: true, allowDeleting: true, mode: 'cell' }"
@@ -77,9 +77,9 @@
 
             <dxi-column dataField="quantidade" dataType="number" caption="Qtde"></dxi-column>
 
-            <dxi-column dataField="itemNota.valorUnitario" caption="Valor Unit." format="currency" [allowEditing]="false"></dxi-column>
+            <dxi-column dataField="itemNota.valorUnitario" caption="Valor Unit." [format]="{ type: 'currency', precision: 2, currency: 'BRL' }" [allowEditing]="false"></dxi-column>
 
-            <dxi-column dataField="valorTotal" caption="Total" format="currency" [allowEditing]="false"></dxi-column>
+            <dxi-column dataField="valorTotal" caption="Total" [format]="{ type: 'currency', precision: 2, currency: 'BRL' }" [allowEditing]="false"></dxi-column>
 
             <dxi-column type="buttons">
                 <dxi-button name="delete"></dxi-button>
@@ -87,7 +87,7 @@
 
         </dx-data-grid>
 
-        <div class="mt-3 font-bold text-lg">
+        <div class="mt-3 font-bold text-lg" style="padding-top: 10px">
             Total da Nota: {{ totalNota | currency:'BRL':'symbol':'1.2-2' }}
         </div>
 
@@ -95,7 +95,7 @@
 </app-popup-form>
 
 <app-reusable-datagrid
-        [dataSource]="nota"
+        [dataSource]="notas"
         [columns]="notaColumns"
         [showBorders]="true"
         [pageSize]="20"
