@@ -13,12 +13,12 @@
     <div style="padding: 20px;">
         <dx-text-box
                 label="Código"
-                [(value)]="newCliente.codigo">
+                [(value)]="formCliente.codigo">
         </dx-text-box>
 
         <dx-text-box
                 label="Nome"
-                [(value)]="newCliente.nome">
+                [(value)]="formCliente.nome">
         </dx-text-box>
 
     </div>
@@ -26,7 +26,7 @@
 </app-popup-form>
 
 <app-reusable-datagrid
-        [dataSource]="cliente"
+        [dataSource]="clientes"
         [columns]="clienteColumns"
         [showBorders]="true"
         [pageSize]="20"
